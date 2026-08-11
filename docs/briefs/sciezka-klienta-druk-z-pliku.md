@@ -54,7 +54,7 @@ Wartości muszą być opisane jako przestrzeń robocza drukarki, a nie gwarantow
 
 ### Zastosowanie i oczekiwane właściwości
 
-Zastosowanie oraz warunki użytkowania tworzą jedną sekcję formularza. Najpierw klient wybiera jedną główną kategorię:
+Klient wybiera jedną główną kategorię, aby wskazać przeznaczenie modelu i najważniejsze oczekiwane cechy:
 
 - figurka lub dekoracja;
 - element gry albo modelarstwa;
