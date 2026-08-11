@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 52 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 53. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 53 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 54. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -25,6 +25,13 @@ Klient może również zgłosić, że dysponuje fizycznym przedmiotem referencyj
 Nie każdy rodzaj materiału jest obowiązkowy. Klient przesyła te materiały, którymi rzeczywiście dysponuje. Bezpieczne formaty, rozmiary i limity załączników ustali Parzej.
 
 Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na osobne kategorie figurek, części użytkowych i części mechanicznych ani nie próbuje zastępować rozmowy kompletną specyfikacją techniczną.
+
+## Nadanie przedmiotu referencyjnego
+
+- W formularzu klient jedynie zaznacza **„Mam przedmiot, który mogę wysłać do pomiarów”**.
+- Klient nie wysyła przedmiotu razem z pierwszym zapytaniem ani samodzielnie przed uzgodnieniem szczegółów.
+- Po wstępnej ocenie zapytania MM3D potwierdza, czy fizyczny przedmiot jest potrzebny.
+- Dopiero po takim potwierdzeniu klient otrzymuje instrukcję nadania przez InPost i może wysłać przedmiot.
 
 ## Doprecyzowanie projektu
 
@@ -106,8 +113,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 53**:
+Następne pytanie to **pytanie 54**:
 
-> Kiedy klient może wysłać fizyczny przedmiot referencyjny do MM3D?
+> Kto pokrywa koszty wysłania i zwrotu przedmiotu referencyjnego?
 
-Rekomendacja: w formularzu klient zaznacza tylko **„Mam przedmiot, który mogę wysłać do pomiarów”**. Przesyła go dopiero po wstępnej ocenie zapytania i wyraźnym potwierdzeniu MM3D, wraz z otrzymaną instrukcją nadania przez InPost. Klient nie powinien wysyłać przedmiotu samodzielnie przed takim potwierdzeniem.
+Rekomendacja: klient opłaca przesyłkę do MM3D. Koszt zwrotu jest wskazany w wycenie i płacony razem z zamówieniem. MM3D odsyła przedmiot razem z gotowym wydrukiem, a jeżeli realizacja nie dochodzi do skutku — po opłaceniu samej przesyłki zwrotnej.

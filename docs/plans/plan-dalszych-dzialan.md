@@ -40,7 +40,7 @@ Stan na 11 sierpnia 2026:
 
 - główna ścieżka druku z gotowego pliku została rozpisana od formularza przez wycenę, akceptację, przedpłatę Paynow, realizację i dostawę InPost;
 - decyzje głównej ścieżki opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md);
-- drugoplanowa ścieżka jest rozwijana w dokumencie [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md), a grillowanie należy kontynuować od pytania 53;
+- drugoplanowa ścieżka jest rozwijana w dokumencie [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md), a grillowanie należy kontynuować od pytania 54;
 - implementacyjne konsekwencje głównej ścieżki wymagają potwierdzenia Parzeja.
 
 ### 2. Zdefiniowanie formularzy
@@ -122,7 +122,43 @@ Kryterium zakończenia:
 
 - teksty strony można napisać bez zgadywania cen, terminów i zakresu odpowiedzialności.
 
-### 4. Przygotowanie portfolio i materiałów marki
+### 4. Przygotowanie regulaminu i dokumentów prawnych
+
+Przed uruchomieniem strony należy przygotować regulamin obejmujący wszystkie uzgodnione zasady świadczenia usług MM3D, w szczególności:
+
+- rozróżnienie zapytania ofertowego, wyceny i zamówienia;
+- okres ważności wyceny, sposób jej akceptacji oraz numer sprawy;
+- płatności, przedpłaty, płatność etapową za modelowanie i moment rozpoczęcia pracy;
+- zakres druku z pliku klienta oraz zakres modelowania od zera;
+- dwie tury poprawek, prototyp wstępny i prototyp finalny;
+- zasady dodatkowych poprawek, zmiany koncepcji i rozszerzenia zakresu;
+- model niewyłączny, model wyłączny, przekazanie pliku oraz prawa do projektu;
+- odpowiedzialność za pliki, materiały i przedmioty referencyjne oraz możliwość odmowy realizacji;
+- modelowanie odwrotne, wysyłkę, zabezpieczenie, przechowanie i zwrot przedmiotu referencyjnego;
+- odstąpienie od umowy, rezygnację w trakcie prac i rozliczenie już wykonanego zakresu;
+- dostawę przez InPost, reklamacje i sposób kontaktu z MM3D;
+- zasady przechowywania i usuwania przesłanych plików.
+
+Regulamin nie zastępuje polityki prywatności, informacji o przetwarzaniu danych ani innych oświadczeń wymaganych prawem. Osobne oświadczenia powinny pojawić się w procesie tylko wtedy, gdy prawnik potwierdzi, że są konieczne.
+
+Odpowiedzialność:
+
+- Góras potwierdza zasady biznesowe, odpowiedzialność MM3D i obietnice składane klientowi.
+- Prawnik przygotowuje albo weryfikuje ostateczne brzmienie regulaminu, polityki prywatności i wymaganych oświadczeń.
+- Parzej potwierdza techniczny sposób prezentowania dokumentów, rejestrowania akceptacji oraz przechowywania wymaganych dowodów.
+
+Rezultat:
+
+- kompletny projekt regulaminu zgodny z ustalonymi ścieżkami klienta;
+- polityka prywatności i wymagane informacje o danych oraz plikach;
+- lista obowiązkowych pól, linków i oświadczeń w formularzach;
+- wersja zatwierdzona prawnie przed publikacją strony.
+
+Kryterium zakończenia:
+
+- wszystkie zasady wpływające na prawa, płatności, odpowiedzialność i realizację są opisane spójnie, dostępne z właściwego miejsca strony i zatwierdzone przez prawnika.
+
+### 5. Przygotowanie portfolio i materiałów marki
 
 Należy wybrać od 6 do 10 rzeczywistych realizacji. Każda realizacja powinna zawierać:
 
@@ -154,7 +190,7 @@ Kryterium zakończenia:
 
 - strona może pokazać rzeczywiste dowody kompetencji zamiast samych deklaracji.
 
-### 5. Makieta pierwszej wersji
+### 6. Makieta pierwszej wersji
 
 Rekomendowany zakres treści i ekranów:
 
@@ -166,7 +202,8 @@ Rekomendowany zakres treści i ekranów:
 6. Portfolio.
 7. FAQ.
 8. Kontakt oraz wymagane informacje dotyczące prywatności i załączników.
-9. Potwierdzenie przyjęcia zapytania.
+9. Regulamin, polityka prywatności i wymagane prawem oświadczenia.
+10. Potwierdzenie przyjęcia zapytania.
 
 Makieta powinna najpierw rozstrzygać kolejność informacji i działania użytkownika. Kolory, typografia i dekoracje powinny powstać dopiero po sprawdzeniu tej struktury.
 
@@ -190,7 +227,7 @@ Kryterium zakończenia:
 
 - osoba spoza projektu rozumie ofertę i potrafi przejść do odpowiedniego formularza bez dodatkowego objaśnienia.
 
-### 6. Implementacja pierwszej wersji
+### 7. Implementacja pierwszej wersji
 
 Zakres techniczny wynikający z istniejących decyzji:
 
@@ -220,7 +257,7 @@ Kryterium zakończenia:
 
 - zapytanie można poprawnie wysłać na każdym wspieranym urządzeniu, załącznik jest bezpiecznie przechowany, a Góras otrzymuje komplet informacji potrzebnych do odpowiedzi.
 
-### 7. Test z użytkownikami i uruchomienie
+### 8. Test z użytkownikami i uruchomienie
 
 Wersję testową należy pokazać co najmniej pięciu osobom pasującym do profilu klienta podstawowej usługi. Bez dodatkowego instruktażu powinny potrafić:
 
@@ -268,4 +305,4 @@ Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych 
 
 ## Najbliższa sesja robocza
 
-Następna część grillowania zaczyna się od pytania 49 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
+Następna część grillowania zaczyna się od pytania 54 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
