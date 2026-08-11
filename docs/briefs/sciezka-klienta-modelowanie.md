@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 54 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 55. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 55 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 56. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -36,6 +36,7 @@ Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na os
 - Koszt przesyłki zwrotnej jest wskazany w wycenie i płacony razem z zamówieniem.
 - MM3D odsyła przedmiot razem z gotowym wydrukiem.
 - Jeżeli realizacja nie dochodzi do skutku, MM3D odsyła przedmiot po opłaceniu przez klienta samej przesyłki zwrotnej.
+- Sposób zabezpieczenia, opis stanu i ewentualne dodatkowe ustalenia dotyczące odpowiedzialności są uzgadniane indywidualnie. Standardowa ścieżka nie wymaga obowiązkowej dokumentacji fotograficznej.
 
 ## Doprecyzowanie projektu
 
@@ -117,8 +118,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 55**:
+Następne pytanie to **pytanie 56**:
 
-> Jak dokumentujemy stan fizycznego przedmiotu referencyjnego podczas wysyłki i zwrotu?
+> Czy klient zatwierdza cyfrowy podgląd modelu przed wykonaniem prototypu wstępnego?
 
-Rekomendacja: klient wykonuje zdjęcia przedmiotu i zapakowanej przesyłki przed nadaniem. MM3D fotografuje stan paczki przy odbiorze, przedmiot po rozpakowaniu oraz jego stan przed przesyłką zwrotną. Widoczne uszkodzenie paczki lub przedmiotu jest zgłaszane klientowi i przewoźnikowi bez rozpoczynania pomiarów.
+Rekomendacja: MM3D przesyła e-mailem kilka renderów albo zrzutów modelu z najważniejszych stron. Klient potwierdza ogólny kształt, proporcje i zgodność z ustaleniami przed wydrukiem prototypu wstępnego. Takie zatwierdzenie nie zużywa tury poprawek; pozwala jedynie wychwycić oczywiste nieporozumienia przed poniesieniem kosztu druku.
