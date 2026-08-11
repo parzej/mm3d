@@ -9,7 +9,7 @@ Góras ma praktyczne doświadczenie w druku 3D i dysponuje czterema drukarkami. 
 ## Hierarchia oferty
 
 1. Podstawową działalnością jest przystępny cenowo druk gotowego modelu dostarczonego przez klienta.
-2. Drugoplanową usługą i wyróżnikiem jest projektowanie modelu od zera oraz jego wydruk.
+2. Drugoplanową usługą i wyróżnikiem jest projektowanie modelu od zera oraz jego wydruk. Standardowy wariant jest niewyłączny, a znacznie droższa wyłączność podlega osobnej wycenie.
 3. Do wydruku można dobrać trzy niezależne, dodatkowo wyceniane usługi: usuwanie podpór, szlifowanie i malowanie modelu.
 4. MM3D kieruje podstawową usługę przede wszystkim do hobbystów i osób prywatnych zamawiających pojedyncze albo powtarzalne wydruki, a nie do klientów oczekujących przemysłowego procesu realizacji.
 
@@ -30,6 +30,8 @@ Góras ma praktyczne doświadczenie w druku 3D i dysponuje czterema drukarkami. 
 > Przystępny druk 3D z Twojego pliku, z ludzkim podejściem, gdy projekt wymaga uwagi.
 
 Modelowanie od zera pozostaje widoczną, ale drugoplanową usługą. Usuwanie podpór, szlifowanie i malowanie modelu są opcjonalnymi rozszerzeniami druku, a nie elementami automatycznie wliczonymi w jego podstawową cenę.
+
+Standardowym rezultatem modelowania jest fizyczny wydruk, nie cyfrowy plik. Wariant niewyłączny pozwala MM3D odzyskiwać koszt czasochłonnego projektowania przez późniejsze wykorzystanie modelu. Wariant wyłączny rekompensuje rezygnację z tej możliwości i jest wyceniany znacznie wyżej. Przekazanie pliku albo praw pozostaje osobnym ustaleniem.
 
 ## Hierarchia benchmarków WWW
 

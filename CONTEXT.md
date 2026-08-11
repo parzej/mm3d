@@ -40,6 +40,18 @@ _Avoid_: Projektowanie modelu, modelowanie od zera
 Dodatkowa usługa MM3D polegająca na stworzeniu modelu 3D i wykonaniu jego wydruku, gdy klient nie dostarcza gotowego modelu.
 _Avoid_: Druk z pliku klienta, podstawowa usługa
 
+**Materiały referencyjne**:
+Zdjęcia, szkice, rysunki techniczne, blueprinty, dokumentacja wymiarowa lub inne pliki przekazane przez klienta jako podstawa projektowania modelu. Nie oznaczają automatycznie, że klient ma prawa pozwalające na każde wykorzystanie przedstawionego wzoru.
+_Avoid_: Gotowy model 3D, załącznik do druku, gwarancja praw do wzoru
+
+**Model niewyłączny**:
+Standardowy wariant projektowania, w którym klient otrzymuje uzgodniony fizyczny wydruk, a MM3D zachowuje cyfrowy model oraz przysługujące mu prawa i może ponownie korzystać z projektu, o ile nie narusza to praw do materiałów źródłowych. Niższa cena nie obejmuje wyłączności ani przekazania pliku.
+_Avoid_: Model wyłączny, przeniesienie praw, sprzedaż pliku klientowi
+
+**Model wyłączny**:
+Indywidualnie wyceniany wariant projektowania, w którym MM3D zobowiązuje się nie publikować, nie sprzedawać i nie wykorzystywać modelu dla innych klientów. Wyłączność nie oznacza automatycznego przekazania pliku ani autorskich praw majątkowych.
+_Avoid_: Model niewyłączny, automatyczne przeniesienie praw, standardowa cena modelowania
+
 **Klient podstawowej usługi**:
 Hobbysta lub osoba prywatna zamawiająca pojedyncze albo powtarzalne wydruki z gotowych modeli 3D. Nie oznacza klienta przemysłowego oczekującego przemysłowego procesu realizacji.
 _Avoid_: Klient przemysłowy, odbiorca masowej produkcji

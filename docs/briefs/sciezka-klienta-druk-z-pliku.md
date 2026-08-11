@@ -1,6 +1,6 @@
 # Ścieżka klienta — druk z gotowego pliku
 
-Status: decyzje biznesowe Górasa potwierdzone 11 sierpnia 2026. Sesja została przerwana po pytaniu 39, a przed jej wznowieniem dodano do głównej ścieżki trzy usługi dodatkowe: usuwanie podpór, szlifowanie i malowanie. Następną sesję grillowania należy rozpocząć od pytania 40 i przejść do drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Techniczny sposób realizacji integracji, limitów i automatyzacji pozostaje do potwierdzenia przez Parzeja.
+Status: główna ścieżka potwierdzona przez Górasa 11 sierpnia 2026. Drugoplanowa ścieżka „Nie masz modelu? Opisz swój pomysł” jest rozwijana w osobnym dokumencie [Ścieżka klienta — modelowanie od zera](sciezka-klienta-modelowanie.md). Techniczny sposób realizacji integracji, limitów i automatyzacji pozostaje do potwierdzenia przez Parzeja.
 
 ## Cel ścieżki
 
@@ -11,7 +11,7 @@ Podstawowym działaniem na stronie jest przesłanie kompletnego zapytania o przy
 Strona główna rozdziela dwie potrzeby:
 
 1. Dominujący przycisk **„Wyślij plik do wyceny”** prowadzi do osobnej podstrony formularza druku z gotowego pliku.
-2. Drugoplanowy przycisk **„Nie masz modelu? Opisz swój pomysł”** prowadzi do ścieżki modelowania od zera. Jej szczegóły zostaną ustalone od pytania 40.
+2. Drugoplanowy przycisk **„Nie masz modelu? Opisz swój pomysł”** prowadzi do osobnej [ścieżki modelowania od zera](sciezka-klienta-modelowanie.md).
 
 Pierwsza ścieżka jest zapytaniem ofertowym, a nie automatycznie złożonym zamówieniem.
 
@@ -238,10 +238,6 @@ Nazwy i techniczna reprezentacja stanów nie są jeszcze decyzją architektonicz
 - prywatność, wymagane zgody i retencja danych;
 - techniczna reprezentacja stanów zapytania, wyceny, płatności i realizacji.
 
-## Punkt wznowienia
+## Powiązana ścieżka
 
-Następna sesja grillowania zaczyna się od **pytania 40**:
-
-> Czy drugoplanowy przycisk „Nie masz modelu? Opisz swój pomysł” ma prowadzić do oddzielnego formularza modelowania od zera, w którym MM3D najpierw ocenia wykonalność i zakres pracy, a dopiero później przedstawia wycenę modelowania oraz wydruku?
-
-Rekomendacja pozostaje taka, aby modelowanie miało osobny, mniej eksponowany formularz i nie obiecywało natychmiastowej wyceny.
+Decyzje dotyczące formularza „Nie masz modelu? Opisz swój pomysł” są prowadzone w dokumencie [Ścieżka klienta — modelowanie od zera](sciezka-klienta-modelowanie.md).

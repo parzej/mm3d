@@ -39,8 +39,8 @@ Kryterium zakończenia:
 Stan na 11 sierpnia 2026:
 
 - główna ścieżka druku z gotowego pliku została rozpisana od formularza przez wycenę, akceptację, przedpłatę Paynow, realizację i dostawę InPost;
-- decyzje i punkt wznowienia opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md);
-- następna sesja grillowania zaczyna się od pytania 40 i dotyczy drugoplanowej ścieżki modelowania od zera;
+- decyzje głównej ścieżki opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md);
+- drugoplanowa ścieżka jest rozwijana w dokumencie [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md), a grillowanie należy kontynuować od pytania 44;
 - implementacyjne konsekwencje głównej ścieżki wymagają potwierdzenia Parzeja.
 
 ### 2. Zdefiniowanie formularzy
@@ -58,13 +58,15 @@ Do ustalenia albo potwierdzenia pozostają:
 
 #### Formularz projektowania modelu
 
-Powinien przyjmować:
+Ustalony zakres obejmuje:
 
 - opis potrzeby lub problemu;
-- zdjęcia, szkice albo dokumentację wymiarową;
-- wymiary i oczekiwane zastosowanie;
-- informację o potrzebie samego modelu albo modelu wraz z wydrukiem;
-- dane kontaktowe.
+- zdjęcia, szkice, rysunki techniczne, blueprinty, dokumentację wymiarową i inne materiały referencyjne;
+- fizyczny wydruk jako standardowy rezultat bez automatycznego przekazania pliku cyfrowego;
+- standardowy model niewyłączny oraz znacznie droższy model wyłączny;
+- osobną indywidualną umowę i cenę, jeśli klient chce otrzymać plik albo prawa.
+
+Szczegółowe decyzje i punkt wznowienia opisuje dokument [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md).
 
 Formularze muszą jasno oddzielać przygotowanie procesu druku od płatnej ingerencji w geometrię modelu.
 
@@ -261,4 +263,4 @@ Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych 
 
 ## Najbliższa sesja robocza
 
-Następna sesja grillowania zaczyna się od pytania 40 i ustala drugoplanową ścieżkę „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
+Następna część grillowania zaczyna się od pytania 44 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
