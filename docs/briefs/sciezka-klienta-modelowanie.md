@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 57 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 58. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 58 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 59. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -133,10 +133,18 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Przy zamówieniu większej liczby sztuk produkcja pozostałego nakładu jest osobno wyceniona.
 - Klient płaci za pozostały nakład po zaakceptowaniu prototypu finalnego i przed rozpoczęciem jego produkcji.
 
+## Harmonogram modelowania
+
+- Wycena zawiera orientacyjne terminy przygotowania cyfrowego podglądu, prototypu wstępnego, prototypu finalnego i gotowej realizacji.
+- Harmonogram rozpoczyna się po otrzymaniu przez MM3D pierwszej płatności oraz kompletu uzgodnionych materiałów potrzebnych do rozpoczęcia pracy.
+- Czas oczekiwania na odpowiedź klienta przesuwa kolejne orientacyjne terminy.
+- Dodatkowe zmiany klienta oraz wznowienie wcześniej wstrzymanego projektu wymagają potwierdzenia zaktualizowanego harmonogramu.
+- Orientacyjne terminy etapów nie są jedną ogólną obietnicą publikowaną dla wszystkich projektów.
+
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 58**:
+Następne pytanie to **pytanie 59**:
 
-> Jak szczegółowo wycena modelowania ma określać harmonogram realizacji?
+> Jak klient ocenia prototyp wstępny przed przekazaniem pierwszej tury poprawek?
 
-Rekomendacja: wycena wskazuje orientacyjne terminy cyfrowego podglądu, prototypu wstępnego, prototypu finalnego i gotowej realizacji. Harmonogram liczy się od otrzymania pierwszej płatności oraz kompletu uzgodnionych materiałów. Czas oczekiwania na odpowiedź, dodatkowe zmiany klienta i wstrzymanie projektu odpowiednio przesuwają terminy.
+Rekomendacja: standardowo MM3D ocenia prototyp, wykonuje pomiary i przesyła klientowi zdjęcia albo film. Jeżeli projekt wymaga sprawdzenia dopasowania, działania lub odczuć przez klienta, prototyp jest mu wysyłany, a dodatkowy czas i koszt transportu są uwzględniane w wycenie. Prototyp wstępny nie jest wysyłany automatycznie w każdym projekcie.

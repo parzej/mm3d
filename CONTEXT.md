@@ -72,6 +72,10 @@ _Avoid_: Prototyp fizyczny, plik modelu dla klienta, tura poprawek
 Czasowe zatrzymanie modelowania po braku odpowiedzi klienta mimo przypomnienia. Nie oznacza akceptacji ani anulowania projektu; dotychczasowy termin przestaje obowiązywać, a wznowienie wymaga potwierdzenia nowego terminu przez MM3D.
 _Avoid_: Automatyczna akceptacja, anulowanie zamówienia, zachowanie pierwotnego terminu
 
+**Harmonogram modelowania**:
+Ustalane w wycenie orientacyjne terminy cyfrowego podglądu, prototypu wstępnego, prototypu finalnego i gotowej realizacji. Rozpoczyna się po pierwszej płatności i otrzymaniu kompletu uzgodnionych materiałów, a opóźnienia po stronie klienta odpowiednio przesuwają kolejne etapy.
+_Avoid_: Publiczny stały termin dla każdego projektu, gwarancja niezależna od odpowiedzi klienta
+
 **Prototyp wstępny**:
 Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek.
 _Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D
