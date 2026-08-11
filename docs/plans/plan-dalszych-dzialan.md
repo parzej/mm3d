@@ -12,7 +12,7 @@ Główna obietnica marki brzmi:
 
 ## Kolejność działań
 
-### 1. Ustalenie ścieżki klienta
+### 1. Ustalenie ścieżki klienta — w toku
 
 Należy rozpisać drogę od wejścia na stronę do wysłania zapytania. Serwis powinien od razu rozdzielać dwie sytuacje:
 
@@ -36,21 +36,25 @@ Kryterium zakończenia:
 
 - dla każdego kroku wiadomo, co robi klient, co otrzymuje i kiedy interweniuje Góras.
 
+Stan na 11 sierpnia 2026:
+
+- główna ścieżka druku z gotowego pliku została rozpisana od formularza przez wycenę, akceptację, przedpłatę Paynow, realizację i dostawę InPost;
+- decyzje i punkt wznowienia opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md);
+- następna sesja grillowania zaczyna się od pytania 40 i dotyczy drugoplanowej ścieżki modelowania od zera;
+- implementacyjne konsekwencje głównej ścieżki wymagają potwierdzenia Parzeja.
+
 ### 2. Zdefiniowanie formularzy
 
 #### Formularz druku z gotowego pliku
 
-Do ustalenia pozostają:
+Ustalono biznesowy zakres formularza, w tym formaty STL, OBJ i 3MF, dokładną liczbę sztuk, jeden wymiar referencyjny, zastosowanie, warunki użytkowania, standardowy szary kolor, obowiązkowy priorytet, oczekiwany termin, dane kontaktowe i wybór dostawy InPost. Klient nie musi wybierać technologii ani materiału. Szczegółowy zakres opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md).
 
-- obsługiwane formaty plików;
+Do ustalenia albo potwierdzenia pozostają:
+
 - maksymalny rozmiar i liczba załączników;
-- liczba sztuk;
-- materiał i kolor, w tym opcja „nie wiem — dobierz za mnie”;
-- zastosowanie wydruku;
-- preferowany termin;
-- sposób odbioru lub wysyłki;
-- dane kontaktowe;
-- zgody i informacja o przechowywaniu załącznika.
+- bezpieczna walidacja oraz komunikaty błędów;
+- zgody i informacja o przechowywaniu załącznika;
+- techniczna wykonalność automatyzacji wiadomości, Paynow i InPost.
 
 #### Formularz projektowania modelu
 
@@ -85,14 +89,13 @@ Góras powinien podjąć decyzje dotyczące:
 
 - minimalnej wartości zamówienia albo jej braku;
 - publikowania przykładowych cen;
-- zwykłego czasu odpowiedzi na zapytanie;
 - standardowego i ekspresowego terminu realizacji;
-- rzeczywiście dostępnych materiałów i kolorów;
-- maksymalnych gabarytów wydruku;
-- form płatności;
-- sposobów i kosztów dostawy;
+- rzeczywiście dostępnych materiałów i kolorów poza standardowym szarym;
+- interpretacji przestrzeni roboczych drukarek dla nietypowych modeli;
 - sytuacji, w których poprawka pliku wymaga osobnej wyceny;
 - liczby i zasad poprawek przy projektowaniu modelu.
+
+Ustalono już maksymalnie dwa dni robocze na odpowiedź dotyczącą kompletnego zapytania, siedem dni kalendarzowych ważności wyceny, pełną przedpłatę, Paynow jako docelową bramkę z przelewem awaryjnym oraz dostawę wyłącznie przez Paczkomat InPost albo kuriera InPost. Integracje wymagają potwierdzenia technicznego.
 
 Nie należy publikować ceny lub terminu, którego MM3D nie może regularnie dotrzymać.
 
@@ -245,14 +248,16 @@ Pierwsza wersja nie powinna obejmować:
 
 - automatycznego kalkulatora na poziomie Threedi;
 - kont klientów;
-- płatności online;
-- śledzenia realizacji zamówienia;
+- bezpiecznego panelu lub linku do akceptacji wyceny;
+- widocznego dla klienta śledzenia etapów produkcji;
 - rozbudowanego sklepu z gotowymi modelami;
 - pełnej automatyzacji oceny plików;
 - funkcji uzależnionych od konkretnego urządzenia.
+
+Paynow oraz prywatny rejestr statusów płatności są obecnie oczekiwanym elementem pierwszej wersji, pod warunkiem potwierdzenia technicznej wykonalności przez Parzeja.
 
 Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych zapytań i ustaleniu, które problemy powtarzają się wystarczająco często, by opłacało się je automatyzować.
 
 ## Najbliższa sesja robocza
 
-Następna sesja powinna ustalić formularz wyceny i zasady handlowe Górasa. Zalecany format to jedno pytanie na raz, maksymalnie siedem pytań, zakończone aktualizacją dokumentacji.
+Następna sesja grillowania zaczyna się od pytania 40 i ustala drugoplanową ścieżkę „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.

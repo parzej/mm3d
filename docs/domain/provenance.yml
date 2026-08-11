@@ -40,6 +40,20 @@ terms:
       - contributor: parzej
         kind: introduced
         date: 2026-08-11
+  "Wycena":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Okres ważności wyceny":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
   "Załącznik do zapytania":
     introduced_by: parzej
     introduced_on: 2026-08-11
@@ -102,6 +116,107 @@ terms:
     contributions:
       - contributor: goras
         kind: introduced
+        date: 2026-08-11
+  "Warunki użytkowania":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Dobór technologii druku":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Kolor standardowy":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Priorytet realizacji":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Oczekiwany termin":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Potwierdzenie zapytania":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Numer sprawy":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Akceptacja wyceny":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Przedpłata":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Czas odpowiedzi na zapytanie":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Wynik oceny zapytania":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Komplet modeli":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Wymiar referencyjny":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Wariant ilościowy wyceny":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+      - contributor: goras
+        kind: revised
         date: 2026-08-11
   "Benchmark funkcjonalności WWW":
     introduced_by: parzej

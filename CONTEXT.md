@@ -16,6 +16,14 @@ _Avoid_: Współwłaściciel, operator MM3D
 Zgłoszenie przesłane do MM3D w celu oceny wykonalności i przygotowania wyceny druku 3D. Nie jest jeszcze zobowiązującym zamówieniem.
 _Avoid_: Zamówienie, zlecenie
 
+**Wycena**:
+Przygotowana przez MM3D propozycja realizacji określająca zakres, parametry wydruku, ceny brutto, koszt dostawy, przewidywany termin, ograniczenia i okres ważności. Staje się podstawą zamówienia dopiero po akceptacji klienta.
+_Avoid_: Cennik, zamówienie, automatyczna kalkulacja
+
+**Okres ważności wyceny**:
+Siedem dni kalendarzowych od wysłania wyceny, w których klient może ją zaakceptować na podanych warunkach. Po tym czasie MM3D ponownie potwierdza cenę i dostępny termin.
+_Avoid_: Bezterminowa oferta, automatyczna akceptacja po terminie
+
 **Załącznik do zapytania**:
 Plik przekazany przez potencjalnego klienta jako materiał potrzebny do oceny zapytania ofertowego, na przykład model 3D, zdjęcie, szkic lub dokumentacja wymiarowa. Nie jest trwałym archiwum projektu.
 _Avoid_: Realizacja, plik projektu
@@ -51,6 +59,62 @@ _Avoid_: Projektowanie modelu, naprawa geometrii
 **Ingerencja w model**:
 Naprawa lub zmiana geometrii modelu dostarczonego przez klienta, wyceniana oddzielnie jako projektowanie modelu.
 _Avoid_: Przygotowanie druku, bezpłatna poprawka
+
+**Warunki użytkowania**:
+Opis środowiska, obciążeń i oczekiwanych właściwości wydruku przekazywany przez klienta, na podstawie którego MM3D dobiera odpowiedni materiał. Klient nie musi wskazywać konkretnego materiału.
+_Avoid_: Wybór materiału przez klienta, sugestia filamentu
+
+**Dobór technologii druku**:
+Wybór FDM albo SLA dokonywany przez MM3D na podstawie modelu, oczekiwanego rezultatu i warunków użytkowania. Klient może wskazać preferencję, ale nie musi znać ani wybierać technologii.
+_Avoid_: Obowiązkowy wybór technologii, wybór techniczny klienta
+
+**Kolor standardowy**:
+Szary kolor wydruku przyjmowany przez MM3D jako domyślna opcja wyceny. Inny kolor jest preferencją potwierdzaną w wycenie i może wpłynąć na cenę lub termin realizacji.
+_Avoid_: Kolor gwarantowany, dowolny kolor bez wpływu na wycenę
+
+**Priorytet realizacji**:
+Obowiązkowo wskazana przez klienta najważniejsza preferencja: możliwie niska cena, najlepszy wygląd i detale, wytrzymałość albo możliwie najkrótszy termin. Kieruje przygotowaniem wyceny, ale nie jest gwarancją przed jej potwierdzeniem przez MM3D.
+_Avoid_: Najlepszy kompromis, gwarantowany rezultat
+
+**Oczekiwany termin**:
+Najpóźniejsza data wskazana przez klienta, gdy priorytetem jest możliwie najkrótszy termin. Nie jest terminem realizacji, dopóki MM3D nie potwierdzi go w wycenie.
+_Avoid_: Gwarantowana data, potwierdzony termin realizacji
+
+**Potwierdzenie zapytania**:
+Automatyczna wiadomość e-mail z numerem sprawy, podsumowaniem danych i nazwami załączników, pozwalająca klientowi sprawdzić przesłane informacje. Nie jest wyceną ani potwierdzeniem zamówienia.
+_Avoid_: Potwierdzenie zamówienia, akceptacja realizacji
+
+**Numer sprawy**:
+Jeden identyfikator nadawany zapytaniu ofertowemu i używany we wszystkich wiadomościach dotyczących jego wyceny, akceptacji oraz powstałego zamówienia.
+_Avoid_: Osobny numer wyceny, zmiana numeru po akceptacji
+
+**Akceptacja wyceny**:
+Jednoznaczna odpowiedź klienta na wiadomość z aktualną wyceną, zachowująca numer sprawy. Po jej otrzymaniu MM3D potwierdza utworzenie zamówienia.
+_Avoid_: Milcząca zgoda, kliknięcie bez potwierdzenia, akceptacja nieaktualnej wyceny
+
+**Przedpłata**:
+Pełna płatność wymagana po akceptacji wyceny i przed rozpoczęciem indywidualnego druku. Potwierdzony czas realizacji biegnie od zaksięgowania przedpłaty.
+_Avoid_: Płatność po wykonaniu, rozpoczęcie po samej akceptacji
+
+**Czas odpowiedzi na zapytanie**:
+Maksymalnie dwa dni robocze od otrzymania kompletnego zapytania do wysłania przez MM3D wyceny albo prośby o doprecyzowanie. Nie jest czasem realizacji wydruku.
+_Avoid_: Czas realizacji, termin dostawy
+
+**Wynik oceny zapytania**:
+Odpowiedź MM3D po analizie zapytania: gotowa wycena, prośba o doprecyzowanie albo odmowa realizacji z przyczyną. Każde zapytanie otrzymuje jeden z tych wyników.
+_Avoid_: Automatyczna akceptacja, brak odpowiedzi
+
+**Komplet modeli**:
+Grupa powiązanych części lub modeli tworzących jeden wspólny projekt, które klient może przekazać w jednym zapytaniu ofertowym. Różne, niezależne projekty nie są kompletem modeli.
+_Avoid_: Paczka dowolnych plików, wiele niezależnych projektów
+
+**Wymiar referencyjny**:
+Jeden docelowy wymiar modelu wskazany przez klienta, na podstawie którego MM3D skaluje pozostałe wymiary proporcjonalnie. Nie oznacza niezależnej zmiany proporcji modelu.
+_Avoid_: Pełne wymiarowanie, rozciąganie modelu
+
+**Wariant ilościowy wyceny**:
+Wybrany przez klienta zakres liczby sztuk tego samego wydruku, dla którego MM3D oblicza indywidualną cenę jednostkową na podstawie konkretnego modelu. Nie jest stałym publicznym cennikiem ani osobnym zamówieniem.
+_Avoid_: Stały próg cenowy, uniwersalny cennik ilościowy
 
 **Benchmark funkcjonalności WWW**:
 Strona [warstwokracja.pl](https://warstwokracja.pl) jako punkt odniesienia dla zakresu funkcji i ścieżek użytkownika w serwisie MM3D, bez traktowania jej wyglądu, treści, marki ani implementacji jako wzorca do kopiowania.
