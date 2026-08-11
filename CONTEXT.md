@@ -80,6 +80,14 @@ _Avoid_: Plik źródłowy modelu, cyfrowy podgląd modelu, załącznik do zapyta
 Edytowalny plik projektu z programu CAD lub rzeźbiarskiego, na przykład BLEND albo STEP, który może zawierać historię pracy, elementy robocze, zależności i wykorzystane zasoby. Nie jest przekazywany w standardowej realizacji; jego ewentualne wydanie wymaga osobnego ustalenia zakresu i ceny.
 _Avoid_: Plik do druku, eksport STL, cyfrowy podgląd modelu
 
+**Gwarantowany okres przechowywania pliku**:
+Okres 24 miesięcy od zakończenia ostatniego zamówienia dotyczącego danego modelu, w którym MM3D gwarantuje zachowanie ukończonego pliku produkcyjnego. Po tym okresie plik może pozostać w archiwum, ale klient nie otrzymuje gwarancji bezterminowego przechowywania i powinien zachować własną kopię.
+_Avoid_: Bezterminowe archiwum, przechowywanie materiałów referencyjnych, kopia klienta
+
+**Retencja materiałów referencyjnych**:
+Przechowywanie zdjęć, rysunków, dokumentacji i innych materiałów klienta tylko przez okres niezbędny do realizacji, obsługi reklamacji oraz ochrony przed roszczeniami. Nie dziedziczy automatycznie 24-miesięcznego okresu pliku produkcyjnego; okres lub kryterium ustala się osobno dla każdej kategorii materiałów.
+_Avoid_: Bezterminowe archiwum, gwarantowany okres przechowywania pliku, automatyczne 24 miesiące
+
 **Tura poprawek**:
 Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny. Usunięcie niezgodności wynikającej z błędu MM3D nie zużywa tury poprawek.
 _Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cenie
@@ -111,6 +119,18 @@ _Avoid_: Pełna przedpłata za modelowanie, płatność dopiero po zakończeniu,
 **Rozliczenie rezygnacji z modelowania**:
 Indywidualne ustalenie należności po rezygnacji klienta na podstawie wartości wykonanej pracy i kosztów, których MM3D nie oszczędzi wskutek przerwania projektu. Całe pierwsze 50% pozostaje u MM3D, gdy uzasadnia to zaawansowanie i wartość realizacji; nie jest to automatyczny przepadek zaliczki niezależny od wykonanej pracy.
 _Avoid_: Automatyczny przepadek 50%, bezwarunkowy zwrot całej płatności, bezpłatne przekazanie modelu cyfrowego
+
+**Wydanie pliku po rezygnacji**:
+Wyjątkowe przekazanie pliku do druku klientowi, który po ukończeniu modelowania rezygnuje z pozostałej fizycznej realizacji. Wymaga akceptacji modelu i rozliczenia wykonanej pracy, przy czym łączna wpłata klienta nie może być niższa niż 50% wartości całego zaakceptowanego zlecenia.
+_Avoid_: Automatyczne wydanie pliku, bezpłatne przekazanie modelu, automatyczny przepadek zaliczki
+
+**Niewykonanie dalszej realizacji przez MM3D**:
+Sytuacja, w której MM3D ukończyło zaakceptowany model, ale nie może wykonać pozostałego druku, malowania lub dostawy. Klient otrzymuje plik do druku, płaci uzgodnioną cenę modelowania i otrzymuje zwrot należności za niewykonany zakres, bez automatycznego minimum 50% wartości całego zlecenia.
+_Avoid_: Rezygnacja klienta, pełna realizacja, automatyczne zatrzymanie 50%
+
+**Przerwanie modelowania przez MM3D**:
+Zakończenie pracy przez MM3D przed powstaniem zaakceptowanego, gotowego modelu. Klient otrzymuje zwrot za niewykonany zakres, a niedokończony plik roboczy nie jest wydawany automatycznie; przekazanie użytecznych materiałów do kontynuacji u innego wykonawcy wymaga indywidualnego ustalenia.
+_Avoid_: Ukończony plik produkcyjny, rezygnacja klienta, automatyczne przekazanie źródła
 
 **Klient podstawowej usługi**:
 Hobbysta lub osoba prywatna zamawiająca pojedyncze albo powtarzalne wydruki z gotowych modeli 3D. Nie oznacza klienta przemysłowego oczekującego przemysłowego procesu realizacji.

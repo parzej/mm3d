@@ -141,9 +141,9 @@ Przed uruchomieniem strony należy przygotować regulamin obejmujący wszystkie 
 - rozróżnienie końcowego pliku produkcyjnego do druku od edytowalnego pliku źródłowego, moment wydania pliku produkcyjnego wraz z ostatnim elementem realizacji oraz zasadę, że przekazanie źródła wymaga osobnego ustalenia i ceny;
 - odpowiedzialność za pliki, materiały i przedmioty referencyjne oraz możliwość odmowy realizacji;
 - modelowanie odwrotne, wysyłkę, zabezpieczenie, przechowanie i zwrot przedmiotu referencyjnego;
-- odstąpienie od umowy, rezygnację w trakcie prac i indywidualne rozliczenie wartości wykonanego zakresu oraz kosztów, których MM3D nie oszczędzi;
+- odstąpienie od umowy, rezygnację w trakcie prac, indywidualne rozliczenie wartości wykonanego zakresu i kosztów, których MM3D nie oszczędzi, warunek wydania pliku po rezygnacji przy łącznej wpłacie wynoszącej co najmniej 50% wartości całego zlecenia, rozliczenie niewykonanego zakresu oraz zasady postępowania z niedokończonymi materiałami roboczymi, gdy modelowania lub dalszej realizacji nie może ukończyć MM3D;
 - dostawę przez InPost, reklamacje i sposób kontaktu z MM3D;
-- zasady przechowywania i usuwania przesłanych plików.
+- gwarantowane przechowywanie ukończonego pliku produkcyjnego przez 24 miesiące od zakończenia ostatniego zamówienia dotyczącego modelu oraz celową retencję materiałów klienta według odrębnych okresów lub kryteriów wskazanych w regulaminie i polityce prywatności.
 
 Regulamin nie zastępuje polityki prywatności, informacji o przetwarzaniu danych ani innych oświadczeń wymaganych prawem. Osobne oświadczenia powinny pojawić się w procesie tylko wtedy, gdy prawnik potwierdzi, że są konieczne.
 
@@ -311,4 +311,4 @@ Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych 
 
 ## Najbliższa sesja robocza
 
-Następna część grillowania zaczyna się od pytania 84 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
+Następna część grillowania zaczyna się od pytania 89 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.

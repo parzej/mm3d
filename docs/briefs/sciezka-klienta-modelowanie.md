@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 83 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 84. Techniczny sposób przekazywania plików i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 88 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 89. Techniczny sposób przekazywania plików i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -219,14 +219,48 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Jeżeli wartość wykonanej pracy i poniesionych kosztów jest niższa, MM3D zwraca niewykorzystaną część płatności.
 - Jeżeli wartość wykonanej pracy i kosztów przekracza pierwsze 50%, MM3D może dochodzić różnicy, o ile pozwalają na to umowa i obowiązujące przepisy.
 - Rezygnacja nie powoduje automatycznego przekazania klientowi cyfrowego modelu.
+- Jeżeli modelowanie zostało ukończone, klient może otrzymać plik produkcyjny po zaakceptowaniu modelu i osobnym rozliczeniu wykonanej pracy.
+- Warunkiem takiego wydania pliku jest łączna wpłata wynosząca co najmniej 50% wartości całego zaakceptowanego zlecenia. Jest to warunek otrzymania pliku po rezygnacji, a nie automatyczny przepadek pierwszej płatności w każdym przypadku.
 - Szczegółowy mechanizm rozliczenia, dokumentowanie zaawansowania i wymagane informacje konsumenckie znajdują się w regulaminie zatwierdzonym przez prawnika.
+
+## Niewykonanie dalszej realizacji przez MM3D
+
+- Jeżeli MM3D ukończyło model, ale nie może wykonać pozostałej części zamówienia, klient otrzymuje zaakceptowany plik produkcyjny.
+- Klient płaci wyłącznie uzgodnioną cenę ukończonego modelowania.
+- MM3D zwraca należność za niewykonany druk, malowanie, dostawę i pozostały zakres zamówienia.
+- Minimalna wpłata w wysokości 50% wartości całego zlecenia nie obowiązuje automatycznie, gdy niewykonanie leży po stronie MM3D.
+- Szczegółową procedurę, terminy zwrotu oraz prawne przesłanki odpowiedzialności opisuje regulamin zatwierdzony przez prawnika.
+
+## Przerwanie modelowania przez MM3D
+
+- Jeżeli MM3D musi przerwać pracę przed powstaniem zaakceptowanego, gotowego modelu, klient otrzymuje zwrot należności za niewykonany zakres.
+- Niedokończony plik roboczy nie jest automatycznie traktowany jako plik produkcyjny i nie jest automatycznie przekazywany klientowi.
+- Jeżeli klient chce kontynuować projekt u innego wykonawcy, MM3D może indywidualnie uzgodnić przekazanie istniejących, użytecznych materiałów roboczych.
+- Zakres przekazywanych materiałów, ich stan, format oraz rozliczenie są wtedy opisane osobnym ustaleniem.
+- Zasada i procedura zwrotu znajdują się w regulaminie zatwierdzonym przez prawnika.
+
+## Przechowywanie ukończonego pliku produkcyjnego
+
+- MM3D gwarantuje przechowywanie ukończonego pliku produkcyjnego przez 24 miesiące od zakończenia ostatniego zamówienia dotyczącego danego modelu.
+- Każde kolejne zrealizowane zamówienie dotyczące modelu rozpoczyna nowy okres 24 miesięcy.
+- Po upływie gwarantowanego okresu MM3D może nadal posiadać plik, ale nie składa klientowi obietnicy bezterminowego archiwizowania.
+- Klient powinien zachować własną kopię pliku otrzymanego wraz z ostatnim elementem realizacji.
+- Okres, zasady usunięcia i zakres odpowiedzialności za archiwum opisuje regulamin, a techniczny sposób przechowywania potwierdza Parzej.
+
+## Retencja materiałów referencyjnych
+
+- Zdjęcia, rysunki, dokumentacja i inne materiały referencyjne klienta nie są automatycznie przechowywane przez ten sam okres co plik produkcyjny.
+- MM3D przechowuje je tylko tak długo, jak są potrzebne do realizacji, obsługi reklamacji i ochrony przed roszczeniami.
+- Regulamin i polityka prywatności wskazują osobny okres albo jasne kryterium jego ustalania dla każdej kategorii materiałów.
+- Materiały, które nie są już potrzebne do żadnego uzasadnionego celu, są usuwane zgodnie z procedurą potwierdzoną przez Parzeja i prawnika.
+- Zasada wynika z ograniczenia przechowywania danych opisanego przez [UODO](https://uodo.gov.pl/pl/676/4260) i wymaga prawnej weryfikacji dla konkretnych kategorii danych.
 
 Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl/eli/DU/2024/1061/ogl), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl) oraz ryzyko automatycznego przepadku zaliczki wskazane w [rejestrze klauzul niedozwolonych UOKiK](https://rejestr.uokik.gov.pl/wyszukiwanie.php?details=4088).
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 84**:
+Następne pytanie to **pytanie 89**:
 
-> Co dzieje się z plikiem produkcyjnym, jeżeli klient rezygnuje z fizycznej realizacji po ukończeniu modelowania?
+> Czy MM3D może pokazać wykonany model lub gotowy wydruk w portfolio?
 
-Rekomendacja: rezygnacja nie powoduje automatycznego wydania pliku. Klient może go otrzymać dopiero po zaakceptowaniu ukończonego modelu i osobnym rozliczeniu całej należności za wykonane modelowanie; w przeciwnym razie plik pozostaje w MM3D.
+Rekomendacja: wyłącznie po osobnej, dobrowolnej zgodzie klienta. Brak zgody nie wpływa na cenę ani realizację. Zgoda powinna oddzielnie wskazywać możliwość pokazania gotowego wydruku lub renderu oraz możliwość wykorzystania materiałów referencyjnych klienta; domyślnie MM3D nie publikuje żadnego z nich.
