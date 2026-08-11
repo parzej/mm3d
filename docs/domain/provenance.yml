@@ -110,6 +110,9 @@ terms:
       - contributor: parzej
         kind: introduced
         date: 2026-08-11
+      - contributor: goras
+        kind: confirmed
+        date: 2026-08-11
   "Równoważność funkcjonalna urządzeń":
     introduced_by: parzej
     introduced_on: 2026-08-11
