@@ -165,6 +165,9 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-11
+      - contributor: goras
+        kind: revised
+        date: 2026-08-11
   "Prototyp wstępny":
     introduced_by: goras
     introduced_on: 2026-08-11
@@ -294,6 +297,25 @@ terms:
       - contributor: goras
         kind: revised
         date: 2026-08-11
+      - contributor: goras
+        kind: revised
+        date: 2026-08-11
+      - contributor: goras
+        kind: revised
+        date: 2026-08-11
+  "Lakier zabezpieczający":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+      - contributor: goras
+        kind: revised
+        date: 2026-08-11
+      - contributor: goras
+        kind: revised
+        date: 2026-08-11
   "Wycena malowania":
     introduced_by: goras
     introduced_on: 2026-08-11
@@ -320,6 +342,13 @@ terms:
         date: 2026-08-11
       - contributor: goras
         kind: revised
+        date: 2026-08-11
+  "Trwałość malowania":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
         date: 2026-08-11
   "Priorytet realizacji":
     introduced_by: goras

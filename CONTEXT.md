@@ -81,7 +81,7 @@ Czasowe zatrzymanie modelowania po braku odpowiedzi klienta mimo przypomnienia. 
 _Avoid_: Automatyczna akceptacja, anulowanie zamówienia, zachowanie pierwotnego terminu
 
 **Harmonogram modelowania**:
-Ustalane w wycenie orientacyjne terminy cyfrowego podglądu, prototypu wstępnego, prototypu finalnego i gotowej realizacji. Rozpoczyna się po pierwszej płatności i otrzymaniu kompletu uzgodnionych materiałów, a opóźnienia po stronie klienta odpowiednio przesuwają kolejne etapy.
+Ustalane w wycenie orientacyjne terminy cyfrowego podglądu, prototypu wstępnego, prototypu finalnego, ewentualnego malowania i gotowej realizacji. Malowanie rozpoczyna się po akceptacji prototypu finalnego, otrzymaniu jednoznacznego opisu z referencjami i płatności za malowanie, a opóźnienia po stronie klienta odpowiednio przesuwają kolejne etapy.
 _Avoid_: Publiczny stały termin dla każdego projektu, gwarancja niezależna od odpowiedzi klienta
 
 **Prototyp wstępny**:
@@ -141,8 +141,12 @@ Opcjonalna, dodatkowo wyceniana obróbka powierzchni wydruku wykonanego przez MM
 _Avoid_: Usuwanie podpór, automatyczne wygładzenie, przygotowanie druku
 
 **Malowanie modelu**:
-Opcjonalna, zawsze indywidualnie wyceniana usługa ręcznego malowania wydruku wykonanego przez MM3D, niezależna od koloru materiału; w ścieżce modelowania rozpoczyna się dopiero po akceptacji niemalowanego prototypu finalnego. Klient zatwierdza kierunek kolorystyki przed rozpoczęciem pracy; późniejsza zmiana koncepcji wymaga dodatkowej wyceny, a wykonanie niezgodne z ustaleniami MM3D poprawia na własny koszt.
+Opcjonalna, zawsze indywidualnie wyceniana usługa ręcznego malowania wydruku wykonanego przez MM3D według opisu i referencji klienta, standardowo zakończona zabezpieczeniem lakierem bezbarwnym. Nie wymaga osobnego zatwierdzenia kolorystyki przygotowanej przez MM3D; niejasności są wyjaśniane przed pracą, późniejsza zmiana referencji wymaga dodatkowej wyceny, a niezgodność z nimi MM3D poprawia na własny koszt.
 _Avoid_: Kolor standardowy, kolor filamentu lub żywicy, usługa wliczona automatycznie
+
+**Lakier zabezpieczający**:
+Bezbarwna warstwa ochronna nakładana standardowo na każdy model malowany przez MM3D. Jej rodzaj i efekt powierzchni — matowy, satynowy albo błyszczący — są częścią indywidualnych ustaleń dotyczących realizacji.
+_Avoid_: Opcjonalne zabezpieczenie, kolor modelu, podkład malarski
 
 **Wycena malowania**:
 Ostateczna, indywidualna cena malowania potwierdzana po akceptacji niemalowanego prototypu finalnego i opłacana przed rozpoczęciem usługi. Wcześniejsza wycena modelowania może zawierać jedynie szacunkowy koszt malowania.
@@ -155,6 +159,10 @@ _Avoid_: Akceptacja wyceny, milcząca zgoda, zrzeczenie się reklamacji
 **Dopuszczalna różnica malowania**:
 Niewielka różnica względem wizualizacji, materiału referencyjnego albo innego egzemplarza z ręcznie malowanej serii, która nie zmienia uzgodnionego charakteru, kolorystyki ani jakości pracy. Wyraźna niezgodność z zaakceptowanym kierunkiem nie jest dopuszczalną różnicą, a podwyższona powtarzalność serii wymaga osobno uzgodnionego wzorca i tolerancji.
 _Avoid_: Dowolna zmiana, wada ukryta, wyraźna niezgodność
+
+**Trwałość malowania**:
+Odporność pomalowanej powierzchni dobrana przez MM3D do sposobu i warunków użytkowania opisanych przez klienta, bez ogólnej gwarancji odporności na każde oddziaływanie. Naturalne zużycie i użytkowanie niezgodne z przekazanymi warunkami nie są wadą wykonania.
+_Avoid_: Niezniszczalna powłoka, bezwarunkowa odporność, wada wykonania
 
 **Priorytet realizacji**:
 Obowiązkowo wskazana przez klienta najważniejsza preferencja: możliwie niska cena, najlepszy wygląd i detale, wytrzymałość albo możliwie najkrótszy termin. Kieruje przygotowaniem wyceny, ale nie jest gwarancją przed jej potwierdzeniem przez MM3D.

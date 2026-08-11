@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 73 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 74. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 78 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 79. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -145,11 +145,12 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Zaznaczenie usługi nie oznacza jeszcze stałej ceny ani ostatecznego zakresu.
 - MM3D potwierdza zakres i cenę po ustaleniu geometrii, powierzchni oraz oczekiwanego wyglądu modelu.
 - Każda z trzech usług pozostaje niezależna i opcjonalna.
-- Przy malowaniu klient opisuje oczekiwany efekt albo przekazuje wizualne materiały referencyjne.
-- Przed rozpoczęciem malowania MM3D przesyła klientowi e-mailem opis kolorystyki oraz, zależnie od projektu, wizualizację albo zdjęcie próbki.
-- Klient zatwierdza e-mailem kierunek malowania.
-- Zmiana zaakceptowanej koncepcji po rozpoczęciu malowania wymaga dodatkowej wyceny.
-- MM3D poprawia na własny koszt wykonanie niezgodne z zaakceptowanymi ustaleniami.
+- Przy malowaniu klient podaje oczekiwaną kolorystykę i przekazuje wizualne materiały referencyjne stanowiące podstawę wykonania.
+- Nie ma osobnego etapu, na którym MM3D przygotowuje kolorystykę do zatwierdzenia przez klienta.
+- Jeżeli opis lub referencje są niejasne albo sprzeczne, MM3D prosi o doprecyzowanie przed rozpoczęciem pracy.
+- Zmiana opisu lub materiałów referencyjnych po rozpoczęciu malowania wymaga dodatkowej wyceny.
+- MM3D poprawia na własny koszt wykonanie niezgodne z opisem i referencjami klienta.
+- Zasady posługiwania się referencjami i wyjaśniania niejasności znajdują się w regulaminie, a nie w osobnym polu lub etapie zamówienia malowania.
 - Standardowy formularz malowania obejmuje wyłącznie wydruki wykonane przez MM3D.
 - Gotowy wydruk dostarczony przez klienta może zostać przyjęty do malowania po indywidualnej ocenie materiału, jakości powierzchni i zakresu przygotowania, poza standardowym formularzem.
 - Malowanie jest zawsze wyceniane indywidualnie na podstawie wielkości modelu, liczby kolorów, ilości detali, oczekiwanego efektu i potrzebnego przygotowania powierzchni.
@@ -167,6 +168,12 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Przy ręcznie malowanej serii niewielkie różnice pomiędzy egzemplarzami są naturalne, o ile każdy zachowuje zaakceptowaną kolorystykę, poziom wykończenia i ogólny charakter wzorca.
 - Podwyższona powtarzalność serii wymaga osobnego ustalenia próbki wzorcowej, standardu wykonania, tolerancji i ceny.
 - Zasada dopuszczalnych różnic znajduje się również w regulaminie, którego ostateczne brzmienie zatwierdza prawnik.
+- Każdy pomalowany model jest zabezpieczany lakierem bezbarwnym w ramach usługi malowania.
+- Rodzaj lakieru i efekt powierzchni — matowy, satynowy albo błyszczący — są ustalane indywidualnie podczas składania zamówienia.
+- Uzgodniony efekt lakieru jest częścią indywidualnych ustaleń dotyczących realizacji.
+- Klient opisuje przewidywany sposób i warunki użytkowania pomalowanego modelu, a MM3D dobiera do nich farby oraz lakier.
+- MM3D nie składa ogólnej obietnicy odporności malowania na każde tarcie, uderzenie, wodę, temperaturę ani promieniowanie UV.
+- Regulamin rozróżnia naturalne zużycie i użytkowanie niezgodne z przekazanymi warunkami od wady wykonania. Ostateczne brzmienie tej zasady zatwierdza prawnik.
 
 ## Płatność etapowa za modelowanie
 
@@ -185,11 +192,13 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Harmonogram modelowania
 
-- Wycena zawiera orientacyjne terminy przygotowania cyfrowego podglądu, prototypu wstępnego, prototypu finalnego i gotowej realizacji.
+- Wycena zawiera orientacyjne terminy przygotowania cyfrowego podglądu, prototypu wstępnego, prototypu finalnego, ewentualnego malowania i gotowej realizacji.
 - Harmonogram rozpoczyna się po otrzymaniu przez MM3D pierwszej płatności oraz kompletu uzgodnionych materiałów potrzebnych do rozpoczęcia pracy.
 - Czas oczekiwania na odpowiedź klienta przesuwa kolejne orientacyjne terminy.
 - Dodatkowe zmiany klienta oraz wznowienie wcześniej wstrzymanego projektu wymagają potwierdzenia zaktualizowanego harmonogramu.
 - Orientacyjne terminy etapów nie są jedną ogólną obietnicą publikowaną dla wszystkich projektów.
+- Malowanie ma osobny orientacyjny czas, a rozpoczyna się po akceptacji niemalowanego prototypu finalnego, otrzymaniu kompletnego i jednoznacznego opisu z referencjami oraz zaksięgowaniu płatności za malowanie.
+- Opóźnienie w przekazaniu wyjaśnień lub płatności odpowiednio przesuwa termin malowania i gotowej realizacji.
 
 ## Rezygnacja po rozpoczęciu modelowania
 
@@ -205,8 +214,8 @@ Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 74**:
+Następne pytanie to **pytanie 79**:
 
-> Czy zabezpieczenie pomalowanego modelu lakierem bezbarwnym ma być standardową częścią usługi malowania?
+> Jak rozliczamy ponowne zamówienie kolejnych wydruków tego samego modelu przez klienta?
 
-Rekomendacja: zabezpieczenie lakierem jest częścią usługi wtedy, gdy wymaga go zastosowana technika lub sposób użytkowania modelu. MM3D uwzględnia je w indywidualnej wycenie i uzgadnia z klientem oczekiwane wykończenie: matowe, satynowe albo błyszczące. Nie obiecujemy jednego obowiązkowego lakieru dla każdego projektu.
+Rekomendacja: jeżeli MM3D nadal posiada gotowy i użyteczny model, a klient nie zmienia projektu, nie naliczamy ponownie kosztu modelowania. Nowej wycenie podlegają druk, wykończenie, malowanie i dostawa według aktualnych warunków. Każda zmiana modelu jest osobno wyceniana. Kwestia minimalnego okresu przechowywania pliku wymaga osobnej decyzji.
