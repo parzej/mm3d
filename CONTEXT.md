@@ -85,11 +85,11 @@ Ustalane w wycenie orientacyjne terminy cyfrowego podglądu, prototypu wstępneg
 _Avoid_: Publiczny stały termin dla każdego projektu, gwarancja niezależna od odpowiedzi klienta
 
 **Prototyp wstępny**:
-Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek. Standardowo ocenia go MM3D na podstawie pomiarów, zdjęć lub filmu; jest wysyłany klientowi tylko wtedy, gdy potrzebny jest jego osobisty test.
+Pierwszy, niemalowany fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek. Standardowo ocenia go MM3D na podstawie pomiarów, zdjęć lub filmu; jest wysyłany klientowi tylko wtedy, gdy potrzebny jest jego osobisty test.
 _Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D
 
 **Prototyp finalny**:
-Drugi fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, pokazujący końcowy rezultat modelowania. Przy zamówieniu jednej sztuki jest gotowym wydrukiem dla klienta, a przy większej liczbie — egzemplarzem wzorcowym wymagającym jednoznacznej akceptacji klienta przed wykonaniem pozostałych sztuk. Sposób wykazania zgodności dobiera się indywidualnie. Nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
+Drugi, niemalowany fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, wymagający jednoznacznej akceptacji klienta przed produkcją pozostałych sztuk albo rozpoczęciem malowania. Przy zamówieniu jednej sztuki po akceptacji może zostać wykończony i przekazany klientowi, a przy większym nakładzie jest egzemplarzem wzorcowym; nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
 _Avoid_: Prototyp wstępny, każdy kolejny wydruk, nieudany wydruk MM3D
 
 **Płatność etapowa za modelowanie**:
@@ -141,7 +141,7 @@ Opcjonalna, dodatkowo wyceniana obróbka powierzchni wydruku wykonanego przez MM
 _Avoid_: Usuwanie podpór, automatyczne wygładzenie, przygotowanie druku
 
 **Malowanie modelu**:
-Opcjonalna, dodatkowo wyceniana usługa ręcznego malowania wydruku wykonanego przez MM3D. Jest niezależna od koloru materiału użytego do druku.
+Opcjonalna, zawsze indywidualnie wyceniana usługa ręcznego malowania wydruku wykonanego przez MM3D, niezależna od koloru materiału; w ścieżce modelowania rozpoczyna się dopiero po akceptacji niemalowanego prototypu finalnego. Klient zatwierdza kierunek kolorystyki przed rozpoczęciem pracy; późniejsza zmiana koncepcji wymaga dodatkowej wyceny, a wykonanie niezgodne z ustaleniami MM3D poprawia na własny koszt.
 _Avoid_: Kolor standardowy, kolor filamentu lub żywicy, usługa wliczona automatycznie
 
 **Priorytet realizacji**:

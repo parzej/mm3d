@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 63 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 64. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 68 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 69. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -129,13 +129,31 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Dodatkowy czas i koszt takiego transportu są uwzględniane w wycenie. Prototyp wstępny nie jest wysyłany automatycznie w każdym projekcie.
 - Sposób oceny prototypu wstępnego jest opisany w regulaminie, a decyzja o jego wysyłce pozostaje elementem indywidualnej wyceny.
 - Drugi jest prototypem finalnym. Powstaje po uwzględnieniu uzgodnionych poprawek i pokazuje końcowy rezultat modelowania.
+- Prototyp wstępny i prototyp finalny nie są malowane.
 - Przy zamówieniu jednej sztuki prawidłowy prototyp finalny jest gotowym wydrukiem przekazywanym klientowi.
+- Jeżeli zamówienie obejmuje malowanie, zaakceptowany prototyp finalny jest malowany dopiero po zakończeniu etapu prototypowania, a następnie przekazywany klientowi jako gotowy produkt.
 - Przy zamówieniu większej liczby sztuk prototyp finalny jest egzemplarzem wzorcowym. Klient akceptuje go przed wykonaniem pozostałych sztuk.
 - Zakres informacji, zdjęć, nagrań, pomiarów albo testów potrzebnych do akceptacji prototypu finalnego jest dobierany indywidualnie podczas realizacji.
 - Klient zatwierdza prototyp finalny jednoznaczną odpowiedzią e-mail. Bez takiej akceptacji MM3D nie rozpoczyna produkcji pozostałych sztuk.
 - Zasada akceptacji produkcji finalnej jest opisana w regulaminie, a nie jako stały punkt formularza lub zamówienia.
 - Nieudany wydruk wynikający z błędu MM3D jest wykonywany ponownie na koszt MM3D i nie jest liczony jako prototyp wstępny ani finalny.
 - Dodatkowe prototypy wynikające ze zmiany koncepcji lub rozszerzenia zakresu przez klienta wymagają osobnej wyceny.
+
+## Usługi wykończeniowe
+
+- W pierwszym formularzu klient może niezależnie zaznaczyć zainteresowanie usuwaniem podpór, szlifowaniem albo malowaniem modelu.
+- Zaznaczenie usługi nie oznacza jeszcze stałej ceny ani ostatecznego zakresu.
+- MM3D potwierdza zakres i cenę po ustaleniu geometrii, powierzchni oraz oczekiwanego wyglądu modelu.
+- Każda z trzech usług pozostaje niezależna i opcjonalna.
+- Przy malowaniu klient opisuje oczekiwany efekt albo przekazuje wizualne materiały referencyjne.
+- Przed rozpoczęciem malowania MM3D przesyła klientowi e-mailem opis kolorystyki oraz, zależnie od projektu, wizualizację albo zdjęcie próbki.
+- Klient zatwierdza e-mailem kierunek malowania.
+- Zmiana zaakceptowanej koncepcji po rozpoczęciu malowania wymaga dodatkowej wyceny.
+- MM3D poprawia na własny koszt wykonanie niezgodne z zaakceptowanymi ustaleniami.
+- Standardowy formularz malowania obejmuje wyłącznie wydruki wykonane przez MM3D.
+- Gotowy wydruk dostarczony przez klienta może zostać przyjęty do malowania po indywidualnej ocenie materiału, jakości powierzchni i zakresu przygotowania, poza standardowym formularzem.
+- Malowanie jest zawsze wyceniane indywidualnie na podstawie wielkości modelu, liczby kolorów, ilości detali, oczekiwanego efektu i potrzebnego przygotowania powierzchni.
+- Strona nie pokazuje stałego cennika malowania ani ceny „od”.
 
 ## Płatność etapowa za modelowanie
 
@@ -174,8 +192,8 @@ Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 64**:
+Następne pytanie to **pytanie 69**:
 
-> Kiedy w ścieżce modelowania klient wybiera usuwanie podpór, szlifowanie albo malowanie gotowego modelu?
+> Kiedy klient otrzymuje ostateczną cenę malowania i kiedy za nie płaci?
 
-Rekomendacja: klient może zaznaczyć zainteresowanie tymi usługami już w pierwszym formularzu, ale ostateczny zakres i cena są potwierdzane dopiero po ustaleniu geometrii oraz wyglądu modelu. Każda usługa pozostaje niezależna i opcjonalna; malowanie wymaga osobnego opisu oczekiwanego efektu.
+Rekomendacja: pierwsza wycena modelowania pokazuje szacunkowy koszt malowania. Po akceptacji niemalowanego prototypu finalnego MM3D potwierdza ostateczny zakres i cenę malowania, a klient płaci przed rozpoczęciem tej usługi. Dzięki temu wcześniej zna przybliżony budżet, ale ostateczna cena uwzględnia rzeczywistą geometrię i powierzchnię gotowego modelu.
