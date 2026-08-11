@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 93 włącznie, a pytanie 92 pominięte 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 94. Techniczny sposób przekazywania plików, kwalifikowanie realizacji do portfolio i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 98 włącznie, a pytanie 92 pominięte 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 99. Techniczny sposób przekazywania plików, kwalifikowanie realizacji do portfolio i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -270,13 +270,23 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Zdjęciu lub renderowi w portfolio może towarzyszyć neutralny opis rodzaju realizacji, zastosowanej technologii, materiału i usług wykonanych przez MM3D.
 - Opis nie zawiera nazwy klienta, danych kontaktowych, numeru zamówienia, poufnych wymiarów ani informacji pozwalających powiązać projekt z klientem.
 - Podanie nazwy klienta albo szerszego opisu wymaga osobnego uzgodnienia.
+- Klient nie zatwierdza osobno wpisu, jeżeli realizacja kwalifikuje się do portfolio, nie jest oznaczona jako poufna, a publikacja zawiera wyłącznie własne zdjęcia lub rendery MM3D i neutralny opis.
+- Osobne uzgodnienie jest potrzebne przy podaniu nazwy klienta, jego wypowiedzi albo dodatkowych informacji dotyczących zlecenia.
+- Portfolio nie pokazuje dokładnej ceny konkretnej realizacji, ponieważ indywidualne wyceny zależą od zakresu i mogą się zmieniać.
+- Portfolio pełni wyłącznie funkcję prezentacyjną i nie zawiera przycisku prowadzącego do podobnej wyceny.
+- Do złożenia zapytania służą wyłącznie dwa wcześniej ustalone przyciski: główny **„Wyślij plik do wyceny”** oraz drugoplanowy **„Nie masz modelu? Opisz swój pomysł”**.
+- Wszystkie realizacje znajdują się w jednej wspólnej galerii, bez osobnych podstron ofertowych i nowych ścieżek zamówienia.
+- Realizacje mogą mieć lekkie oznaczenia wykonanych usług: **FDM**, **żywica**, **modelowanie**, **malowanie** i **wykończenie**.
+- Oznaczenia pomagają zrozumieć zakres pracy i mogą służyć do prostego filtrowania, ale nie zmieniają dwóch ustalonych formularzy; sposób techniczny potwierdza Parzej.
+- Jedna realizacja zawiera jedno zdjęcie główne oraz dwa, maksymalnie trzy zdjęcia uzupełniające, czyli łącznie 3–4 materiały wizualne.
+- Zdjęcia uzupełniające dopowiadają istotne szczegóły wykonania i nie tworzą rozbudowanej dokumentacji projektu.
 
 Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl/eli/DU/2024/1061/ogl), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl) oraz ryzyko automatycznego przepadku zaliczki wskazane w [rejestrze klauzul niedozwolonych UOKiK](https://rejestr.uokik.gov.pl/wyszukiwanie.php?details=4088).
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 94**:
+Następne pytanie to **pytanie 99**:
 
-> Czy klient musi zatwierdzić konkretny wpis w portfolio przed jego publikacją?
+> Jak powinno wyglądać zdjęcie główne realizacji?
 
-Rekomendacja: nie, jeżeli realizacja kwalifikuje się do portfolio, nie została oznaczona jako poufna, a wpis zawiera wyłącznie własne zdjęcia lub rendery MM3D i neutralny opis. Osobna akceptacja jest potrzebna tylko wtedy, gdy MM3D chce podać nazwę klienta, jego wypowiedź albo dodatkowe informacje dotyczące zlecenia.
+Rekomendacja: powinno pokazywać gotowy produkt w całości, na prostym i spójnym tle, w czytelnym świetle, bez bałaganu warsztatowego i elementów odciągających uwagę. Zdjęcia uzupełniające mogą pokazywać detale, skalę albo istotny fragment procesu.

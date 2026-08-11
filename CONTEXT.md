@@ -89,7 +89,7 @@ Przechowywanie zdjęć, rysunków, dokumentacji i innych materiałów klienta ty
 _Avoid_: Bezterminowe archiwum, gwarantowany okres przechowywania pliku, automatyczne 24 miesiące
 
 **Realizacja portfolio**:
-Ukończony model lub wydruk, którego własne zdjęcia albo rendery MM3D może publicznie pokazać jako przykład swojej pracy. Nie obejmuje projektu objętego poufnością ani zawierającego dane lub wizerunek osoby, cudzy znak albo chroniony wzór, prototyp, poufną część mechaniczną bądź inną treść, do której MM3D nie ma prawa publikacji.
+Ukończony model lub wydruk, którego własne zdjęcia albo rendery MM3D może publicznie pokazać jako przykład swojej pracy; pełni wyłącznie funkcję prezentacyjną i nie zawiera przycisku prowadzącego do wyceny. Nie obejmuje projektu objętego poufnością ani zawierającego dane lub wizerunek osoby, cudzy znak albo chroniony wzór, prototyp, poufną część mechaniczną bądź inną treść, do której MM3D nie ma prawa publikacji.
 _Avoid_: Materiały referencyjne klienta, projekt poufny, automatyczne prawo do każdej publikacji
 
 **Projekt poufny**:
@@ -101,8 +101,16 @@ Indywidualnie uzgadniany zakres ochrony projektu wykraczający poza bezpłatne w
 _Avoid_: Projekt poufny, model wyłączny, bezpłatne wyłączenie z portfolio
 
 **Opis realizacji portfolio**:
-Neutralna informacja towarzysząca zdjęciu lub renderowi, ograniczona do rodzaju realizacji, technologii, materiału i wykonanych usług. Nie zawiera nazwy ani danych klienta, numeru zamówienia, poufnych wymiarów ani informacji pozwalających powiązać projekt z klientem bez osobnego uzgodnienia.
+Neutralna informacja towarzysząca zdjęciu lub renderowi, ograniczona do rodzaju realizacji, technologii, materiału i wykonanych usług, która nie wymaga akceptacji klienta. Nie zawiera ceny, ponieważ wyceny mogą się zmieniać, ani nazwy lub danych klienta, jego wypowiedzi, numeru zamówienia, poufnych wymiarów i informacji pozwalających powiązać projekt z klientem bez osobnego uzgodnienia.
 _Avoid_: Dane klienta, materiały referencyjne, opis poufnej dokumentacji
+
+**Oznaczenie realizacji portfolio**:
+Lekkie oznaczenie zakresu pracy widoczne przy realizacji w jednej wspólnej galerii, na przykład FDM, żywica, modelowanie, malowanie albo wykończenie. Pomaga rozpoznać wykonane usługi, ale nie tworzy osobnej kategorii zamówienia, formularza ani ścieżki klienta.
+_Avoid_: Osobna oferta, nowy formularz, sztywna kategoria zamówienia
+
+**Zestaw zdjęć realizacji**:
+Materiały wizualne jednej pozycji portfolio: jedno zdjęcie główne oraz dwa, maksymalnie trzy zdjęcia uzupełniające, które dopowiadają istotne cechy wykonania. Nie jest pełną dokumentacją projektu ani zbiorem materiałów referencyjnych klienta.
+_Avoid_: Jedno przypadkowe ujęcie, rozbudowana dokumentacja projektu, materiały klienta
 
 **Tura poprawek**:
 Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny. Usunięcie niezgodności wynikającej z błędu MM3D nie zużywa tury poprawek.
