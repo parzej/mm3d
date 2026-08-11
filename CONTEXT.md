@@ -51,3 +51,7 @@ _Avoid_: Projektowanie modelu, naprawa geometrii
 **Ingerencja w model**:
 Naprawa lub zmiana geometrii modelu dostarczonego przez klienta, wyceniana oddzielnie jako projektowanie modelu.
 _Avoid_: Przygotowanie druku, bezpłatna poprawka
+
+**Benchmark funkcjonalności WWW**:
+Strona [warstwokracja.pl](https://warstwokracja.pl) jako punkt odniesienia dla zakresu funkcji i ścieżek użytkownika w serwisie MM3D, bez traktowania jej wyglądu, treści, marki ani implementacji jako wzorca do kopiowania.
+_Avoid_: Benchmark wizualny, kopia strony, specyfikacja jeden do jednego
