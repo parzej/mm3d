@@ -68,6 +68,10 @@ _Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cen
 Zestaw renderów lub widoków modelu przedstawiany klientowi przed wykonaniem prototypu wstępnego w celu potwierdzenia ogólnego kształtu, proporcji i zgodności z ustaleniami. Nie jest przekazaniem pliku modelu ani turą poprawek.
 _Avoid_: Prototyp fizyczny, plik modelu dla klienta, tura poprawek
 
+**Wstrzymanie projektu**:
+Czasowe zatrzymanie modelowania po braku odpowiedzi klienta mimo przypomnienia. Nie oznacza akceptacji ani anulowania projektu; dotychczasowy termin przestaje obowiązywać, a wznowienie wymaga potwierdzenia nowego terminu przez MM3D.
+_Avoid_: Automatyczna akceptacja, anulowanie zamówienia, zachowanie pierwotnego terminu
+
 **Prototyp wstępny**:
 Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek.
 _Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D

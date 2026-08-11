@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 56 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 57. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 57 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 58. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -54,6 +54,15 @@ Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na os
 - Cyfrowy podgląd służy wychwyceniu oczywistych nieporozumień przed poniesieniem kosztu wydruku.
 - Zatwierdzenie podglądu nie jest osobnym polem formularza ani punktem zamówienia i nie zużywa żadnej z dwóch tur poprawek.
 - Zasady tego etapu są opisane w regulaminie, a potwierdzenie klienta pozostaje zapisane w wiadomości e-mail.
+
+## Brak odpowiedzi i wstrzymanie projektu
+
+- Klient ma pięć dni roboczych na odpowiedź na cyfrowy podgląd albo prośbę o zebranie uwag.
+- Po upływie tego terminu MM3D wysyła jedno przypomnienie.
+- Jeżeli klient nie odpowie przez kolejnych pięć dni roboczych, projekt zostaje wstrzymany, a dotychczasowy termin realizacji przestaje obowiązywać.
+- Brak odpowiedzi nie oznacza automatycznej akceptacji podglądu, projektu ani prototypu.
+- Wznowienie następuje po odpowiedzi klienta i potwierdzeniu przez MM3D nowego dostępnego terminu.
+- Szczegółowa zasada wstrzymania znajduje się w regulaminie, a nie w formularzu zamówienia.
 
 ## Standardowy rezultat
 
@@ -126,8 +135,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 57**:
+Następne pytanie to **pytanie 58**:
 
-> Co dzieje się, gdy klient nie odpowiada na cyfrowy podgląd albo prośbę o uwagi?
+> Jak szczegółowo wycena modelowania ma określać harmonogram realizacji?
 
-Rekomendacja: klient ma pięć dni roboczych na odpowiedź. Po tym czasie MM3D wysyła jedno przypomnienie. Jeżeli odpowiedzi nadal nie ma przez kolejne pięć dni roboczych, projekt zostaje wstrzymany, a termin realizacji przestaje obowiązywać. Brak odpowiedzi nigdy nie oznacza automatycznej akceptacji; wznowienie następuje po odpowiedzi klienta i potwierdzeniu nowego terminu przez MM3D.
+Rekomendacja: wycena wskazuje orientacyjne terminy cyfrowego podglądu, prototypu wstępnego, prototypu finalnego i gotowej realizacji. Harmonogram liczy się od otrzymania pierwszej płatności oraz kompletu uzgodnionych materiałów. Czas oczekiwania na odpowiedź, dodatkowe zmiany klienta i wstrzymanie projektu odpowiednio przesuwają terminy.
