@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 53 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 54. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 54 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 55. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -32,6 +32,10 @@ Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na os
 - Klient nie wysyła przedmiotu razem z pierwszym zapytaniem ani samodzielnie przed uzgodnieniem szczegółów.
 - Po wstępnej ocenie zapytania MM3D potwierdza, czy fizyczny przedmiot jest potrzebny.
 - Dopiero po takim potwierdzeniu klient otrzymuje instrukcję nadania przez InPost i może wysłać przedmiot.
+- Klient opłaca przesyłkę przedmiotu do MM3D.
+- Koszt przesyłki zwrotnej jest wskazany w wycenie i płacony razem z zamówieniem.
+- MM3D odsyła przedmiot razem z gotowym wydrukiem.
+- Jeżeli realizacja nie dochodzi do skutku, MM3D odsyła przedmiot po opłaceniu przez klienta samej przesyłki zwrotnej.
 
 ## Doprecyzowanie projektu
 
@@ -113,8 +117,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 54**:
+Następne pytanie to **pytanie 55**:
 
-> Kto pokrywa koszty wysłania i zwrotu przedmiotu referencyjnego?
+> Jak dokumentujemy stan fizycznego przedmiotu referencyjnego podczas wysyłki i zwrotu?
 
-Rekomendacja: klient opłaca przesyłkę do MM3D. Koszt zwrotu jest wskazany w wycenie i płacony razem z zamówieniem. MM3D odsyła przedmiot razem z gotowym wydrukiem, a jeżeli realizacja nie dochodzi do skutku — po opłaceniu samej przesyłki zwrotnej.
+Rekomendacja: klient wykonuje zdjęcia przedmiotu i zapakowanej przesyłki przed nadaniem. MM3D fotografuje stan paczki przy odbiorze, przedmiot po rozpakowaniu oraz jego stan przed przesyłką zwrotną. Widoczne uszkodzenie paczki lub przedmiotu jest zgłaszane klientowi i przewoźnikowi bez rozpoczynania pomiarów.
