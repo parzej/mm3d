@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 50 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 51. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 51 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 52. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -93,10 +93,19 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Nieudany wydruk wynikający z błędu MM3D jest wykonywany ponownie na koszt MM3D i nie jest liczony jako prototyp wstępny ani finalny.
 - Dodatkowe prototypy wynikające ze zmiany koncepcji lub rozszerzenia zakresu przez klienta wymagają osobnej wyceny.
 
+## Płatność etapowa za modelowanie
+
+- Klient płaci 50% zaakceptowanej ceny przed rozpoczęciem modelowania.
+- Pozostałe 50% płaci po zaakceptowaniu uzgodnionych poprawek i przed wykonaniem prototypu finalnego.
+- Przy zamówieniu większej liczby sztuk produkcja pozostałego nakładu jest osobno wyceniona.
+- Klient płaci za pozostały nakład po zaakceptowaniu prototypu finalnego i przed rozpoczęciem jego produkcji.
+
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 51**:
+Następne pytanie to **pytanie 52**:
 
-> W jakich etapach klient płaci za projektowanie i prototypy?
+> Czy MM3D ma rozpoczynać modelowanie przed upływem 14-dniowego terminu na odstąpienie przez konsumenta?
 
-Rekomendacja: 50% przed rozpoczęciem modelowania, a pozostałe 50% po zaakceptowaniu poprawek i przed wykonaniem prototypu finalnego. Produkcja pozostałych sztuk rozpoczyna się dopiero po akceptacji prototypu finalnego i opłaceniu osobno wycenionego nakładu.
+Rekomendacja: klient może wyraźnie zażądać rozpoczęcia modelowania od razu, przed upływem 14 dni, w osobnym i niezaznaczonym domyślnie oświadczeniu utrwalonym na trwałym nośniku. Powinien wcześniej otrzymać informację, że w razie ustawowego odstąpienia zapłaci proporcjonalnie za świadczenie wykonane do tej chwili, a po pełnym wykonaniu usługi może utracić prawo odstąpienia. Bez takiego żądania MM3D rozpoczyna pracę po upływie ustawowego terminu. Dokładna kwalifikacja umowy łączącej modelowanie z indywidualnym wydrukiem i treść oświadczenia wymagają sprawdzenia przez prawnika.
+
+Źródła: [UOKiK — odstąpienie od umowy](https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/odstapienie-od-umowy/), [UOKiK — wyłączenia prawa do odstąpienia](https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl).

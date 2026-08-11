@@ -64,6 +64,10 @@ _Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D
 Drugi fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, pokazujący końcowy rezultat modelowania. Przy zamówieniu jednej sztuki jest gotowym wydrukiem dla klienta, a przy większej liczbie — egzemplarzem wzorcowym akceptowanym przed wykonaniem pozostałych sztuk. Nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
 _Avoid_: Prototyp wstępny, każdy kolejny wydruk, nieudany wydruk MM3D
 
+**Płatność etapowa za modelowanie**:
+Podział ceny modelowania na dwie części: 50% przed rozpoczęciem pracy oraz 50% po zaakceptowaniu poprawek i przed wykonaniem prototypu finalnego. Cena większego nakładu jest rozliczana osobno po akceptacji prototypu finalnego i przed rozpoczęciem produkcji.
+_Avoid_: Pełna przedpłata za modelowanie, płatność dopiero po zakończeniu, zadatek
+
 **Klient podstawowej usługi**:
 Hobbysta lub osoba prywatna zamawiająca pojedyncze albo powtarzalne wydruki z gotowych modeli 3D. Nie oznacza klienta przemysłowego oczekującego przemysłowego procesu realizacji.
 _Avoid_: Klient przemysłowy, odbiorca masowej produkcji

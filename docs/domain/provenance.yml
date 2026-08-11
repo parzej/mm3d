@@ -127,6 +127,13 @@ terms:
       - contributor: goras
         kind: revised
         date: 2026-08-11
+  "Płatność etapowa za modelowanie":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
   "Klient podstawowej usługi":
     introduced_by: goras
     introduced_on: 2026-08-11
