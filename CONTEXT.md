@@ -88,6 +88,22 @@ _Avoid_: Bezterminowe archiwum, przechowywanie materiałów referencyjnych, kopi
 Przechowywanie zdjęć, rysunków, dokumentacji i innych materiałów klienta tylko przez okres niezbędny do realizacji, obsługi reklamacji oraz ochrony przed roszczeniami. Nie dziedziczy automatycznie 24-miesięcznego okresu pliku produkcyjnego; okres lub kryterium ustala się osobno dla każdej kategorii materiałów.
 _Avoid_: Bezterminowe archiwum, gwarantowany okres przechowywania pliku, automatyczne 24 miesiące
 
+**Realizacja portfolio**:
+Ukończony model lub wydruk, którego własne zdjęcia albo rendery MM3D może publicznie pokazać jako przykład swojej pracy. Nie obejmuje projektu objętego poufnością ani zawierającego dane lub wizerunek osoby, cudzy znak albo chroniony wzór, prototyp, poufną część mechaniczną bądź inną treść, do której MM3D nie ma prawa publikacji.
+_Avoid_: Materiały referencyjne klienta, projekt poufny, automatyczne prawo do każdej publikacji
+
+**Projekt poufny**:
+Realizacja bezpłatnie oznaczona przez klienta jako wyłączona z publikacji zdjęć i renderów w portfolio MM3D. Samo oznaczenie dotyczy publicznej prezentacji i nie tworzy wyłączności na model, nie przenosi praw autorskich ani nie zastępuje odrębnej umowy o poufności.
+_Avoid_: Model wyłączny, przeniesienie praw, automatyczna umowa NDA
+
+**Rozszerzona poufność**:
+Indywidualnie uzgadniany zakres ochrony projektu wykraczający poza bezpłatne wyłączenie z portfolio, na przykład formalna umowa NDA, szczególne zasady dostępu do plików lub ograniczenia wobec podwykonawców. Może wpłynąć na cenę i nie jest automatycznie częścią zwykłego oznaczenia projektu jako poufnego.
+_Avoid_: Projekt poufny, model wyłączny, bezpłatne wyłączenie z portfolio
+
+**Opis realizacji portfolio**:
+Neutralna informacja towarzysząca zdjęciu lub renderowi, ograniczona do rodzaju realizacji, technologii, materiału i wykonanych usług. Nie zawiera nazwy ani danych klienta, numeru zamówienia, poufnych wymiarów ani informacji pozwalających powiązać projekt z klientem bez osobnego uzgodnienia.
+_Avoid_: Dane klienta, materiały referencyjne, opis poufnej dokumentacji
+
 **Tura poprawek**:
 Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny. Usunięcie niezgodności wynikającej z błędu MM3D nie zużywa tury poprawek.
 _Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cenie

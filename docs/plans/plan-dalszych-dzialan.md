@@ -139,6 +139,7 @@ Przed uruchomieniem strony należy przygotować regulamin obejmujący wszystkie 
 - zasady dodatkowych poprawek, zmiany koncepcji i rozszerzenia zakresu;
 - model niewyłączny, model wyłączny, przekazanie pliku, nieograniczoną sprzedaż fizycznych wydruków, zakaz dystrybucji pliku cyfrowego oraz prawa do projektu;
 - rozróżnienie końcowego pliku produkcyjnego do druku od edytowalnego pliku źródłowego, moment wydania pliku produkcyjnego wraz z ostatnim elementem realizacji oraz zasadę, że przekazanie źródła wymaga osobnego ustalenia i ceny;
+- możliwość prezentowania w portfolio własnych zdjęć i renderów kwalifikujących się realizacji, wyłączenia dotyczące poufności, danych osobowych, praw osób trzecich, prototypów i dokumentacji technicznej, bezpłatne oznaczenie projektu jako nieprzeznaczonego do publikacji oraz indywidualnie wycenianą rozszerzoną poufność;
 - odpowiedzialność za pliki, materiały i przedmioty referencyjne oraz możliwość odmowy realizacji;
 - modelowanie odwrotne, wysyłkę, zabezpieczenie, przechowanie i zwrot przedmiotu referencyjnego;
 - odstąpienie od umowy, rezygnację w trakcie prac, indywidualne rozliczenie wartości wykonanego zakresu i kosztów, których MM3D nie oszczędzi, warunek wydania pliku po rezygnacji przy łącznej wpłacie wynoszącej co najmniej 50% wartości całego zlecenia, rozliczenie niewykonanego zakresu oraz zasady postępowania z niedokończonymi materiałami roboczymi, gdy modelowania lub dalszej realizacji nie może ukończyć MM3D;
@@ -173,7 +174,8 @@ Należy wybrać od 6 do 10 rzeczywistych realizacji. Każda realizacja powinna z
 - zastosowany materiał;
 - informację, czy klient dostarczył gotowy plik, czy model powstał w MM3D;
 - jedno zdanie o rozwiązanym problemie albo podjętej decyzji;
-- zgodę na publiczne pokazanie realizacji, jeżeli projekt należał do klienta.
+- potwierdzenie, że realizacja nie jest objęta poufnością, nie zawiera danych osobowych ani cudzych chronionych elementów i kwalifikuje się do publicznego pokazania według zasad portfolio.
+- neutralny opis rodzaju realizacji, technologii, materiału i wykonanych usług, bez danych klienta, numeru zamówienia ani poufnych informacji.
 
 Warto przygotować także:
 
@@ -311,4 +313,4 @@ Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych 
 
 ## Najbliższa sesja robocza
 
-Następna część grillowania zaczyna się od pytania 89 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
+Następna część grillowania zaczyna się od pytania 94; pytanie 92 zostało pominięte bez wprowadzania dodatkowej procedury. Sesja kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.

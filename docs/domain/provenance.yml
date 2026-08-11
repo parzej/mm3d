@@ -187,6 +187,37 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-11
+  "Realizacja portfolio":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Projekt poufny":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+      - contributor: goras
+        kind: revised
+        date: 2026-08-11
+  "Rozszerzona poufność":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Opis realizacji portfolio":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
   "Tura poprawek":
     introduced_by: goras
     introduced_on: 2026-08-11

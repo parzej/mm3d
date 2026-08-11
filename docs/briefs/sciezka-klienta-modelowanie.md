@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 88 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 89. Techniczny sposób przekazywania plików i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 93 włącznie, a pytanie 92 pominięte 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 94. Techniczny sposób przekazywania plików, kwalifikowanie realizacji do portfolio i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -255,12 +255,28 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Materiały, które nie są już potrzebne do żadnego uzasadnionego celu, są usuwane zgodnie z procedurą potwierdzoną przez Parzeja i prawnika.
 - Zasada wynika z ograniczenia przechowywania danych opisanego przez [UODO](https://uodo.gov.pl/pl/676/4260) i wymaga prawnej weryfikacji dla konkretnych kategorii danych.
 
+## Portfolio MM3D
+
+- MM3D może publikować własne zdjęcia lub rendery zwykłej, ukończonej realizacji jako przykład swojej pracy.
+- Materiały referencyjne przesłane przez klienta nie są publikowane jako część portfolio.
+- MM3D nie publikuje realizacji objętej poufnością ani zawierającej dane lub wizerunek osoby, cudzy znak albo chroniony wzór bez odpowiednich praw, prototyp, poufną część mechaniczną, dokumentację techniczną klienta lub inne rozwiązanie, którego publikacja naruszałaby niezależne ograniczenie.
+- Każda realizacja jest sprawdzana pod kątem tych ograniczeń przed publikacją; samo wykonanie wydruku nie usuwa praw osób trzecich ani obowiązku zachowania poufności.
+- Regulamin informuje o możliwości prezentowania kwalifikujących się realizacji w portfolio, a ostateczne zasady i proces weryfikacji zatwierdza prawnik.
+- Formularz zawiera opcjonalne, domyślnie niezaznaczone pole **„Projekt poufny — nie publikuj zdjęć ani renderów realizacji”**.
+- Zaznaczenie pola wyłącza realizację z portfolio niezależnie od tego, czy występuje inne ograniczenie publikacji.
+- Zwykłe wyłączenie realizacji z portfolio jest bezpłatne.
+- Oznaczenie projektu jako poufnego nie daje klientowi wyłączności na model, nie przenosi praw autorskich i nie zastępuje osobnej umowy o poufności.
+- Formalna umowa NDA, szczególne zasady dostępu do plików, ograniczenia dotyczące podwykonawców albo inne wymagania rozszerzonej poufności są ustalane indywidualnie i mogą wpłynąć na cenę.
+- Zdjęciu lub renderowi w portfolio może towarzyszyć neutralny opis rodzaju realizacji, zastosowanej technologii, materiału i usług wykonanych przez MM3D.
+- Opis nie zawiera nazwy klienta, danych kontaktowych, numeru zamówienia, poufnych wymiarów ani informacji pozwalających powiązać projekt z klientem.
+- Podanie nazwy klienta albo szerszego opisu wymaga osobnego uzgodnienia.
+
 Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl/eli/DU/2024/1061/ogl), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl) oraz ryzyko automatycznego przepadku zaliczki wskazane w [rejestrze klauzul niedozwolonych UOKiK](https://rejestr.uokik.gov.pl/wyszukiwanie.php?details=4088).
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 89**:
+Następne pytanie to **pytanie 94**:
 
-> Czy MM3D może pokazać wykonany model lub gotowy wydruk w portfolio?
+> Czy klient musi zatwierdzić konkretny wpis w portfolio przed jego publikacją?
 
-Rekomendacja: wyłącznie po osobnej, dobrowolnej zgodzie klienta. Brak zgody nie wpływa na cenę ani realizację. Zgoda powinna oddzielnie wskazywać możliwość pokazania gotowego wydruku lub renderu oraz możliwość wykorzystania materiałów referencyjnych klienta; domyślnie MM3D nie publikuje żadnego z nich.
+Rekomendacja: nie, jeżeli realizacja kwalifikuje się do portfolio, nie została oznaczona jako poufna, a wpis zawiera wyłącznie własne zdjęcia lub rendery MM3D i neutralny opis. Osobna akceptacja jest potrzebna tylko wtedy, gdy MM3D chce podać nazwę klienta, jego wypowiedź albo dodatkowe informacje dotyczące zlecenia.
