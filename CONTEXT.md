@@ -18,7 +18,15 @@ _Avoid_: Zamówienie, zlecenie
 
 **Wycena**:
 Przygotowana przez MM3D propozycja realizacji określająca zakres, parametry wydruku, ceny brutto, koszt dostawy, przewidywany termin, ograniczenia i okres ważności. Staje się podstawą zamówienia dopiero po akceptacji klienta.
-_Avoid_: Cennik, zamówienie, automatyczna kalkulacja
+_Avoid_: Cennik, zamówienie, automatyczna kalkulacja, szacunek kosztu serii
+
+**Szacunek kosztu serii**:
+Orientacyjna kwota dla większej liczby sztuk podawana przed wykonaniem prototypu finalnego, aby klient mógł wstępnie ocenić opłacalność nakładu. Nie jest ostateczną wyceną produkcji seryjnej.
+_Avoid_: Cena gwarantowana, wycena produkcji seryjnej, kwota do przedpłaty za nakład
+
+**Wycena produkcji seryjnej**:
+Ostateczna propozycja ceny jednostkowej i całkowitej większego nakładu, przygotowana po akceptacji prototypu finalnego na podstawie rzeczywistego czasu druku, zużycia materiału i zakresu obróbki. Wymaga akceptacji oraz zapłaty przed rozpoczęciem produkcji.
+_Avoid_: Szacunek kosztu serii, automatyczny cennik, cena przed prototypem finalnym
 
 **Okres ważności wyceny**:
 Siedem dni kalendarzowych od wysłania wyceny, w których klient może ją zaakceptować na podanych warunkach. Po tym czasie MM3D ponownie potwierdza cenę i dostępny termin.
@@ -61,7 +69,7 @@ Indywidualnie wyceniany wariant projektowania, w którym MM3D zobowiązuje się 
 _Avoid_: Model niewyłączny, automatyczne przeniesienie praw, standardowa cena modelowania
 
 **Tura poprawek**:
-Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny.
+Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny. Usunięcie niezgodności wynikającej z błędu MM3D nie zużywa tury poprawek.
 _Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cenie
 
 **Cyfrowy podgląd modelu**:
@@ -77,16 +85,20 @@ Ustalane w wycenie orientacyjne terminy cyfrowego podglądu, prototypu wstępneg
 _Avoid_: Publiczny stały termin dla każdego projektu, gwarancja niezależna od odpowiedzi klienta
 
 **Prototyp wstępny**:
-Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek.
+Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek. Standardowo ocenia go MM3D na podstawie pomiarów, zdjęć lub filmu; jest wysyłany klientowi tylko wtedy, gdy potrzebny jest jego osobisty test.
 _Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D
 
 **Prototyp finalny**:
-Drugi fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, pokazujący końcowy rezultat modelowania. Przy zamówieniu jednej sztuki jest gotowym wydrukiem dla klienta, a przy większej liczbie — egzemplarzem wzorcowym akceptowanym przed wykonaniem pozostałych sztuk. Nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
+Drugi fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, pokazujący końcowy rezultat modelowania. Przy zamówieniu jednej sztuki jest gotowym wydrukiem dla klienta, a przy większej liczbie — egzemplarzem wzorcowym wymagającym jednoznacznej akceptacji klienta przed wykonaniem pozostałych sztuk. Sposób wykazania zgodności dobiera się indywidualnie. Nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
 _Avoid_: Prototyp wstępny, każdy kolejny wydruk, nieudany wydruk MM3D
 
 **Płatność etapowa za modelowanie**:
 Podział ceny modelowania na dwie części: 50% przed rozpoczęciem pracy oraz 50% po zaakceptowaniu poprawek i przed wykonaniem prototypu finalnego. Cena większego nakładu jest rozliczana osobno po akceptacji prototypu finalnego i przed rozpoczęciem produkcji.
 _Avoid_: Pełna przedpłata za modelowanie, płatność dopiero po zakończeniu, zadatek
+
+**Rozliczenie rezygnacji z modelowania**:
+Indywidualne ustalenie należności po rezygnacji klienta na podstawie wartości wykonanej pracy i kosztów, których MM3D nie oszczędzi wskutek przerwania projektu. Całe pierwsze 50% pozostaje u MM3D, gdy uzasadnia to zaawansowanie i wartość realizacji; nie jest to automatyczny przepadek zaliczki niezależny od wykonanej pracy.
+_Avoid_: Automatyczny przepadek 50%, bezwarunkowy zwrot całej płatności, bezpłatne przekazanie modelu cyfrowego
 
 **Klient podstawowej usługi**:
 Hobbysta lub osoba prywatna zamawiająca pojedyncze albo powtarzalne wydruki z gotowych modeli 3D. Nie oznacza klienta przemysłowego oczekującego przemysłowego procesu realizacji.

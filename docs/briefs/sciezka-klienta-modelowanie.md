@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 58 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 59. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 63 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 64. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -115,14 +115,25 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Druga tura służy drobnym korektom po wprowadzeniu pierwszego zestawu uwag.
 - Poprawki muszą mieścić się w zaakceptowanym zakresie projektu.
 - Zmiana koncepcji, dodanie nowych elementów albo powrót do wcześniej odrzuconej wersji wymaga osobnej wyceny.
+- Usunięcie niezgodności z pisemnie potwierdzonym zakresem, która wynika z błędu MM3D, odbywa się na koszt MM3D i nie zużywa dodatkowej tury poprawek.
+- Zmiana oczekiwań albo wcześniej zaakceptowanych ustaleń przez klienta wymaga nowej wyceny i harmonogramu.
+- W razie wątpliwości podstawą oceny zgodności są ustalenia zapisane i potwierdzone w wiadomościach.
+- Szczegółowe zasady rozróżniania błędu MM3D od zmiany zakresu przez klienta znajdują się w regulaminie.
 
 ## Prototypy fizyczne
 
 - Standardowa wycena modelowania obejmuje dwa fizyczne prototypy.
 - Pierwszy jest prototypem wstępnym. Służy sprawdzeniu projektu oraz zebraniu uwag klienta przed wykonaniem poprawek.
+- Standardowo MM3D ocenia prototyp wstępny, wykonuje potrzebne pomiary i przesyła klientowi zdjęcia albo film.
+- Jeżeli projekt wymaga osobistego sprawdzenia dopasowania, działania lub odczuć przez klienta, prototyp wstępny jest do niego wysyłany.
+- Dodatkowy czas i koszt takiego transportu są uwzględniane w wycenie. Prototyp wstępny nie jest wysyłany automatycznie w każdym projekcie.
+- Sposób oceny prototypu wstępnego jest opisany w regulaminie, a decyzja o jego wysyłce pozostaje elementem indywidualnej wyceny.
 - Drugi jest prototypem finalnym. Powstaje po uwzględnieniu uzgodnionych poprawek i pokazuje końcowy rezultat modelowania.
 - Przy zamówieniu jednej sztuki prawidłowy prototyp finalny jest gotowym wydrukiem przekazywanym klientowi.
 - Przy zamówieniu większej liczby sztuk prototyp finalny jest egzemplarzem wzorcowym. Klient akceptuje go przed wykonaniem pozostałych sztuk.
+- Zakres informacji, zdjęć, nagrań, pomiarów albo testów potrzebnych do akceptacji prototypu finalnego jest dobierany indywidualnie podczas realizacji.
+- Klient zatwierdza prototyp finalny jednoznaczną odpowiedzią e-mail. Bez takiej akceptacji MM3D nie rozpoczyna produkcji pozostałych sztuk.
+- Zasada akceptacji produkcji finalnej jest opisana w regulaminie, a nie jako stały punkt formularza lub zamówienia.
 - Nieudany wydruk wynikający z błędu MM3D jest wykonywany ponownie na koszt MM3D i nie jest liczony jako prototyp wstępny ani finalny.
 - Dodatkowe prototypy wynikające ze zmiany koncepcji lub rozszerzenia zakresu przez klienta wymagają osobnej wyceny.
 
@@ -133,6 +144,14 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Przy zamówieniu większej liczby sztuk produkcja pozostałego nakładu jest osobno wyceniona.
 - Klient płaci za pozostały nakład po zaakceptowaniu prototypu finalnego i przed rozpoczęciem jego produkcji.
 
+## Cena produkcji seryjnej
+
+- Przy składaniu zamówienia klient widzi wyraźną informację, że początkowa kwota dotycząca większej liczby sztuk jest szacunkiem kosztu serii, a nie ostateczną wyceną produkcji.
+- Pierwsza wycena może zawierać szacunek kosztu serii, aby klient mógł wstępnie ocenić opłacalność planowanego nakładu.
+- Po wykonaniu i zaakceptowaniu prototypu finalnego MM3D zna rzeczywiste zużycie materiału, czas druku i zakres obróbki.
+- Na tej podstawie MM3D przygotowuje ostateczną wycenę produkcji seryjnej z ceną jednostkową i całkowitą.
+- Klient akceptuje ostateczną wycenę i opłaca nakład przed rozpoczęciem produkcji.
+
 ## Harmonogram modelowania
 
 - Wycena zawiera orientacyjne terminy przygotowania cyfrowego podglądu, prototypu wstępnego, prototypu finalnego i gotowej realizacji.
@@ -141,10 +160,22 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Dodatkowe zmiany klienta oraz wznowienie wcześniej wstrzymanego projektu wymagają potwierdzenia zaktualizowanego harmonogramu.
 - Orientacyjne terminy etapów nie są jedną ogólną obietnicą publikowaną dla wszystkich projektów.
 
+## Rezygnacja po rozpoczęciu modelowania
+
+- Klient przekazuje rezygnację e-mailem, a MM3D zatrzymuje dalszą pracę w bezpiecznym momencie.
+- Pierwsze 50% nie przepada automatycznie w każdym przypadku. Rozliczenie zależy od wartości wykonanej pracy oraz kosztów, których MM3D nie oszczędzi wskutek rezygnacji.
+- Jeżeli pierwszy etap jest ukończony albo bliski ukończenia, a wartość wykonanej pracy i poniesionych kosztów wynosi co najmniej 50% ceny, MM3D zatrzymuje całą pierwszą płatność.
+- Jeżeli wartość wykonanej pracy i poniesionych kosztów jest niższa, MM3D zwraca niewykorzystaną część płatności.
+- Jeżeli wartość wykonanej pracy i kosztów przekracza pierwsze 50%, MM3D może dochodzić różnicy, o ile pozwalają na to umowa i obowiązujące przepisy.
+- Rezygnacja nie powoduje automatycznego przekazania klientowi cyfrowego modelu.
+- Szczegółowy mechanizm rozliczenia, dokumentowanie zaawansowania i wymagane informacje konsumenckie znajdują się w regulaminie zatwierdzonym przez prawnika.
+
+Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl/eli/DU/2024/1061/ogl), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl) oraz ryzyko automatycznego przepadku zaliczki wskazane w [rejestrze klauzul niedozwolonych UOKiK](https://rejestr.uokik.gov.pl/wyszukiwanie.php?details=4088).
+
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 59**:
+Następne pytanie to **pytanie 64**:
 
-> Jak klient ocenia prototyp wstępny przed przekazaniem pierwszej tury poprawek?
+> Kiedy w ścieżce modelowania klient wybiera usuwanie podpór, szlifowanie albo malowanie gotowego modelu?
 
-Rekomendacja: standardowo MM3D ocenia prototyp, wykonuje pomiary i przesyła klientowi zdjęcia albo film. Jeżeli projekt wymaga sprawdzenia dopasowania, działania lub odczuć przez klienta, prototyp jest mu wysyłany, a dodatkowy czas i koszt transportu są uwzględniane w wycenie. Prototyp wstępny nie jest wysyłany automatycznie w każdym projekcie.
+Rekomendacja: klient może zaznaczyć zainteresowanie tymi usługami już w pierwszym formularzu, ale ostateczny zakres i cena są potwierdzane dopiero po ustaleniu geometrii oraz wyglądu modelu. Każda usługa pozostaje niezależna i opcjonalna; malowanie wymaga osobnego opisu oczekiwanego efektu.
