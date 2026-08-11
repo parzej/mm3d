@@ -1,0 +1,3 @@
+# Jeden adaptacyjny interfejs dla różnych urządzeń
+
+MM3D używa jednego interfejsu zapewniającego pełną, równoważną ścieżkę klienta na komputerze, tablecie i telefonie. Układ dopasowuje się do dostępnej przestrzeni zamiast rozpoznawać typ lub przekątną urządzenia; obsługuje dotyk, mysz i klawiaturę, działa od szerokości 320 CSS px w obu orientacjach bez poziomego przewijania całej strony i spełnia WCAG 2.2 na poziomie AA. Wybrano tę politykę zamiast osobnych lub okrojonych wariantów urządzeniowych, aby uniknąć rozbieżności funkcji i zachować używalność ścieżki ofertowej niezależnie od ekranu oraz sposobu obsługi.

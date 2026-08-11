@@ -55,3 +55,23 @@ _Avoid_: Przygotowanie druku, bezpłatna poprawka
 **Benchmark funkcjonalności WWW**:
 Strona [warstwokracja.pl](https://warstwokracja.pl) jako punkt odniesienia dla zakresu funkcji i ścieżek użytkownika w serwisie MM3D, bez traktowania jej wyglądu, treści, marki ani implementacji jako wzorca do kopiowania.
 _Avoid_: Benchmark wizualny, kopia strony, specyfikacja jeden do jednego
+
+**Równoważność funkcjonalna urządzeń**:
+Pełna dostępność tej samej ścieżki klienta na komputerze, tablecie i telefonie, niezależnie od różnic w układzie, kolejności treści i elementach dekoracyjnych.
+_Avoid_: Okrojona wersja mobilna, funkcje tylko na komputerze
+
+**Scenariusze urządzeń**:
+Komputer, tablet i telefon jako trzy warunki projektowania i sprawdzania interfejsu MM3D; wariant układu wynika z dostępnej przestrzeni, a nie z rozpoznanego typu urządzenia lub jego przekątnej.
+_Avoid_: Wykrywanie urządzenia, sztywne klasy według przekątnej
+
+**Niezależność sposobu obsługi**:
+Dostępność wszystkich kluczowych działań interfejsu MM3D za pomocą dotyku, myszy i klawiatury, bez uzależniania informacji lub funkcji od najechania kursorem.
+_Avoid_: Funkcja tylko na hover, obsługa tylko myszą
+
+**Zakres responsywności**:
+Obsługiwany zakres interfejsu MM3D od szerokości 320 CSS px wzwyż, w orientacji pionowej i poziomej, bez poziomego przewijania całej strony.
+_Avoid_: Wsparcie tylko popularnych rozdzielczości, poziome przewijanie strony
+
+**Standard dostępności interfejsu**:
+Poziom AA standardu WCAG 2.2 jako minimalne kryterium odbioru interfejsu MM3D we wszystkich scenariuszach urządzeń.
+_Avoid_: Dostępność opcjonalna, dostępność tylko na komputerze
