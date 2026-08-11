@@ -61,7 +61,7 @@ Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu 
 _Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D
 
 **Prototyp finalny**:
-Drugi fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, pokazujący końcowy rezultat modelowania. Nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
+Drugi fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, pokazujący końcowy rezultat modelowania. Przy zamówieniu jednej sztuki jest gotowym wydrukiem dla klienta, a przy większej liczbie — egzemplarzem wzorcowym akceptowanym przed wykonaniem pozostałych sztuk. Nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
 _Avoid_: Prototyp wstępny, każdy kolejny wydruk, nieudany wydruk MM3D
 
 **Klient podstawowej usługi**:

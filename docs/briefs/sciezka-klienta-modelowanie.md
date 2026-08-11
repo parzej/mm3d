@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 49 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 50. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 50 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 51. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -88,13 +88,15 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Standardowa wycena modelowania obejmuje dwa fizyczne prototypy.
 - Pierwszy jest prototypem wstępnym. Służy sprawdzeniu projektu oraz zebraniu uwag klienta przed wykonaniem poprawek.
 - Drugi jest prototypem finalnym. Powstaje po uwzględnieniu uzgodnionych poprawek i pokazuje końcowy rezultat modelowania.
+- Przy zamówieniu jednej sztuki prawidłowy prototyp finalny jest gotowym wydrukiem przekazywanym klientowi.
+- Przy zamówieniu większej liczby sztuk prototyp finalny jest egzemplarzem wzorcowym. Klient akceptuje go przed wykonaniem pozostałych sztuk.
 - Nieudany wydruk wynikający z błędu MM3D jest wykonywany ponownie na koszt MM3D i nie jest liczony jako prototyp wstępny ani finalny.
 - Dodatkowe prototypy wynikające ze zmiany koncepcji lub rozszerzenia zakresu przez klienta wymagają osobnej wyceny.
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 50**:
+Następne pytanie to **pytanie 51**:
 
-> Czy prototyp finalny jest zarazem gotowym wydrukiem dla klienta, czy wzorcem przed wykonaniem zamówionej liczby sztuk?
+> W jakich etapach klient płaci za projektowanie i prototypy?
 
-Rekomendacja: przy zamówieniu jednej sztuki prawidłowy prototyp finalny może być gotowym wydrukiem przekazanym klientowi. Przy większej liczbie sztuk jest egzemplarzem wzorcowym, którego akceptacja poprzedza wykonanie pozostałych sztuk.
+Rekomendacja: 50% przed rozpoczęciem modelowania, a pozostałe 50% po zaakceptowaniu poprawek i przed wykonaniem prototypu finalnego. Produkcja pozostałych sztuk rozpoczyna się dopiero po akceptacji prototypu finalnego i opłaceniu osobno wycenionego nakładu.
