@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 55 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 56. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 56 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 57. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -46,6 +46,14 @@ Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na os
 - Po rozmowie telefonicznej MM3D wysyła krótkie podsumowanie e-mailem.
 - Klient potwierdza podsumowanie przed przygotowaniem ostatecznej wyceny albo rozpoczęciem projektowania.
 - Kluczowe ustalenia dotyczące zakresu, wymiarów, wyglądu i ceny muszą pozostać zapisane w wiadomościach.
+
+## Cyfrowy podgląd modelu
+
+- Przed wykonaniem prototypu wstępnego MM3D przesyła klientowi e-mailem rendery albo zrzuty modelu z najważniejszych stron.
+- Klient potwierdza ogólny kształt, proporcje i zgodność modelu z wcześniejszymi ustaleniami.
+- Cyfrowy podgląd służy wychwyceniu oczywistych nieporozumień przed poniesieniem kosztu wydruku.
+- Zatwierdzenie podglądu nie jest osobnym polem formularza ani punktem zamówienia i nie zużywa żadnej z dwóch tur poprawek.
+- Zasady tego etapu są opisane w regulaminie, a potwierdzenie klienta pozostaje zapisane w wiadomości e-mail.
 
 ## Standardowy rezultat
 
@@ -118,8 +126,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 56**:
+Następne pytanie to **pytanie 57**:
 
-> Czy klient zatwierdza cyfrowy podgląd modelu przed wykonaniem prototypu wstępnego?
+> Co dzieje się, gdy klient nie odpowiada na cyfrowy podgląd albo prośbę o uwagi?
 
-Rekomendacja: MM3D przesyła e-mailem kilka renderów albo zrzutów modelu z najważniejszych stron. Klient potwierdza ogólny kształt, proporcje i zgodność z ustaleniami przed wydrukiem prototypu wstępnego. Takie zatwierdzenie nie zużywa tury poprawek; pozwala jedynie wychwycić oczywiste nieporozumienia przed poniesieniem kosztu druku.
+Rekomendacja: klient ma pięć dni roboczych na odpowiedź. Po tym czasie MM3D wysyła jedno przypomnienie. Jeżeli odpowiedzi nadal nie ma przez kolejne pięć dni roboczych, projekt zostaje wstrzymany, a termin realizacji przestaje obowiązywać. Brak odpowiedzi nigdy nie oznacza automatycznej akceptacji; wznowienie następuje po odpowiedzi klienta i potwierdzeniu nowego terminu przez MM3D.

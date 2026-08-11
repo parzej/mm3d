@@ -64,6 +64,10 @@ _Avoid_: Model niewyłączny, automatyczne przeniesienie praw, standardowa cena 
 Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny.
 _Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cenie
 
+**Cyfrowy podgląd modelu**:
+Zestaw renderów lub widoków modelu przedstawiany klientowi przed wykonaniem prototypu wstępnego w celu potwierdzenia ogólnego kształtu, proporcji i zgodności z ustaleniami. Nie jest przekazaniem pliku modelu ani turą poprawek.
+_Avoid_: Prototyp fizyczny, plik modelu dla klienta, tura poprawek
+
 **Prototyp wstępny**:
 Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek.
 _Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D
