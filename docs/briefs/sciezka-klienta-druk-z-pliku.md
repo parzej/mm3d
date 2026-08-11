@@ -52,9 +52,9 @@ Na stronie można podać przestrzenie robocze posiadanych drukarek:
 
 Wartości muszą być opisane jako przestrzeń robocza drukarki, a nie gwarantowany maksymalny wymiar modelu jednoelementowego. Rzeczywista wykonalność zależy między innymi od geometrii, orientacji i podpór i wymaga analizy pliku.
 
-### Zastosowanie i warunki użytkowania
+### Zastosowanie i oczekiwane właściwości
 
-Klient wybiera jedną główną kategorię i może dodać własny opis:
+Zastosowanie oraz warunki użytkowania tworzą jedną sekcję formularza. Najpierw klient wybiera jedną główną kategorię:
 
 - figurka lub dekoracja;
 - element gry albo modelarstwa;
@@ -64,7 +64,15 @@ Klient wybiera jedną główną kategorię i może dodać własny opis:
 - prototyp;
 - inne.
 
-Opcjonalna lista wielokrotnego wyboru obejmuje:
+Po wyborze kategorii formularz pokazuje w pierwszej kolejności dopasowane pytania pomocnicze, na przykład:
+
+- dla figurki lub dekoracji — drobne detale, gładka powierzchnia, przygotowanie do malowania i odporność na upadek;
+- dla elementu gry albo modelarstwa — detale, malowanie, częste dotykanie i odporność na uszkodzenia;
+- dla części użytkowej albo obudowy — temperatura, wilgoć, promieniowanie UV, obciążenie, sztywność i elastyczność;
+- dla części mechanicznej lub ruchomej — tarcie, zużycie, uderzenia, obciążenie i dokładność wymiarowa;
+- dla prototypu — dokładność wymiarowa, sztywność, elastyczność i oczekiwany wygląd powierzchni.
+
+Klient może rozwinąć pełną opcjonalną listę wielokrotnego wyboru niezależnie od wybranej kategorii. Obejmuje ona:
 
 - warunki zewnętrzne lub promieniowanie UV;
 - wilgoć albo kontakt z wodą;
@@ -79,6 +87,8 @@ Opcjonalna lista wielokrotnego wyboru obejmuje:
 - drobne detale;
 - powierzchnię przeznaczoną do malowania;
 - inne warunki z opisem.
+
+Na końcu sekcji znajduje się pole „Dodatkowe informacje”. Dzięki temu zastosowanie pomaga dobrać pytania, ale nie ogranicza klienta do typowych warunków dla danej kategorii.
 
 ### Kolor
 
