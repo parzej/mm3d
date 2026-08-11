@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 43 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 44. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 44 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 45. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -38,6 +38,13 @@ Jest znacznie droższym wariantem wycenianym indywidualnie. Cena uwzględnia pe�
 
 Wyłączność nie powoduje automatycznie przekazania klientowi cyfrowego pliku ani autorskich praw majątkowych. Takie przekazanie wymaga odrębnych ustaleń i pisemnej umowy.
 
+## Wybór wariantu w formularzu
+
+- Model niewyłączny jest domyślnym wariantem formularza.
+- Przy wariancie standardowym klient widzi krótką informację, że cena obejmuje fizyczny wydruk, a MM3D zachowuje możliwość dalszego wykorzystania modelu w granicach przysługujących mu praw.
+- Klient może opcjonalnie zaznaczyć pole **„Potrzebuję wyłączności lub poufności”**.
+- Zaznaczenie tego pola nie podaje automatycznej dopłaty. Uruchamia indywidualną, znacznie wyższą wycenę.
+
 ## Granice praw do projektu
 
 - Samo zamówienie i opłacenie modelowania nie przenosi automatycznie autorskich praw majątkowych na klienta.
@@ -49,8 +56,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 44**:
+Następne pytanie to **pytanie 45**:
 
-> Czy standardowy model niewyłączny ma być domyślną zasadą formularza, a klient ma jedynie opcjonalnie zaznaczać „Potrzebuję wyłączności lub poufności”, co uruchamia indywidualną wycenę?
+> Czy przed wysłaniem materiałów referencyjnych klient musi potwierdzić, że ma prawo wykorzystać je do zamówienia modelu?
 
-Rekomendacja pozostaje taka, aby nie zmuszać każdego klienta do analizowania praw autorskich. Formularz powinien jasno opisać wariant standardowy i pokazać jedno dodatkowe pole dla osób potrzebujących wyłączności.
+Rekomendacja pozostaje taka, aby było to obowiązkowe, krótkie oświadczenie. Chroni ono MM3D przed przyjmowaniem zleceń opartych na cudzych projektach, postaciach, zdjęciach albo poufnej dokumentacji bez zgody uprawnionej osoby.
