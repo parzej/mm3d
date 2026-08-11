@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Opisz pomysł na model 3D i poproś MM3D o indywidualną wycenę.">
+    <title>Modelowanie od zera — MM3D</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do formularza</a>
+    <div class="prototype-banner">Makieta robocza — formularz nie wysyła danych ani plików</div>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MM3D</span><span>MM3D</span></a>
+        <a class="button secondary small" href="wycena-druku.html">Masz gotowy plik?</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-hero">
+        <p class="eyebrow">Modelowanie od zera</p>
+        <h1>Nie masz modelu? Opisz swój pomysł.</h1>
+        <p class="lead">Napisz własnymi słowami, co ma powstać. Dodaj zdjęcia, szkice albo rysunki, jeśli je masz. Szczegóły doprecyzujemy później.</p>
+        <div class="notice"><strong>Modelowanie jest wyceniane indywidualnie.</strong> Formularz służy do pierwszej oceny wykonalności i zakresu, nie podaje automatycznej ceny.</div>
+      </header>
+
+      <form class="form-shell" data-prototype-form>
+        <section class="form-section">
+          <h2>1. Co ma powstać?</h2>
+          <div class="field"><label for="idea">Opis pomysłu i zastosowania <span class="required">*</span></label><textarea id="idea" name="idea" required placeholder="Opisz przedmiot, jego wygląd, działanie i sposób użycia. Nie musisz używać technicznych nazw."></textarea></div>
+          <div class="field-grid">
+            <div class="field"><label for="dimensions">Szacunkowe wymiary</label><input id="dimensions" name="dimensions" placeholder="np. około 120 × 80 mm"></div>
+            <div class="field"><label for="quantity">Oczekiwana liczba wydruków</label><input id="quantity" name="quantity" type="number" min="1" value="1"></div>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h2>2. Materiały referencyjne</h2>
+          <p>Dodaj tylko to, czym dysponujesz: fotografie, szkice, blueprinty, rysunki techniczne albo dokumentację wymiarową.</p>
+          <div class="field"><label for="references">Załączniki</label><input id="references" name="references" type="file" multiple><span class="hint">Bezpieczne formaty i limity ustali Parzej przed wdrożeniem.</span></div>
+          <label class="choice"><input type="checkbox" name="physical-reference">Mam fizyczny przedmiot, który mogę wysłać do pomiarów</label>
+          <p class="hint">Nie wysyłaj go teraz. MM3D najpierw potwierdzi, czy przedmiot jest potrzebny, i prześle instrukcję nadania InPost.</p>
+        </section>
+
+        <section class="form-section">
+          <h2>3. Oczekiwany zakres</h2>
+          <fieldset>
+            <legend>Opcjonalne usługi po wydruku</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="checkbox" name="finishing" value="supports">Usuwanie podpór</label>
+              <label class="choice"><input type="checkbox" name="finishing" value="sanding">Szlifowanie</label>
+              <label class="choice"><input type="checkbox" name="finishing" value="painting">Malowanie modelu</label>
+            </div>
+          </fieldset>
+          <label class="choice"><input type="checkbox" name="exclusive">Potrzebuję wyłączności lub rozszerzonej poufności</label>
+          <p class="hint">Standardowy model jest niewyłączny. Wyłączność, przeniesienie praw albo formalne NDA wymagają osobnej umowy i wyceny.</p>
+          <label class="choice"><input type="checkbox" name="portfolio-private">Projekt poufny — nie publikuj zdjęć ani renderów realizacji</label>
+          <p class="hint">Bezpłatne wyłączenie z portfolio nie przenosi praw autorskich i nie daje wyłączności na model.</p>
+        </section>
+
+        <section class="form-section">
+          <h2>4. Jak przebiega modelowanie?</h2>
+          <div class="grid-2">
+            <div class="notice"><strong>Dwie tury poprawek</strong><br>Każda tura to jedna zebrana lista uwag w uzgodnionym zakresie.</div>
+            <div class="notice"><strong>Dwa prototypy</strong><br>Wstępny pomaga sprawdzić projekt, a finalny wymaga akceptacji przed serią lub malowaniem.</div>
+          </div>
+          <p class="hint" style="margin-top:1rem">Standardowa płatność za modelowanie: 50% przed startem i 50% po zaakceptowaniu poprawek, przed prototypem finalnym. Szczegóły potwierdza wycena.</p>
+        </section>
+
+        <section class="form-section">
+          <h2>5. Kontakt</h2>
+          <div class="field-grid">
+            <div class="field"><label for="name">Imię lub pseudonim <span class="required">*</span></label><input id="name" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="email">E-mail <span class="required">*</span></label><input id="email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="phone">Telefon</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+            <div class="field"><label for="contact">Preferowany kontakt</label><select id="contact" name="contact"><option>E-mail</option><option>Telefon — jeśli podano numer</option></select></div>
+          </div>
+          <p class="hint">Kluczowe ustalenia i tak zostaną potwierdzone e-mailem.</p>
+        </section>
+
+        <section class="form-section">
+          <h2>6. Potwierdzenie</h2>
+          <label class="choice"><input type="checkbox" name="terms" required>Zapoznałem się z Regulaminem i akceptuję jego postanowienia. <span class="required">*</span></label>
+          <p class="hint">Treść regulaminu, polityki prywatności i wymaganych oświadczeń przygotuje prawnik przed wdrożeniem.</p>
+          <div class="form-actions"><a href="index.html">← Wróć na stronę główną</a><button class="button" type="submit">Wyślij opis pomysłu</button></div>
+          <div class="form-result" tabindex="-1" data-form-result>To jest makieta. W produkcyjnej stronie zobaczysz tu numer sprawy i otrzymasz podsumowanie e-mailem.</div>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

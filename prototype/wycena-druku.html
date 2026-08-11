@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wyślij plik do indywidualnej wyceny druku 3D w MM3D.">
+    <title>Wyślij plik do wyceny — MM3D</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do formularza</a>
+    <div class="prototype-banner">Makieta robocza — formularz nie wysyła danych ani plików</div>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MM3D</span><span>MM3D</span></a>
+        <a class="button secondary small" href="modelowanie.html">Nie masz modelu?</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="page-hero">
+        <p class="eyebrow">Główna ścieżka</p>
+        <h1>Wyślij plik do wyceny</h1>
+        <p class="lead">Dodaj gotowy model i napisz, do czego ma służyć. Nie musisz znać materiału ani ustawień drukarki.</p>
+        <div class="notice"><strong>To jeszcze nie jest zamówienie.</strong> Po sprawdzeniu pliku otrzymasz wycenę albo prośbę o doprecyzowanie. Odpowiedź na kompletne zapytanie: maksymalnie 2 dni robocze.</div>
+      </header>
+
+      <form class="form-shell" data-prototype-form>
+        <section class="form-section">
+          <h2>1. Model i liczba sztuk</h2>
+          <p>Obsługiwane formaty: STL, OBJ i 3MF. Kilka plików może tworzyć jeden powiązany komplet.</p>
+          <div class="field">
+            <label for="print-files">Plik lub komplet plików <span class="required">*</span></label>
+            <input id="print-files" name="print-files" type="file" accept=".stl,.obj,.3mf" multiple required>
+            <span class="hint">Limity rozmiaru i liczby plików ustali Parzej przed wdrożeniem.</span>
+          </div>
+          <div class="field-grid">
+            <div class="field"><label for="quantity">Liczba sztuk <span class="required">*</span></label><input id="quantity" name="quantity" type="number" min="1" value="1" required></div>
+            <div class="field"><label for="technology">Technologia</label><select id="technology" name="technology"><option>Dobierz technologię za mnie</option><option>FDM</option><option>Druk żywiczny (SLA/MSLA)</option></select></div>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h2>2. Rozmiar</h2>
+          <p>Wystarczy jeden wymiar. Pozostałe zostaną zachowane proporcjonalnie do modelu.</p>
+          <div class="field-grid">
+            <div class="field"><label for="dimension-type">Podaję</label><select id="dimension-type" name="dimension-type"><option>Wysokość</option><option>Szerokość</option><option>Długość</option></select></div>
+            <div class="field"><label for="dimension">Wymiar w mm <span class="required">*</span></label><input id="dimension" name="dimension" type="number" min="0.1" step="0.1" required></div>
+          </div>
+          <p class="hint">Przestrzeń robocza drukarki nie jest gwarantowanym maksymalnym wymiarem części. Wykonalność zależy od geometrii, orientacji i podpór.</p>
+        </section>
+
+        <section class="form-section">
+          <h2>3. Zastosowanie i warunki użytkowania</h2>
+          <div class="field"><label for="use-type">Co to będzie? <span class="required">*</span></label><select id="use-type" name="use-type" required><option value="">Wybierz</option><option>Figurka lub dekoracja</option><option>Element gry albo modelarstwa</option><option>Część użytkowa</option><option>Obudowa</option><option>Część mechaniczna lub ruchoma</option><option>Prototyp</option><option>Inne</option></select></div>
+          <fieldset>
+            <legend>Co jest ważne? Zaznacz wszystko, co pasuje</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="checkbox" name="conditions" value="uv">Warunki zewnętrzne lub UV</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="water">Wilgoć albo kontakt z wodą</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="temperature">Wysoka temperatura</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="chemicals">Olej, paliwo lub chemikalia</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="load">Duże obciążenie albo nacisk</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="impact">Uderzenie lub upadek</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="friction">Tarcie i zużycie</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="flexible">Elastyczność</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="rigid">Sztywność</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="precise">Dokładność wymiarowa</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="details">Drobne detale</label>
+              <label class="choice"><input type="checkbox" name="conditions" value="painting">Powierzchnia do malowania</label>
+            </div>
+          </fieldset>
+          <div class="field"><label for="usage-notes">Dodatkowe informacje</label><textarea id="usage-notes" name="usage-notes" placeholder="Napisz, gdzie i w jaki sposób przedmiot będzie używany."></textarea></div>
+        </section>
+
+        <section class="form-section">
+          <h2>4. Wygląd i wykończenie</h2>
+          <div class="field"><label for="color">Kolor</label><select id="color" name="color"><option>Szary — standardowy</option><option>Czarny</option><option>Biały</option><option>Bez preferencji</option><option>Inny — opiszę w uwagach</option></select><span class="hint">Inny kolor może zmienić cenę albo wydłużyć termin.</span></div>
+          <fieldset>
+            <legend>Usługi dodatkowe</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="checkbox" name="finishing" value="supports">Usuwanie podpór</label>
+              <label class="choice"><input type="checkbox" name="finishing" value="sanding">Szlifowanie</label>
+              <label class="choice"><input type="checkbox" name="finishing" value="painting">Malowanie modelu</label>
+            </div>
+          </fieldset>
+        </section>
+
+        <section class="form-section">
+          <h2>5. Najważniejszy priorytet</h2>
+          <fieldset>
+            <legend>Wybierz jedną opcję <span class="required">*</span></legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="radio" name="priority" value="price" required>Możliwie niska cena</label>
+              <label class="choice"><input type="radio" name="priority" value="appearance">Najlepszy wygląd i detale</label>
+              <label class="choice"><input type="radio" name="priority" value="strength">Wytrzymałość</label>
+              <label class="choice"><input type="radio" name="priority" value="deadline">Możliwie najkrótszy termin</label>
+            </div>
+          </fieldset>
+          <div class="field"><label for="wanted-date">Potrzebuję wydruku najpóźniej do</label><input id="wanted-date" name="wanted-date" type="date"><span class="hint">To oczekiwanie, nie gwarancja. Termin staje się wiążący dopiero po potwierdzeniu w wycenie.</span></div>
+        </section>
+
+        <section class="form-section">
+          <h2>6. Kontakt i dostawa</h2>
+          <div class="field-grid">
+            <div class="field"><label for="name">Imię lub pseudonim <span class="required">*</span></label><input id="name" name="name" autocomplete="name" required></div>
+            <div class="field"><label for="email">E-mail <span class="required">*</span></label><input id="email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="phone">Telefon</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+            <div class="field"><label for="delivery">Sposób dostawy <span class="required">*</span></label><select id="delivery" name="delivery" required><option>Paczkomat InPost</option><option>Kurier InPost</option></select></div>
+          </div>
+          <p class="hint">Konkretny Paczkomat albo adres podasz po zaakceptowaniu wyceny.</p>
+        </section>
+
+        <section class="form-section">
+          <h2>7. Potwierdzenie</h2>
+          <label class="choice"><input type="checkbox" name="terms" required>Zapoznałem się z Regulaminem i akceptuję jego postanowienia. <span class="required">*</span></label>
+          <p class="hint">Treść regulaminu, polityki prywatności i wymaganych oświadczeń przygotuje prawnik przed wdrożeniem.</p>
+          <div class="form-actions"><a href="index.html">← Wróć na stronę główną</a><button class="button" type="submit">Wyślij zapytanie</button></div>
+          <div class="form-result" tabindex="-1" data-form-result>To jest makieta. W produkcyjnej stronie zobaczysz tu numer sprawy i otrzymasz podsumowanie e-mailem.</div>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

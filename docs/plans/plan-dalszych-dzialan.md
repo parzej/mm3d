@@ -1,6 +1,6 @@
 # Plan dalszych działań dla serwisu MM3D
 
-Status: plan roboczy zapisany lokalnie. Kolejność wynika z uzgodnionego pozycjonowania MM3D, hierarchii benchmarków oraz przyjętych ograniczeń technicznych.
+Status: zaktualizowany 12 sierpnia 2026 po zakończeniu biznesowej sesji grillowania. Ścieżki klienta są domknięte biznesowo, a pierwsza makieta, przekazanie techniczne i checklista prawna zostały przygotowane.
 
 ## Cel pierwszej wersji
 
@@ -12,7 +12,7 @@ Główna obietnica marki brzmi:
 
 ## Kolejność działań
 
-### 1. Ustalenie ścieżki klienta — w toku
+### 1. Ustalenie ścieżki klienta — zakończone biznesowo
 
 Należy rozpisać drogę od wejścia na stronę do wysłania zapytania. Serwis powinien od razu rozdzielać dwie sytuacje:
 
@@ -36,14 +36,15 @@ Kryterium zakończenia:
 
 - dla każdego kroku wiadomo, co robi klient, co otrzymuje i kiedy interweniuje Góras.
 
-Stan na 11 sierpnia 2026:
+Stan na 12 sierpnia 2026:
 
 - główna ścieżka druku z gotowego pliku została rozpisana od formularza przez wycenę, akceptację, przedpłatę Paynow, realizację i dostawę InPost;
 - decyzje głównej ścieżki opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md);
-- drugoplanowa ścieżka jest rozwijana w dokumencie [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md), a grillowanie należy kontynuować od pytania 69;
-- implementacyjne konsekwencje głównej ścieżki wymagają potwierdzenia Parzeja.
+- drugoplanowa ścieżka modelowania od zera została domknięta biznesowo wraz z zasadami poprawek, prototypów, płatności, licencji, malowania i portfolio; opisuje ją dokument [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md);
+- szczegółowa gałąź portfolio została zamknięta, a ostateczny wybór prezentowanych realizacji pozostaje w gestii Górasa;
+- konsekwencje implementacyjne obu ścieżek wymagają potwierdzenia Parzeja na podstawie [przekazania technicznego](../handoffs/przekazanie-techniczne-dla-parzeja.md).
 
-### 2. Zdefiniowanie formularzy
+### 2. Zdefiniowanie formularzy — zakończone biznesowo
 
 #### Formularz druku z gotowego pliku
 
@@ -72,7 +73,7 @@ Ustalony zakres obejmuje:
 - płatność za modelowanie w dwóch częściach po 50%, a przy większym nakładzie osobną przedpłatę przed jego produkcją;
 - możliwość wstępnego zgłoszenia zainteresowania usuwaniem podpór, szlifowaniem albo malowaniem, z późniejszym indywidualnym potwierdzeniem zakresu i ceny.
 
-Szczegółowe decyzje i punkt wznowienia opisuje dokument [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md).
+Szczegółowe decyzje opisuje dokument [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md).
 
 Formularze muszą jasno oddzielać przygotowanie procesu druku od płatnej ingerencji w geometrię modelu.
 
@@ -123,7 +124,7 @@ Kryterium zakończenia:
 
 - teksty strony można napisać bez zgadywania cen, terminów i zakresu odpowiedzialności.
 
-### 4. Przygotowanie regulaminu i dokumentów prawnych
+### 4. Przygotowanie regulaminu i dokumentów prawnych — zakres przekazany do konsultacji
 
 Przed uruchomieniem strony należy przygotować regulamin obejmujący wszystkie uzgodnione zasady świadczenia usług MM3D, w szczególności:
 
@@ -165,6 +166,11 @@ Kryterium zakończenia:
 
 - wszystkie zasady wpływające na prawa, płatności, odpowiedzialność i realizację są opisane spójnie, dostępne z właściwego miejsca strony i zatwierdzone przez prawnika.
 
+Stan na 12 sierpnia 2026:
+
+- przygotowano [checklistę dla prawnika](../handoffs/checklista-dla-prawnika.md) obejmującą regulamin, odstąpienie, płatności, prawa do modeli, portfolio, reklamacje, retencję danych, Paynow i dostawę;
+- ostateczne dokumenty prawne nie zostały jeszcze napisane ani zatwierdzone i nie mogą być zastąpione tekstami roboczymi w prototypie.
+
 ### 5. Przygotowanie portfolio i materiałów marki
 
 Należy wybrać od 6 do 10 rzeczywistych realizacji. Każda realizacja powinna zawierać:
@@ -179,6 +185,11 @@ Należy wybrać od 6 do 10 rzeczywistych realizacji. Każda realizacja powinna z
 - brak przycisku prowadzącego z portfolio do wyceny; zapytania obsługują wyłącznie dwa ustalone przyciski głównej ścieżki i modelowania od zera.
 - jedną wspólną galerię z lekkimi oznaczeniami **FDM**, **żywica**, **modelowanie**, **malowanie** i **wykończenie**, bez tworzenia nowych ścieżek zamówienia.
 - dla każdej realizacji jedno zdjęcie główne oraz dwa, maksymalnie trzy zdjęcia uzupełniające.
+- zdjęcie główne pokazujące gotowy produkt w całości, na prostym i spójnym tle, w czytelnym świetle i bez bałaganu warsztatowego.
+- w miarę możliwości podobne neutralne tło, proporcje kadru i oświetlenie zdjęć głównych, traktowane jako cel spójności galerii, a nie bezwzględny warunek publikacji.
+- możliwość pokazania niewydrukowanego modelu MM3D jako wyraźnie oznaczonego renderu lub modelu cyfrowego, bez sugerowania istnienia gotowego produktu.
+
+Szczegółowe zasady selekcji, opisu i publikacji realizacji są utrzymywane w osobnym dokumencie [Zasady tworzenia portfolio](../guides/zasady-tworzenia-portfolio.md), a nie w regulaminie świadczenia usług. Dokument ma charakter pomocniczy, a ostateczny dobór zawartości portfolio pozostaje w gestii Górasa.
 
 Warto przygotować także:
 
@@ -201,7 +212,7 @@ Kryterium zakończenia:
 
 - strona może pokazać rzeczywiste dowody kompetencji zamiast samych deklaracji.
 
-### 6. Makieta pierwszej wersji
+### 6. Makieta pierwszej wersji — pierwszy prototyp przygotowany
 
 Rekomendowany zakres treści i ekranów:
 
@@ -237,6 +248,12 @@ Rezultat:
 Kryterium zakończenia:
 
 - osoba spoza projektu rozumie ofertę i potrafi przejść do odpowiedniego formularza bez dodatkowego objaśnienia.
+
+Stan na 12 sierpnia 2026:
+
+- przygotowano [specyfikację makiety i tekstów](../website/makieta-i-teksty-v1.md);
+- przygotowano responsywny, statyczny [prototyp strony głównej i dwóch formularzy](../../prototype/README.md);
+- prototyp wymaga przeglądu Górasa pod kątem tonu i hierarchii treści oraz przeglądu Parzeja pod kątem wykonalności; nie jest implementacją produkcyjną.
 
 ### 7. Implementacja pierwszej wersji
 
@@ -316,4 +333,10 @@ Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych 
 
 ## Najbliższa sesja robocza
 
-Następna część grillowania zaczyna się od pytania 99; pytanie 92 zostało pominięte bez wprowadzania dodatkowej procedury. Sesja kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
+Grillowanie biznesowej ścieżki klienta zostało zakończone. Kolejna sesja powinna służyć jednemu z trzech konkretnych przeglądów:
+
+1. Góras ocenia statyczną makietę, teksty i hierarchię informacji.
+2. Parzej odpowiada na decyzje z przekazania technicznego i proponuje plan implementacji.
+3. Prawnik przygotowuje regulamin, politykę prywatności oraz wymagane oświadczenia na podstawie checklisty.
+
+Nowe grillowanie należy rozpoczynać tylko wtedy, gdy któryś z tych przeglądów ujawni istotną decyzję biznesową, której nie da się rozstrzygnąć na podstawie istniejących dokumentów.

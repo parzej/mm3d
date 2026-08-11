@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MM3D — przystępny druk 3D z Twojego pliku i modelowanie od zera.">
+    <title>MM3D — druk 3D po ludzku</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    <div class="prototype-banner">Makieta robocza — formularze nie wysyłają danych</div>
+
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html" aria-label="MM3D — strona główna">
+          <span class="brand-mark" aria-hidden="true">MM3D</span>
+          <span>MM3D</span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav" data-menu-button>Menu</button>
+        <nav class="nav-links" id="main-nav" aria-label="Główna nawigacja" data-nav>
+          <a href="#jak-to-dziala">Jak to działa</a>
+          <a href="#uslugi">Usługi</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#faq">FAQ</a>
+          <a class="button small" href="wycena-druku.html">Wyślij plik do wyceny</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Druk 3D dla hobbystów i nie tylko</p>
+          <h1>Druk 3D z Twojego pliku. Po ludzku.</h1>
+          <p class="lead">Prześlij model, a sprawdzę go i dobiorę sensowny sposób wykonania. Bez obowiązku znajomości materiałów, parametrów i technicznego żargonu.</p>
+          <div class="actions">
+            <a class="button" href="wycena-druku.html">Wyślij plik do wyceny <span aria-hidden="true">→</span></a>
+            <a class="button secondary" href="modelowanie.html">Nie masz modelu? Opisz swój pomysł</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Dekoracyjna ilustracja symbolizująca druk 3D">
+          <div class="floating-note">Masz nietypowy projekt? Ocenia go człowiek, nie automat.</div>
+          <div class="machine-card">
+            <div class="machine-grid"></div>
+            <div class="machine-copy">
+              <strong>Twój plik. Dobry plan. Gotowy wydruk.</strong>
+              <span>FDM · żywica · modelowanie · malowanie</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="trust-row" aria-label="Najważniejsze informacje">
+        <div class="trust-item"><strong>Odpowiedź do 2 dni roboczych</strong><span>na kompletne zapytanie</span></div>
+        <div class="trust-item"><strong>Technologia dobrana do potrzeby</strong><span>FDM albo druk żywiczny</span></div>
+        <div class="trust-item"><strong>Wysyłka InPost</strong><span>Paczkomat albo kurier</span></div>
+      </div>
+
+      <section class="section" id="uslugi">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Dwie proste ścieżki</p>
+            <h2>Zacznij od tego, co już masz</h2>
+            <p>Gotowy model kieruje do szybkiej wyceny druku. Sam pomysł — do osobnej, indywidualnej wyceny modelowania.</p>
+          </div>
+        </div>
+        <div class="grid-3">
+          <article class="card service-card primary">
+            <span class="service-number">01 / PODSTAWOWA USŁUGA</span>
+            <div>
+              <h3>Druk z gotowego pliku</h3>
+              <p>Dodaj STL, OBJ albo 3MF. Opisz zastosowanie i podaj jeden wymiar — resztę sprawdzę przed wyceną.</p>
+              <a class="button" href="wycena-druku.html">Wyślij plik do wyceny</a>
+            </div>
+          </article>
+          <article class="card service-card">
+            <span class="service-number">02 / USŁUGA DODATKOWA</span>
+            <div>
+              <h3>Modelowanie od zera</h3>
+              <p>Zdjęcie, szkic, rysunek techniczny albo fizyczny wzór mogą być początkiem nowego modelu.</p>
+              <a class="button secondary" href="modelowanie.html">Opisz swój pomysł</a>
+            </div>
+          </article>
+          <article class="card service-card">
+            <span class="service-number">03 / WYKOŃCZENIE</span>
+            <div>
+              <h3>Po wydruku</h3>
+              <p>Usuwanie podpór, szlifowanie i malowanie wybierasz osobno. Zakres i cena są potwierdzane w wycenie.</p>
+              <span class="muted">Usługi dodatkowo płatne</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="jak-to-dziala">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Jak to działa</p>
+            <h2>Od pliku do paczki w czterech krokach</h2>
+          </div>
+          <p>Formularz jest zapytaniem o wycenę, nie automatycznym zamówieniem. Najpierw sprawdzam wykonalność i wracam z konkretną odpowiedzią.</p>
+        </div>
+        <div class="grid-4 steps">
+          <article class="step"><h3>Wyślij zapytanie</h3><p>Dodaj plik i najważniejsze informacje. Nie musisz wybierać materiału.</p></article>
+          <article class="step"><h3>Otrzymaj wycenę</h3><p>W ciągu maksymalnie dwóch dni roboczych dostaniesz wycenę, pytanie uzupełniające albo uczciwą informację, że projekt nie jest wykonalny.</p></article>
+          <article class="step"><h3>Potwierdź i zapłać</h3><p>Akceptujesz wycenę przez odpowiedź e-mail. Druk zaczyna się po potwierdzeniu płatności.</p></article>
+          <article class="step"><h3>Odbierz przesyłkę</h3><p>Gotową realizację wysyłam do Paczkomatu albo kurierem InPost.</p></article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="human-panel">
+          <div class="human-copy">
+            <p class="eyebrow" style="color:#fff">Ludzkie podejście</p>
+            <h2>Automat zbiera dane. Człowiek podejmuje decyzję.</h2>
+            <p>Prosty plik przechodzi sprawnie. Gdy geometria, zastosowanie albo termin budzą wątpliwości, nie odrzucam zapytania bez słowa — wyjaśniam ryzyko i proponuję sensowną drogę.</p>
+          </div>
+          <div class="human-side" aria-hidden="true"><span>Sprawdzam. Dobieram. Drukuję.</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Portfolio</p>
+            <h2>Różne potrzeby. Różne rozwiązania.</h2>
+            <p>Makieta używa abstrakcyjnych zastępników. Docelowo pojawią się tutaj rzeczywiste realizacje wybrane przez Górasa.</p>
+          </div>
+        </div>
+        <div class="portfolio-grid">
+          <article class="card portfolio-card wide">
+            <div class="portfolio-visual utility" role="img" aria-label="Miejsce na zdjęcie części użytkowej"></div>
+            <div class="card-body"><div class="tag-list"><span class="tag">FDM</span><span class="tag">Modelowanie</span></div><h3>Część użytkowa dopasowana do zastosowania</h3><p class="muted">Przykład neutralnego opisu technologii, materiału i zakresu wykonanej pracy.</p></div>
+          </article>
+          <article class="card portfolio-card">
+            <div class="portfolio-visual resin" role="img" aria-label="Miejsce na zdjęcie figurki żywicznej"></div>
+            <div class="card-body"><div class="tag-list"><span class="tag">Żywica</span><span class="tag">Malowanie</span></div><h3>Figurka z drobnymi detalami</h3><p class="muted">Bez ceny, danych klienta i przycisku do podobnej wyceny.</p></div>
+          </article>
+          <article class="card portfolio-card">
+            <div class="portfolio-visual" role="img" aria-label="Miejsce na zdjęcie wydruku FDM"></div>
+            <div class="card-body"><div class="tag-list"><span class="tag">FDM</span><span class="tag">Wykończenie</span></div><h3>Prototyp gotowy do testu</h3><p class="muted">Jedna wspólna galeria z lekkimi oznaczeniami usług.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="section-head">
+          <div><p class="eyebrow">FAQ</p><h2>Najczęstsze pytania</h2></div>
+        </div>
+        <div class="faq-list">
+          <details><summary>Jakie pliki mogę przesłać?</summary><p>W pierwszej wersji: STL, OBJ i 3MF. Kilka plików może tworzyć jeden powiązany komplet. Niezależne modele wymagają osobnych zapytań.</p></details>
+          <details><summary>Czy muszę wybrać materiał albo technologię?</summary><p>Nie. Opisz zastosowanie i warunki użytkowania, a MM3D dobierze odpowiednią technologię i materiał. Jeśli masz preferencję FDM albo druku żywicznego, możesz ją zaznaczyć.</p></details>
+          <details><summary>Ile będzie kosztował wydruk?</summary><p>Każdy model wymaga oceny geometrii, wielkości, liczby sztuk i oczekiwanego wykończenia. Dlatego cena pojawia się dopiero w indywidualnej wycenie.</p></details>
+          <details><summary>Co, jeśli nie mam modelu 3D?</summary><p>Skorzystaj z osobnego formularza „Nie masz modelu? Opisz swój pomysł”. Możesz dodać zdjęcia, szkice, rysunki techniczne lub zgłosić fizyczny przedmiot do pomiarów.</p></details>
+          <details><summary>Co stanie się po wysłaniu formularza?</summary><p>Otrzymasz e-mail z numerem sprawy i podsumowaniem. MM3D odpowie na kompletne zapytanie maksymalnie w ciągu dwóch dni roboczych.</p></details>
+          <details><summary>Czy wysłanie formularza jest zamówieniem?</summary><p>Nie. To zapytanie ofertowe. Zamówienie powstaje dopiero po otrzymaniu wyceny, jej jednoznacznej akceptacji i potwierdzeniu przez MM3D.</p></details>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div class="cta-panel">
+          <p class="eyebrow" style="color:#fff">Zaczynamy?</p>
+          <h2>Masz plik czy dopiero pomysł?</h2>
+          <p>Wybierz jedną z dwóch ścieżek. Jeśli nie masz pewności technicznej, opisz zastosowanie — to wystarczy na początek.</p>
+          <div class="actions">
+            <a class="button" href="wycena-druku.html">Wyślij plik do wyceny</a>
+            <a class="button secondary" href="modelowanie.html">Nie masz modelu? Opisz swój pomysł</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-shell">
+        <div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MM3D</span><span>MM3D</span></a><p class="muted">Przystępny druk 3D z ludzkim podejściem.</p></div>
+        <div class="footer-links"><a href="#">Kontakt</a><a href="#">Regulamin</a><a href="#">Polityka prywatności</a></div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -31,7 +31,7 @@ Góras ma praktyczne doświadczenie w druku 3D i dysponuje czterema drukarkami. 
 
 Modelowanie od zera pozostaje widoczną, ale drugoplanową usługą. Usuwanie podpór, szlifowanie i malowanie modelu są opcjonalnymi rozszerzeniami druku, a nie elementami automatycznie wliczonymi w jego podstawową cenę.
 
-Standardowym rezultatem modelowania jest fizyczny wydruk, nie cyfrowy plik. Wariant niewyłączny pozwala MM3D odzyskiwać koszt czasochłonnego projektowania przez późniejsze wykorzystanie modelu. Wariant wyłączny rekompensuje rezygnację z tej możliwości i jest wyceniany znacznie wyżej. Przekazanie pliku albo praw pozostaje osobnym ustaleniem.
+Standardowym rezultatem modelowania jest fizyczny wydruk oraz przekazany wraz z ostatnim elementem realizacji plik produkcyjny do druku z niewyłączną licencją. Klient nie otrzymuje domyślnie edytowalnych plików źródłowych, takich jak BLEND lub STEP. Wariant niewyłączny pozwala zarówno klientowi, jak i MM3D wytwarzać fizyczne wydruki, ale nie pozwala żadnej ze stron rozpowszechniać cyfrowego pliku. Wyłączność, szersze prawa albo przekazanie pliku źródłowego wymagają osobnego ustalenia i wyższej wyceny.
 
 ## Hierarchia benchmarków WWW
 

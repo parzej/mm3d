@@ -241,6 +241,23 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-11
+  "Zdjęcie główne portfolio":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+      - contributor: goras
+        kind: revised
+        date: 2026-08-11
+  "Render portfolio":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
   "Tura poprawek":
     introduced_by: goras
     introduced_on: 2026-08-11

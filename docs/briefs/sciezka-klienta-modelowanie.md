@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 98 włącznie, a pytanie 92 pominięte 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 99. Techniczny sposób przekazywania plików, kwalifikowanie realizacji do portfolio i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: biznesowa sesja grillowania zakończona i zaakceptowana przez Górasa 12 sierpnia 2026; obejmuje decyzje do pytania 101, z pominięciem pytania 92. Ostateczny dobór portfolio pozostaje w gestii Górasa. Techniczny sposób realizacji ścieżki wymaga potwierdzenia przez Parzeja, a regulamin i dokumenty konsumenckie — konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -280,13 +280,15 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Oznaczenia pomagają zrozumieć zakres pracy i mogą służyć do prostego filtrowania, ale nie zmieniają dwóch ustalonych formularzy; sposób techniczny potwierdza Parzej.
 - Jedna realizacja zawiera jedno zdjęcie główne oraz dwa, maksymalnie trzy zdjęcia uzupełniające, czyli łącznie 3–4 materiały wizualne.
 - Zdjęcia uzupełniające dopowiadają istotne szczegóły wykonania i nie tworzą rozbudowanej dokumentacji projektu.
+- Zdjęcie główne pokazuje gotowy produkt w całości, na prostym i spójnym tle, w czytelnym świetle, bez bałaganu warsztatowego i elementów odciągających uwagę.
+- W miarę możliwości zdjęcia główne zachowują podobne neutralne tło, proporcje kadru i sposób oświetlenia, aby cała galeria była spójna. Jest to cel jakościowy, a nie bezwzględny warunek odrzucenia dobrego zdjęcia.
+- Zdjęcia uzupełniające mogą pokazywać detale, skalę albo istotny fragment procesu.
+- Portfolio opiera się przede wszystkim na rzeczywiście wykonanych realizacjach.
+- Niewydrukowany model MM3D może zostać pokazany jako render prezentujący umiejętności modelowania, ale musi być wyraźnie oznaczony jako **render** albo **model cyfrowy** i nie może udawać gotowego fizycznego produktu.
+- Pełny standard operacyjny znajduje się w dokumencie [Zasady tworzenia portfolio](../guides/zasady-tworzenia-portfolio.md), a nie w regulaminie świadczenia usług.
 
-Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl/eli/DU/2024/1061/ogl), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl) oraz ryzyko automatycznego przepadku zaliczki wskazane w [rejestrze klauzul niedozwolonych UOKiK](https://rejestr.uokik.gov.pl/wyszukiwanie.php?details=4088).
+Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl/eli/DU/2026/795/ogl), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl) oraz ryzyko automatycznego przepadku zaliczki wskazane w [rejestrze klauzul niedozwolonych UOKiK](https://rejestr.uokik.gov.pl/wyszukiwanie.php?details=4088).
 
-## Punkt wznowienia
+## Zakończenie sesji
 
-Następne pytanie to **pytanie 99**:
-
-> Jak powinno wyglądać zdjęcie główne realizacji?
-
-Rekomendacja: powinno pokazywać gotowy produkt w całości, na prostym i spójnym tle, w czytelnym świetle, bez bałaganu warsztatowego i elementów odciągających uwagę. Zdjęcia uzupełniające mogą pokazywać detale, skalę albo istotny fragment procesu.
+Biznesowa ścieżka modelowania oraz gałąź portfolio są zamknięte na potrzeby pierwszej wersji. Nie należy zadawać Górasowi kolejnych pytań o redakcyjne szczegóły galerii; ostateczny dobór realizacji, zdjęć i układu pozostaje w jego gestii. Następny etap to przegląd techniczny Parzeja, konsultacja prawna i ocena przygotowanej makiety.

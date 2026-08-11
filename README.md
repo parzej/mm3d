@@ -14,6 +14,14 @@ Publiczne repozytorium strony MM3D i eksperymentu, w którym niezależne lokalne
 
 Uzasadnienie architektury znajduje się w [`docs/adr/0001-static-sveltekit-with-php-on-lh.md`](docs/adr/0001-static-sveltekit-with-php-on-lh.md).
 
+## Materiały wykonawcze
+
+- [`docs/handoffs/przekazanie-techniczne-dla-parzeja.md`](docs/handoffs/przekazanie-techniczne-dla-parzeja.md) — decyzje biznesowe i pytania techniczne do wdrożenia.
+- [`docs/handoffs/checklista-dla-prawnika.md`](docs/handoffs/checklista-dla-prawnika.md) — zakres regulaminu, prywatności i dokumentów wymagających weryfikacji prawnej.
+- [`docs/website/makieta-i-teksty-v1.md`](docs/website/makieta-i-teksty-v1.md) — architektura informacji, teksty robocze i stany interfejsu.
+- [`docs/guides/zasady-tworzenia-portfolio.md`](docs/guides/zasady-tworzenia-portfolio.md) — wewnętrzne zasady przygotowania galerii.
+- [`prototype/README.md`](prototype/README.md) — responsywny prototyp strony głównej i dwóch formularzy; można zacząć od [`prototype/index.html`](prototype/index.html).
+
 ## Lokalna tożsamość sesji
 
 Każdy współtwórca ustawia w swoim klonie repozytorium własny identyfikator. To ustawienie trafia wyłącznie do lokalnego `.git/config`.

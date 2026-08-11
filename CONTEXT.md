@@ -112,6 +112,14 @@ _Avoid_: Osobna oferta, nowy formularz, sztywna kategoria zamówienia
 Materiały wizualne jednej pozycji portfolio: jedno zdjęcie główne oraz dwa, maksymalnie trzy zdjęcia uzupełniające, które dopowiadają istotne cechy wykonania. Nie jest pełną dokumentacją projektu ani zbiorem materiałów referencyjnych klienta.
 _Avoid_: Jedno przypadkowe ujęcie, rozbudowana dokumentacja projektu, materiały klienta
 
+**Zdjęcie główne portfolio**:
+Podstawowe ujęcie gotowego produktu pokazujące go w całości, w czytelnym świetle oraz bez bałaganu warsztatowego i elementów odciągających uwagę. W miarę możliwości zachowuje wspólne dla galerii neutralne tło, proporcje kadru i sposób oświetlenia; spójność jest celem, a nie bezwzględnym warunkiem publikacji dobrego zdjęcia.
+_Avoid_: Zdjęcie warsztatowe, zbliżenie detalu, materiał referencyjny klienta
+
+**Render portfolio**:
+Wizualizacja cyfrowego modelu stworzonego przez MM3D, wyraźnie oznaczona jako render albo model cyfrowy, jeżeli projekt nie został jeszcze fizycznie wydrukowany. Pokazuje umiejętności modelowania i nie może sugerować, że przedstawia gotowy fizyczny produkt.
+_Avoid_: Zdjęcie gotowego wydruku, nieoznaczona wizualizacja, materiał referencyjny klienta
+
 **Tura poprawek**:
 Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny. Usunięcie niezgodności wynikającej z błędu MM3D nie zużywa tury poprawek.
 _Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cenie
