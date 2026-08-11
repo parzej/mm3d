@@ -1,0 +1,56 @@
+version: 1
+
+contributors:
+  parzej:
+    display_name: parzej
+    professional_profile: technical artist
+    project_role: technical consultant
+    confirmation_authority:
+      - software architecture
+      - technical delivery constraints
+  goras:
+    display_name: Góras
+    professional_profile: artist
+    project_role: MM3D business owner
+    confirmation_authority:
+      - business vocabulary
+      - brand vocabulary
+      - customer relationships
+      - customer-facing promises
+
+terms:
+  "Właściciel MM3D":
+    introduced_by: parzej
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: parzej
+        kind: introduced
+        date: 2026-08-11
+  "Konsultant techniczny":
+    introduced_by: parzej
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: parzej
+        kind: introduced
+        date: 2026-08-11
+  "Zapytanie ofertowe":
+    introduced_by: parzej
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: parzej
+        kind: introduced
+        date: 2026-08-11
+  "Załącznik do zapytania":
+    introduced_by: parzej
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: parzej
+        kind: introduced
+        date: 2026-08-11
+  "Zamówienie":
+    introduced_by: parzej
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: parzej
+        kind: introduced
+        date: 2026-08-11
