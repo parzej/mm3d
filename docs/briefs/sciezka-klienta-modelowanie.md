@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 45 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 46. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 46 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 47. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -10,7 +10,9 @@ Drugoplanowy przycisk **„Nie masz modelu? Opisz swój pomysł”** prowadzi do
 
 Klient przekazuje:
 
-- ogólny opis tego, co ma powstać;
+- szeroki opis tego, co ma powstać i jak ma być używane;
+- szacunkowe wymiary projektowanego przedmiotu;
+- oczekiwaną liczbę wydruków;
 - fotografie wzorca;
 - szkice;
 - rysunki techniczne;
@@ -19,6 +21,14 @@ Klient przekazuje:
 - inne pliki pokazujące kształt, wygląd albo sposób działania przedmiotu.
 
 Nie każdy rodzaj materiału jest obowiązkowy. Klient przesyła te materiały, którymi rzeczywiście dysponuje. Bezpieczne formaty, rozmiary i limity załączników ustali Parzej.
+
+Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na osobne kategorie figurek, części użytkowych i części mechanicznych ani nie próbuje zastępować rozmowy kompletną specyfikacją techniczną.
+
+## Doprecyzowanie projektu
+
+- Modelowanie od zera zakłada późniejszą rozmowę telefoniczną albo wymianę kilku wiadomości e-mail.
+- MM3D ustala w ten sposób szczegóły, których klient nie był w stanie jednoznacznie opisać w formularzu.
+- Kluczowe ustalenia dotyczące zakresu, wymiarów, wyglądu i ceny muszą pozostać zapisane w wiadomościach przed rozpoczęciem pracy.
 
 ## Standardowy rezultat
 
@@ -63,8 +73,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 46**:
+Następne pytanie to **pytanie 47**:
 
-> Jakich wymiarów należy wymagać od klienta zamawiającego modelowanie od zera?
+> Czy e-mail ma być domyślnym kanałem doprecyzowania, a rozmowa telefoniczna opcjonalnym uzupełnieniem potwierdzanym później krótkim podsumowaniem e-mail?
 
-Rekomendacja pozostaje taka, aby wymagania zależały od zastosowania. Dla figurki wystarczy docelowa wysokość albo skala, natomiast część użytkowa lub mechaniczna wymaga kluczowych wymiarów, tolerancji i informacji o elementach, do których ma pasować.
+Rekomendacja pozostaje taka, aby e-mail tworzył trwały zapis decyzji. Jeżeli szczegóły zostaną omówione telefonicznie, MM3D wysyła klientowi krótkie podsumowanie do potwierdzenia przed przygotowaniem ostatecznej wyceny.
