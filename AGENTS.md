@@ -28,3 +28,7 @@ Keep `CONTEXT.md` as a shared glossary without authorship or implementation meta
 - Vocabulary crossing both areas requires confirmation from both contributors.
 - Do not resolve a disagreement by replacing one contributor's definition with the other's. Record the conflicting meanings and ask one decision question at a time until a shared canonical definition is confirmed.
 - The contributor who introduced a term remains recorded after later confirmations or revisions.
+
+## Publishing preference
+
+- Changes authored or approved by `goras` must be pushed directly to `origin/main` without a pull request, unless `goras` explicitly requests a different publishing workflow for the current session.
