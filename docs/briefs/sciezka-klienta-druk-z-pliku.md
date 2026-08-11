@@ -1,6 +1,6 @@
 # Ścieżka klienta — druk z gotowego pliku
 
-Status: decyzje biznesowe Górasa potwierdzone 11 sierpnia 2026. Sesja została przerwana po pytaniu 39. Następną sesję grillowania należy rozpocząć od pytania 40 i przejść do drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Techniczny sposób realizacji integracji, limitów i automatyzacji pozostaje do potwierdzenia przez Parzeja.
+Status: decyzje biznesowe Górasa potwierdzone 11 sierpnia 2026. Sesja została przerwana po pytaniu 39, a przed jej wznowieniem dodano do głównej ścieżki trzy usługi dodatkowe: usuwanie podpór, szlifowanie i malowanie. Następną sesję grillowania należy rozpocząć od pytania 40 i przejść do drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Techniczny sposób realizacji integracji, limitów i automatyzacji pozostaje do potwierdzenia przez Parzeja.
 
 ## Cel ścieżki
 
@@ -86,6 +86,16 @@ Opcjonalna lista wielokrotnego wyboru obejmuje:
 - Szary jest kolorem standardowym.
 - Inny kolor jest potwierdzany w wycenie i może zmienić cenę albo wydłużyć termin realizacji.
 
+### Usługi dodatkowe po wydruku
+
+W głównym formularzu „Wyślij plik do wyceny” klient może niezależnie zaznaczyć trzy dodatkowo płatne usługi:
+
+- usuwanie podpór;
+- szlifowanie wydruku;
+- malowanie modelu.
+
+Każda opcja jest wybierana osobno. Nie jest automatycznie wliczana w podstawową cenę druku, a jej dokładny zakres i cena są potwierdzane w wycenie. Malowanie modelu jest odrębną usługą od wyboru koloru materiału.
+
 ### Priorytet i oczekiwany termin
 
 Klient obowiązkowo wybiera jeden priorytet:
@@ -136,6 +146,7 @@ Wycena zawiera:
 - nazwę i podgląd modelu;
 - liczbę sztuk i wymiar referencyjny;
 - dobraną technologię, materiał i kolor;
+- zakres wybranych usług dodatkowych: usuwania podpór, szlifowania albo malowania;
 - łączną cenę brutto;
 - przy większej liczbie sztuk także cenę jednostkową;
 - koszt dostawy jako osobną pozycję;

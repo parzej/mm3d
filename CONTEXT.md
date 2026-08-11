@@ -72,6 +72,18 @@ _Avoid_: Obowiązkowy wybór technologii, wybór techniczny klienta
 Szary kolor wydruku przyjmowany przez MM3D jako domyślna opcja wyceny. Inny kolor jest preferencją potwierdzaną w wycenie i może wpłynąć na cenę lub termin realizacji.
 _Avoid_: Kolor gwarantowany, dowolny kolor bez wpływu na wycenę
 
+**Usuwanie podpór**:
+Opcjonalna, dodatkowo wyceniana usługa oczyszczenia wydruku wykonanego przez MM3D z konstrukcji podporowych po zakończeniu druku. Klient wybiera ją niezależnie od szlifowania i malowania.
+_Avoid_: Przygotowanie druku, usługa wliczona automatycznie, szlifowanie
+
+**Szlifowanie wydruku**:
+Opcjonalna, dodatkowo wyceniana obróbka powierzchni wydruku wykonanego przez MM3D. Klient wybiera ją niezależnie od usuwania podpór i malowania.
+_Avoid_: Usuwanie podpór, automatyczne wygładzenie, przygotowanie druku
+
+**Malowanie modelu**:
+Opcjonalna, dodatkowo wyceniana usługa ręcznego malowania wydruku wykonanego przez MM3D. Jest niezależna od koloru materiału użytego do druku.
+_Avoid_: Kolor standardowy, kolor filamentu lub żywicy, usługa wliczona automatycznie
+
 **Priorytet realizacji**:
 Obowiązkowo wskazana przez klienta najważniejsza preferencja: możliwie niska cena, najlepszy wygląd i detale, wytrzymałość albo możliwie najkrótszy termin. Kieruje przygotowaniem wyceny, ale nie jest gwarancją przed jej potwierdzeniem przez MM3D.
 _Avoid_: Najlepszy kompromis, gwarantowany rezultat

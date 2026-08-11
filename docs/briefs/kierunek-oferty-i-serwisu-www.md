@@ -10,7 +10,8 @@ Góras ma praktyczne doświadczenie w druku 3D i dysponuje czterema drukarkami. 
 
 1. Podstawową działalnością jest przystępny cenowo druk gotowego modelu dostarczonego przez klienta.
 2. Drugoplanową usługą i wyróżnikiem jest projektowanie modelu od zera oraz jego wydruk.
-3. MM3D kieruje podstawową usługę przede wszystkim do hobbystów i osób prywatnych zamawiających pojedyncze albo powtarzalne wydruki, a nie do klientów oczekujących przemysłowego procesu realizacji.
+3. Do wydruku można dobrać trzy niezależne, dodatkowo wyceniane usługi: usuwanie podpór, szlifowanie i malowanie modelu.
+4. MM3D kieruje podstawową usługę przede wszystkim do hobbystów i osób prywatnych zamawiających pojedyncze albo powtarzalne wydruki, a nie do klientów oczekujących przemysłowego procesu realizacji.
 
 ## Cena i relacja z klientem
 
@@ -28,7 +29,7 @@ Góras ma praktyczne doświadczenie w druku 3D i dysponuje czterema drukarkami. 
 
 > Przystępny druk 3D z Twojego pliku, z ludzkim podejściem, gdy projekt wymaga uwagi.
 
-Modelowanie od zera pozostaje widoczną, ale drugoplanową usługą.
+Modelowanie od zera pozostaje widoczną, ale drugoplanową usługą. Usuwanie podpór, szlifowanie i malowanie modelu są opcjonalnymi rozszerzeniami druku, a nie elementami automatycznie wliczonymi w jego podstawową cenę.
 
 ## Hierarchia benchmarków WWW
 

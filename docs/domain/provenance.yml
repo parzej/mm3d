@@ -138,6 +138,27 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-11
+  "Usuwanie podpór":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Szlifowanie wydruku":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Malowanie modelu":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
   "Priorytet realizacji":
     introduced_by: goras
     introduced_on: 2026-08-11

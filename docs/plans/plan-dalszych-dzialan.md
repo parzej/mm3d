@@ -47,7 +47,7 @@ Stan na 11 sierpnia 2026:
 
 #### Formularz druku z gotowego pliku
 
-Ustalono biznesowy zakres formularza, w tym formaty STL, OBJ i 3MF, dokładną liczbę sztuk, jeden wymiar referencyjny, zastosowanie, warunki użytkowania, standardowy szary kolor, obowiązkowy priorytet, oczekiwany termin, dane kontaktowe i wybór dostawy InPost. Klient nie musi wybierać technologii ani materiału. Szczegółowy zakres opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md).
+Ustalono biznesowy zakres formularza, w tym formaty STL, OBJ i 3MF, dokładną liczbę sztuk, jeden wymiar referencyjny, zastosowanie, warunki użytkowania, standardowy szary kolor, trzy niezależne usługi dodatkowe — usuwanie podpór, szlifowanie i malowanie — obowiązkowy priorytet, oczekiwany termin, dane kontaktowe i wybór dostawy InPost. Klient nie musi wybierać technologii ani materiału. Szczegółowy zakres opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md).
 
 Do ustalenia albo potwierdzenia pozostają:
 
@@ -91,6 +91,7 @@ Góras powinien podjąć decyzje dotyczące:
 - publikowania przykładowych cen;
 - standardowego i ekspresowego terminu realizacji;
 - rzeczywiście dostępnych materiałów i kolorów poza standardowym szarym;
+- standardów zakresu oraz sposobu wyceny usuwania podpór, szlifowania i malowania;
 - interpretacji przestrzeni roboczych drukarek dla nietypowych modeli;
 - sytuacji, w których poprawka pliku wymaga osobnej wyceny;
 - liczby i zasad poprawek przy projektowaniu modelu.
