@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 44 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 45. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 45 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 46. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -54,10 +54,17 @@ Wyłączność nie powoduje automatycznie przekazania klientowi cyfrowego pliku 
 
 Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw opisują art. 2, 8, 17, 41, 52, 53 i 65 [ustawy o prawie autorskim i prawach pokrewnych](https://eli.gov.pl/eli/DU/2025/24/ogl). Dokładne postanowienia formularza, regulaminu i umowy dotyczącej wyłączności powinien sprawdzić prawnik.
 
+## Regulamin i materiały referencyjne
+
+- Szczegółowe zasady dotyczące praw autorskich, odpowiedzialności za materiały referencyjne, zakresu ich wykorzystania przez MM3D oraz prawa odmowy realizacji znajdują się w regulaminie, a nie w osobnych polach formularza.
+- Formularz zawiera jedno obowiązkowe pole: **„Zapoznałem się z Regulaminem i akceptuję jego postanowienia”** z bezpośrednim linkiem do regulaminu.
+- Pole nie jest zaznaczone domyślnie.
+- Regulamin wymaga konsultacji prawnej przed publikacją.
+
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 45**:
+Następne pytanie to **pytanie 46**:
 
-> Czy przed wysłaniem materiałów referencyjnych klient musi potwierdzić, że ma prawo wykorzystać je do zamówienia modelu?
+> Jakich wymiarów należy wymagać od klienta zamawiającego modelowanie od zera?
 
-Rekomendacja pozostaje taka, aby było to obowiązkowe, krótkie oświadczenie. Chroni ono MM3D przed przyjmowaniem zleceń opartych na cudzych projektach, postaciach, zdjęciach albo poufnej dokumentacji bez zgody uprawnionej osoby.
+Rekomendacja pozostaje taka, aby wymagania zależały od zastosowania. Dla figurki wystarczy docelowa wysokość albo skala, natomiast część użytkowa lub mechaniczna wymaga kluczowych wymiarów, tolerancji i informacji o elementach, do których ma pasować.
