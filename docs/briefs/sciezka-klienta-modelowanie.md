@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 78 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 79. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 83 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 84. Techniczny sposób przekazywania plików i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -67,40 +67,51 @@ Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na os
 ## Standardowy rezultat
 
 - Klient otrzymuje uzgodniony fizyczny wydruk zaprojektowanego modelu.
-- Cyfrowy model nie jest standardowo przekazywany klientowi.
-- Ewentualne przekazanie pliku, udzielenie dodatkowej licencji albo przeniesienie autorskich praw majątkowych pozostaje poza standardowym formularzem i wymaga osobnej ceny oraz odpowiedniej umowy.
+- Klient otrzymuje również plik cyfrowego modelu oraz niewyłączną licencję na jego drukowanie w zakresie określonym w regulaminie i zaakceptowanej wycenie.
+- Standardowo przekazywany plik jest końcowym eksportem produkcyjnym przeznaczonym do druku, w formacie dobranym do projektu, na przykład STL, 3MF albo OBJ.
+- Plik produkcyjny jest przekazywany wraz z ostatnim elementem ukończonej realizacji, na przykład razem z gotowymi pomalowanymi figurkami. Nie jest wydawany wcześniej po samym zaakceptowaniu prototypu.
+- Klient nie otrzymuje edytowalnego pliku źródłowego z programu CAD lub rzeźbiarskiego, takiego jak BLEND albo STEP, w ramach standardowej realizacji. Jego ewentualne przekazanie wymaga osobnego ustalenia zakresu i ceny.
+- MM3D zachowuje autorskie prawa majątkowe oraz własne prawo do drukowania i dalszego wykorzystywania modelu, o ile nie narusza to praw do materiałów źródłowych.
+- Klient i MM3D mogą bez limitu wykonywać oraz sprzedawać fizyczne wydruki modelu.
+- Ani klient, ani MM3D nie mogą publikować, sprzedawać ani przekazywać osobom trzecim cyfrowego pliku modelu, z wyjątkiem technicznego przekazania drukarni wykonującej usługę bez prawa dalszego użycia.
+- Przekazanie pliku i licencji niewyłącznej nie oznacza współwłasności praw autorskich ani wyłączności którejkolwiek strony.
 
 ## Dwa warianty modelowania
 
 ### Model niewyłączny
 
-Jest standardowym, przystępniejszym wariantem. Cena może pokrywać pierwszą realizację, prototypy i tylko część rzeczywistego czasu projektowania. Klient otrzymuje uzgodniony wydruk, natomiast MM3D zachowuje cyfrowy model i przysługujące mu prawa. Może później wykonywać kolejne wydruki, publikować projekt i oferować go innym klientom, o ile pozwalają na to prawa do materiałów źródłowych.
+Jest standardowym, przystępniejszym wariantem. Klient otrzymuje uzgodniony wydruk, plik cyfrowego modelu oraz niewyłączną licencję na drukowanie. Klient i MM3D mogą bez limitu wykonywać oraz sprzedawać fizyczne wydruki, ale nie mogą publikować, sprzedawać ani przekazywać samego pliku cyfrowego. Techniczne przekazanie pliku zewnętrznej drukarni jest dozwolone wyłącznie w celu wykonania usługi bez prawa dalszego użycia. Żadna ze stron nie otrzymuje wyłączności.
 
 ### Model wyłączny
 
-Jest znacznie droższym wariantem wycenianym indywidualnie. Cena uwzględnia pełniejszy koszt projektowania oraz rezygnację MM3D z przyszłego wykorzystania projektu. MM3D zobowiązuje się nie publikować, nie sprzedawać i nie używać modelu dla innych klientów.
+Jest znacznie droższym wariantem wycenianym indywidualnie. Klient otrzymuje plik oraz wyłączne uprawnienie do korzystania z modelu w zakresie określonym w odrębnej pisemnej umowie. Cena uwzględnia pełniejszy koszt projektowania oraz rezygnację MM3D z przyszłego wykorzystania projektu.
 
-Wyłączność nie powoduje automatycznie przekazania klientowi cyfrowego pliku ani autorskich praw majątkowych. Takie przekazanie wymaga odrębnych ustaleń i pisemnej umowy.
+Dokładny wybór między licencją wyłączną a przeniesieniem autorskich praw majątkowych, pola eksploatacji oraz ograniczenia korzystania wymagają odrębnych ustaleń i pisemnej umowy zweryfikowanej przez prawnika.
 
 ## Wybór wariantu w formularzu
 
 - Model niewyłączny jest domyślnym wariantem formularza.
-- Przy wariancie standardowym klient widzi krótką informację, że cena obejmuje fizyczny wydruk, a MM3D zachowuje możliwość dalszego wykorzystania modelu w granicach przysługujących mu praw.
+- Przy wariancie standardowym klient widzi krótką informację, że otrzymuje wydruk, plik i niewyłączną licencję na drukowanie, a MM3D zachowuje możliwość dalszego wykorzystywania modelu w granicach przysługujących mu praw.
 - Klient może opcjonalnie zaznaczyć pole **„Potrzebuję wyłączności lub poufności”**.
 - Zaznaczenie tego pola nie podaje automatycznej dopłaty. Uruchamia indywidualną, znacznie wyższą wycenę.
 
 ## Granice praw do projektu
 
 - Samo zamówienie i opłacenie modelowania nie przenosi automatycznie autorskich praw majątkowych na klienta.
-- Własność fizycznego wydruku jest odrębna od praw do cyfrowego modelu.
+- Przekazanie kopii pliku jest odrębne od przeniesienia autorskich praw majątkowych.
+- Przekazanie pliku do druku wraz z ostatnim elementem realizacji nie oznacza przekazania edytowalnego pliku źródłowego, takiego jak BLEND albo STEP. Ewentualne wydanie źródła wymaga osobnego ustalenia i wyceny.
+- Standardowa licencja jest niewyłączna: klient i MM3D mogą drukować model w ustalonym zakresie.
+- Licencja pozwala obu stronom bez limitu drukować i sprzedawać fizyczne egzemplarze.
+- Licencja zabrania obu stronom publikowania, sprzedaży i przekazywania cyfrowego pliku osobom trzecim, z wyjątkiem drukarni wykonującej wyłącznie zleconą usługę.
 - MM3D może korzystać ze stworzonego modelu tylko w takim zakresie, w jakim nie narusza praw do materiałów przekazanych przez klienta.
 - Model oparty na chronionym utworze, znaku, wzorze, wizerunku albo poufnej dokumentacji może wymagać osobnej zgody uprawnionej osoby.
 
-Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw opisują art. 2, 8, 17, 41, 52, 53 i 65 [ustawy o prawie autorskim i prawach pokrewnych](https://eli.gov.pl/eli/DU/2025/24/ogl). Dokładne postanowienia formularza, regulaminu i umowy dotyczącej wyłączności powinien sprawdzić prawnik.
+Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw opisują art. 2, 8, 17, 41, 52, 53, 65 i 67 [ustawy o prawie autorskim i prawach pokrewnych](https://eli.gov.pl/eli/DU/2025/24/ogl). Dokładne postanowienia regulaminu, licencji niewyłącznej i umowy dotyczącej wyłączności powinien sprawdzić prawnik.
 
 ## Regulamin i materiały referencyjne
 
 - Szczegółowe zasady dotyczące praw autorskich, odpowiedzialności za materiały referencyjne, zakresu ich wykorzystania przez MM3D oraz prawa odmowy realizacji znajdują się w regulaminie, a nie w osobnych polach formularza.
+- Regulamin rozróżnia końcowy plik produkcyjny do druku od edytowalnego pliku źródłowego, wskazuje moment przekazania pliku produkcyjnego wraz z ostatnim elementem realizacji oraz stanowi, że plik źródłowy nie jest częścią standardowej realizacji.
 - Regulamin opisuje również zasady odstąpienia od umowy, rozliczenia wykonanej pracy oraz przesyłania, przechowywania i zwrotu fizycznych przedmiotów referencyjnych.
 - Osobne oświadczenie pojawia się poza regulaminem tylko wtedy, gdy jest wymagane prawem, na przykład do rozpoczęcia świadczenia przed upływem ustawowego terminu. Jego potrzebę i treść musi potwierdzić prawnik.
 - Formularz zawiera jedno obowiązkowe pole: **„Zapoznałem się z Regulaminem i akceptuję jego postanowienia”** z bezpośrednim linkiem do regulaminu.
@@ -214,8 +225,8 @@ Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 79**:
+Następne pytanie to **pytanie 84**:
 
-> Jak rozliczamy ponowne zamówienie kolejnych wydruków tego samego modelu przez klienta?
+> Co dzieje się z plikiem produkcyjnym, jeżeli klient rezygnuje z fizycznej realizacji po ukończeniu modelowania?
 
-Rekomendacja: jeżeli MM3D nadal posiada gotowy i użyteczny model, a klient nie zmienia projektu, nie naliczamy ponownie kosztu modelowania. Nowej wycenie podlegają druk, wykończenie, malowanie i dostawa według aktualnych warunków. Każda zmiana modelu jest osobno wyceniana. Kwestia minimalnego okresu przechowywania pliku wymaga osobnej decyzji.
+Rekomendacja: rezygnacja nie powoduje automatycznego wydania pliku. Klient może go otrzymać dopiero po zaakceptowaniu ukończonego modelu i osobnym rozliczeniu całej należności za wykonane modelowanie; w przeciwnym razie plik pozostaje w MM3D.

@@ -61,12 +61,24 @@ Odtworzenie cyfrowej geometrii na podstawie pomiarów istniejącego przedmiotu r
 _Avoid_: Skan automatycznie gwarantujący identyczność, zwykłe modelowanie bez wzorca, kopiowanie bez oceny praw
 
 **Model niewyłączny**:
-Standardowy wariant projektowania, w którym klient otrzymuje uzgodniony fizyczny wydruk, a MM3D zachowuje cyfrowy model oraz przysługujące mu prawa i może ponownie korzystać z projektu, o ile nie narusza to praw do materiałów źródłowych. Niższa cena nie obejmuje wyłączności ani przekazania pliku.
-_Avoid_: Model wyłączny, przeniesienie praw, sprzedaż pliku klientowi
+Standardowy wariant projektowania, w którym klient otrzymuje wydruk, plik cyfrowego modelu i niewyłączną licencję na druk, a MM3D zachowuje autorskie prawa majątkowe; obie strony mogą bez limitu drukować i sprzedawać fizyczne egzemplarze. Żadna ze stron nie może dystrybuować cyfrowego pliku poza technicznym przekazaniem drukarni wykonującej usługę, a korzystanie MM3D pozostaje ograniczone prawami do materiałów źródłowych klienta.
+_Avoid_: Model wyłączny, współwłasność praw autorskich, przeniesienie praw
 
 **Model wyłączny**:
-Indywidualnie wyceniany wariant projektowania, w którym MM3D zobowiązuje się nie publikować, nie sprzedawać i nie wykorzystywać modelu dla innych klientów. Wyłączność nie oznacza automatycznego przekazania pliku ani autorskich praw majątkowych.
+Indywidualnie wyceniany wariant projektowania, w którym klient otrzymuje plik i wyłączne uprawnienie do korzystania z modelu w zakresie pisemnej umowy, a MM3D rezygnuje z objętego nią przyszłego wykorzystania projektu. Wyłączność może przyjąć postać licencji wyłącznej albo przeniesienia autorskich praw majątkowych na określonych polach eksploatacji.
 _Avoid_: Model niewyłączny, automatyczne przeniesienie praw, standardowa cena modelowania
+
+**Licencja niewyłączna na druk**:
+Upoważnienie przekazywane klientowi razem z plikiem, pozwalające klientowi i MM3D bez limitu drukować model oraz sprzedawać fizyczne egzemplarze, bez współwłasności praw ani wyłączności. Żadna strona nie może publikować, sprzedawać ani przekazywać cyfrowego pliku poza drukarnią wykonującą usługę bez prawa dalszego użycia.
+_Avoid_: Przeniesienie praw, licencja wyłączna, współwłasność modelu
+
+**Plik do druku**:
+Końcowy eksport produkcyjny cyfrowego modelu, w formacie dobranym do projektu, na przykład STL, 3MF albo OBJ, przekazywany klientowi wraz z ostatnim elementem ukończonej realizacji. Służy do wykonywania fizycznych wydruków i nie jest edytowalnym plikiem źródłowym.
+_Avoid_: Plik źródłowy modelu, cyfrowy podgląd modelu, załącznik do zapytania
+
+**Plik źródłowy modelu**:
+Edytowalny plik projektu z programu CAD lub rzeźbiarskiego, na przykład BLEND albo STEP, który może zawierać historię pracy, elementy robocze, zależności i wykorzystane zasoby. Nie jest przekazywany w standardowej realizacji; jego ewentualne wydanie wymaga osobnego ustalenia zakresu i ceny.
+_Avoid_: Plik do druku, eksport STL, cyfrowy podgląd modelu
 
 **Tura poprawek**:
 Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny. Usunięcie niezgodności wynikającej z błędu MM3D nie zużywa tury poprawek.

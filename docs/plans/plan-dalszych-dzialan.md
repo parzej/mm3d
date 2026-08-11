@@ -65,9 +65,9 @@ Ustalony zakres obejmuje:
 - możliwość zgłoszenia fizycznego przedmiotu referencyjnego, który klient może przesłać przez InPost do pomiarów i modelowania odwrotnego;
 - szacunkowe wymiary i oczekiwaną liczbę wydruków;
 - późniejsze doprecyzowanie przez e-mail albo rozmowę telefoniczną z zachowaniem pisemnego potwierdzenia kluczowych ustaleń;
-- fizyczny wydruk jako standardowy rezultat bez automatycznego przekazania pliku cyfrowego;
+- fizyczny wydruk, plik cyfrowego modelu i niewyłączną licencję na drukowanie jako standardowy rezultat;
 - standardowy model niewyłączny oraz znacznie droższy model wyłączny;
-- osobną indywidualną umowę i cenę, jeśli klient chce otrzymać plik albo prawa;
+- odrębne ustalenia dotyczące zakresu licencji, wykorzystania komercyjnego albo wyłączności;
 - dwie tury poprawek oraz dwa fizyczne prototypy: wstępny i finalny;
 - płatność za modelowanie w dwóch częściach po 50%, a przy większym nakładzie osobną przedpłatę przed jego produkcją;
 - możliwość wstępnego zgłoszenia zainteresowania usuwaniem podpór, szlifowaniem albo malowaniem, z późniejszym indywidualnym potwierdzeniem zakresu i ceny.
@@ -137,7 +137,8 @@ Przed uruchomieniem strony należy przygotować regulamin obejmujący wszystkie 
 - zasady wykorzystania opisu i referencji klienta jako podstawy malowania oraz sposób wyjaśniania niejasności;
 - trwałość malowania, naturalne zużycie, warunki użytkowania i granicę odpowiedzialności za wadę wykonania;
 - zasady dodatkowych poprawek, zmiany koncepcji i rozszerzenia zakresu;
-- model niewyłączny, model wyłączny, przekazanie pliku oraz prawa do projektu;
+- model niewyłączny, model wyłączny, przekazanie pliku, nieograniczoną sprzedaż fizycznych wydruków, zakaz dystrybucji pliku cyfrowego oraz prawa do projektu;
+- rozróżnienie końcowego pliku produkcyjnego do druku od edytowalnego pliku źródłowego, moment wydania pliku produkcyjnego wraz z ostatnim elementem realizacji oraz zasadę, że przekazanie źródła wymaga osobnego ustalenia i ceny;
 - odpowiedzialność za pliki, materiały i przedmioty referencyjne oraz możliwość odmowy realizacji;
 - modelowanie odwrotne, wysyłkę, zabezpieczenie, przechowanie i zwrot przedmiotu referencyjnego;
 - odstąpienie od umowy, rezygnację w trakcie prac i indywidualne rozliczenie wartości wykonanego zakresu oraz kosztów, których MM3D nie oszczędzi;
@@ -310,4 +311,4 @@ Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych 
 
 ## Najbliższa sesja robocza
 
-Następna część grillowania zaczyna się od pytania 79 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
+Następna część grillowania zaczyna się od pytania 84 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
