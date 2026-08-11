@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 46 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 47. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 47 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 48. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -26,9 +26,12 @@ Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na os
 
 ## Doprecyzowanie projektu
 
-- Modelowanie od zera zakłada późniejszą rozmowę telefoniczną albo wymianę kilku wiadomości e-mail.
+- E-mail jest podstawowym kanałem doprecyzowania projektu i tworzy trwały zapis decyzji.
+- Rozmowa telefoniczna jest opcjonalnym uzupełnieniem, gdy szybciej pozwala wyjaśnić szczegóły.
 - MM3D ustala w ten sposób szczegóły, których klient nie był w stanie jednoznacznie opisać w formularzu.
-- Kluczowe ustalenia dotyczące zakresu, wymiarów, wyglądu i ceny muszą pozostać zapisane w wiadomościach przed rozpoczęciem pracy.
+- Po rozmowie telefonicznej MM3D wysyła krótkie podsumowanie e-mailem.
+- Klient potwierdza podsumowanie przed przygotowaniem ostatecznej wyceny albo rozpoczęciem projektowania.
+- Kluczowe ustalenia dotyczące zakresu, wymiarów, wyglądu i ceny muszą pozostać zapisane w wiadomościach.
 
 ## Standardowy rezultat
 
@@ -73,8 +76,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 47**:
+Następne pytanie to **pytanie 48**:
 
-> Czy e-mail ma być domyślnym kanałem doprecyzowania, a rozmowa telefoniczna opcjonalnym uzupełnieniem potwierdzanym później krótkim podsumowaniem e-mail?
+> Ile tur poprawek projektu obejmuje standardowa wycena modelowania?
 
-Rekomendacja pozostaje taka, aby e-mail tworzył trwały zapis decyzji. Jeżeli szczegóły zostaną omówione telefonicznie, MM3D wysyła klientowi krótkie podsumowanie do potwierdzenia przed przygotowaniem ostatecznej wyceny.
+Rekomendacja pozostaje taka, aby standardowa wycena obejmowała dwie tury poprawek na podstawie skonsolidowanych uwag klienta. Zmiana koncepcji albo wymagania wykraczające poza zaakceptowany zakres są wyceniane dodatkowo.
