@@ -40,7 +40,7 @@ Stan na 11 sierpnia 2026:
 
 - główna ścieżka druku z gotowego pliku została rozpisana od formularza przez wycenę, akceptację, przedpłatę Paynow, realizację i dostawę InPost;
 - decyzje głównej ścieżki opisuje dokument [Ścieżka klienta — druk z gotowego pliku](../briefs/sciezka-klienta-druk-z-pliku.md);
-- drugoplanowa ścieżka jest rozwijana w dokumencie [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md), a grillowanie należy kontynuować od pytania 52;
+- drugoplanowa ścieżka jest rozwijana w dokumencie [Ścieżka klienta — modelowanie od zera](../briefs/sciezka-klienta-modelowanie.md), a grillowanie należy kontynuować od pytania 53;
 - implementacyjne konsekwencje głównej ścieżki wymagają potwierdzenia Parzeja.
 
 ### 2. Zdefiniowanie formularzy
@@ -62,6 +62,7 @@ Ustalony zakres obejmuje:
 
 - opis potrzeby lub problemu;
 - zdjęcia, szkice, rysunki techniczne, blueprinty, dokumentację wymiarową i inne materiały referencyjne;
+- możliwość zgłoszenia fizycznego przedmiotu referencyjnego, który klient może przesłać przez InPost do pomiarów i modelowania odwrotnego;
 - szacunkowe wymiary i oczekiwaną liczbę wydruków;
 - późniejsze doprecyzowanie przez e-mail albo rozmowę telefoniczną z zachowaniem pisemnego potwierdzenia kluczowych ustaleń;
 - fizyczny wydruk jako standardowy rezultat bez automatycznego przekazania pliku cyfrowego;

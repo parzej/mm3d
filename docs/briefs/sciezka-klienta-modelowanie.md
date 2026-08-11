@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 51 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 52. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 52 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 53. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -19,6 +19,8 @@ Klient przekazuje:
 - blueprinty;
 - dokumentację wymiarową;
 - inne pliki pokazujące kształt, wygląd albo sposób działania przedmiotu.
+
+Klient może również zgłosić, że dysponuje fizycznym przedmiotem referencyjnym, który może przesłać do MM3D przez InPost. MM3D może zmierzyć ten przedmiot i wykonać na jego podstawie modelowanie odwrotne (reverse engineering). Formularz na tym etapie zbiera tylko informację o dostępności przedmiotu; zasady jego wysyłki, zabezpieczenia, odpowiedzialności i zwrotu są uzgadniane przed nadaniem.
 
 Nie każdy rodzaj materiału jest obowiązkowy. Klient przesyła te materiały, którymi rzeczywiście dysponuje. Bezpieczne formaty, rozmiary i limity załączników ustali Parzej.
 
@@ -70,6 +72,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 ## Regulamin i materiały referencyjne
 
 - Szczegółowe zasady dotyczące praw autorskich, odpowiedzialności za materiały referencyjne, zakresu ich wykorzystania przez MM3D oraz prawa odmowy realizacji znajdują się w regulaminie, a nie w osobnych polach formularza.
+- Regulamin opisuje również zasady odstąpienia od umowy, rozliczenia wykonanej pracy oraz przesyłania, przechowywania i zwrotu fizycznych przedmiotów referencyjnych.
+- Osobne oświadczenie pojawia się poza regulaminem tylko wtedy, gdy jest wymagane prawem, na przykład do rozpoczęcia świadczenia przed upływem ustawowego terminu. Jego potrzebę i treść musi potwierdzić prawnik.
 - Formularz zawiera jedno obowiązkowe pole: **„Zapoznałem się z Regulaminem i akceptuję jego postanowienia”** z bezpośrednim linkiem do regulaminu.
 - Pole nie jest zaznaczone domyślnie.
 - Regulamin wymaga konsultacji prawnej przed publikacją.
@@ -102,10 +106,8 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 52**:
+Następne pytanie to **pytanie 53**:
 
-> Czy MM3D ma rozpoczynać modelowanie przed upływem 14-dniowego terminu na odstąpienie przez konsumenta?
+> Kiedy klient może wysłać fizyczny przedmiot referencyjny do MM3D?
 
-Rekomendacja: klient może wyraźnie zażądać rozpoczęcia modelowania od razu, przed upływem 14 dni, w osobnym i niezaznaczonym domyślnie oświadczeniu utrwalonym na trwałym nośniku. Powinien wcześniej otrzymać informację, że w razie ustawowego odstąpienia zapłaci proporcjonalnie za świadczenie wykonane do tej chwili, a po pełnym wykonaniu usługi może utracić prawo odstąpienia. Bez takiego żądania MM3D rozpoczyna pracę po upływie ustawowego terminu. Dokładna kwalifikacja umowy łączącej modelowanie z indywidualnym wydrukiem i treść oświadczenia wymagają sprawdzenia przez prawnika.
-
-Źródła: [UOKiK — odstąpienie od umowy](https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/odstapienie-od-umowy/), [UOKiK — wyłączenia prawa do odstąpienia](https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/), art. 35 i 38 [ustawy o prawach konsumenta](https://eli.gov.pl/eli/DU/2024/1796/ogl).
+Rekomendacja: w formularzu klient zaznacza tylko **„Mam przedmiot, który mogę wysłać do pomiarów”**. Przesyła go dopiero po wstępnej ocenie zapytania i wyraźnym potwierdzeniu MM3D, wraz z otrzymaną instrukcją nadania przez InPost. Klient nie powinien wysyłać przedmiotu samodzielnie przed takim potwierdzeniem.

@@ -44,6 +44,14 @@ _Avoid_: Druk z pliku klienta, podstawowa usługa
 Zdjęcia, szkice, rysunki techniczne, blueprinty, dokumentacja wymiarowa lub inne pliki przekazane przez klienta jako podstawa projektowania modelu. Nie oznaczają automatycznie, że klient ma prawa pozwalające na każde wykorzystanie przedstawionego wzoru.
 _Avoid_: Gotowy model 3D, załącznik do druku, gwarancja praw do wzoru
 
+**Przedmiot referencyjny**:
+Fizyczny przedmiot przekazany czasowo przez klienta do pomiarów potrzebnych przy projektowaniu modelu. Pozostaje własnością klienta i nie jest prototypem wykonywanym przez MM3D.
+_Avoid_: Materiał referencyjny w pliku, prototyp, własność MM3D
+
+**Modelowanie odwrotne**:
+Odtworzenie cyfrowej geometrii na podstawie pomiarów istniejącego przedmiotu referencyjnego. Nie oznacza gwarancji idealnej kopii bez osobnego uzgodnienia wymaganej dokładności.
+_Avoid_: Skan automatycznie gwarantujący identyczność, zwykłe modelowanie bez wzorca, kopiowanie bez oceny praw
+
 **Model niewyłączny**:
 Standardowy wariant projektowania, w którym klient otrzymuje uzgodniony fizyczny wydruk, a MM3D zachowuje cyfrowy model oraz przysługujące mu prawa i może ponownie korzystać z projektu, o ile nie narusza to praw do materiałów źródłowych. Niższa cena nie obejmuje wyłączności ani przekazania pliku.
 _Avoid_: Model wyłączny, przeniesienie praw, sprzedaż pliku klientowi

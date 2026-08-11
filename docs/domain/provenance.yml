@@ -89,6 +89,20 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-11
+  "Przedmiot referencyjny":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
+  "Modelowanie odwrotne":
+    introduced_by: goras
+    introduced_on: 2026-08-11
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-11
   "Model niewyłączny":
     introduced_by: goras
     introduced_on: 2026-08-11
