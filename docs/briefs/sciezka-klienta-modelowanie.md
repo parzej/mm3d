@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 47 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 48. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 48 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 49. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -74,10 +74,19 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Pole nie jest zaznaczone domyślnie.
 - Regulamin wymaga konsultacji prawnej przed publikacją.
 
+## Tury poprawek
+
+- Standardowa wycena modelowania obejmuje dwie tury poprawek.
+- Każda tura oznacza jedną zebraną listę uwag klienta do przedstawionej wersji.
+- Pierwsza tura następuje po pierwszej prezentacji modelu.
+- Druga tura służy drobnym korektom po wprowadzeniu pierwszego zestawu uwag.
+- Poprawki muszą mieścić się w zaakceptowanym zakresie projektu.
+- Zmiana koncepcji, dodanie nowych elementów albo powrót do wcześniej odrzuconej wersji wymaga osobnej wyceny.
+
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 48**:
+Następne pytanie to **pytanie 49**:
 
-> Ile tur poprawek projektu obejmuje standardowa wycena modelowania?
+> Jak określamy liczbę fizycznych prototypów w standardowej wycenie modelowania?
 
-Rekomendacja pozostaje taka, aby standardowa wycena obejmowała dwie tury poprawek na podstawie skonsolidowanych uwag klienta. Zmiana koncepcji albo wymagania wykraczające poza zaakceptowany zakres są wyceniane dodatkowo.
+Rekomendacja pozostaje taka, aby wycena określała zero albo jeden prototyp zależnie od potrzeb projektu. Dalsze prototypy wynikające ze zmian klienta są płatne osobno, natomiast wadliwy wydruk wynikający z błędu MM3D nie jest liczony jako prototyp klienta.

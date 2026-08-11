@@ -52,6 +52,10 @@ _Avoid_: Model wyłączny, przeniesienie praw, sprzedaż pliku klientowi
 Indywidualnie wyceniany wariant projektowania, w którym MM3D zobowiązuje się nie publikować, nie sprzedawać i nie wykorzystywać modelu dla innych klientów. Wyłączność nie oznacza automatycznego przekazania pliku ani autorskich praw majątkowych.
 _Avoid_: Model niewyłączny, automatyczne przeniesienie praw, standardowa cena modelowania
 
+**Tura poprawek**:
+Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny.
+_Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cenie
+
 **Klient podstawowej usługi**:
 Hobbysta lub osoba prywatna zamawiająca pojedyncze albo powtarzalne wydruki z gotowych modeli 3D. Nie oznacza klienta przemysłowego oczekującego przemysłowego procesu realizacji.
 _Avoid_: Klient przemysłowy, odbiorca masowej produkcji
