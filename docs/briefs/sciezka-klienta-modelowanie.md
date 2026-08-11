@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 68 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 69. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 73 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 74. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -60,7 +60,7 @@ Formularz ma przypominać prostą wiadomość e-mail. Nie dzieli klientów na os
 - Klient ma pięć dni roboczych na odpowiedź na cyfrowy podgląd albo prośbę o zebranie uwag.
 - Po upływie tego terminu MM3D wysyła jedno przypomnienie.
 - Jeżeli klient nie odpowie przez kolejnych pięć dni roboczych, projekt zostaje wstrzymany, a dotychczasowy termin realizacji przestaje obowiązywać.
-- Brak odpowiedzi nie oznacza automatycznej akceptacji podglądu, projektu ani prototypu.
+- Brak odpowiedzi nie oznacza automatycznej akceptacji podglądu, projektu, prototypu ani ukończonego malowania.
 - Wznowienie następuje po odpowiedzi klienta i potwierdzeniu przez MM3D nowego dostępnego terminu.
 - Szczegółowa zasada wstrzymania znajduje się w regulaminie, a nie w formularzu zamówienia.
 
@@ -154,6 +154,19 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Gotowy wydruk dostarczony przez klienta może zostać przyjęty do malowania po indywidualnej ocenie materiału, jakości powierzchni i zakresu przygotowania, poza standardowym formularzem.
 - Malowanie jest zawsze wyceniane indywidualnie na podstawie wielkości modelu, liczby kolorów, ilości detali, oczekiwanego efektu i potrzebnego przygotowania powierzchni.
 - Strona nie pokazuje stałego cennika malowania ani ceny „od”.
+- Pierwsza wycena modelowania pokazuje klientowi szacunkowy koszt malowania.
+- Po akceptacji niemalowanego prototypu finalnego MM3D potwierdza ostateczny zakres i cenę malowania.
+- Klient płaci ostateczną cenę przed rozpoczęciem malowania.
+- Po ukończeniu malowania MM3D przesyła klientowi zdjęcia gotowego modelu.
+- Klient potwierdza zgodność malowania z zaakceptowanym kierunkiem przed wysyłką.
+- Akceptacja zdjęć nie ogranicza prawa klienta do reklamowania wad, których nie można było na nich ocenić.
+- Jeżeli klient nie odpowiada, po 5 dniach roboczych MM3D wysyła przypomnienie, a po kolejnych 5 dniach zawiesza sprawę i nie wysyła modelu.
+- Czas oczekiwania na akceptację odpowiednio przesuwa uzgodniony termin. Szczegółowa procedura znajduje się w regulaminie.
+- Klient jest informowany przed zamówieniem, że ręczne malowanie oraz sposób wyświetlania kolorów na ekranie mogą powodować drobne różnice względem wizualizacji albo materiałów referencyjnych.
+- Niewielka różnica niewpływająca na uzgodniony charakter i jakość pracy jest dopuszczalna. Wyraźna niezgodność z zaakceptowanym kierunkiem wymaga poprawki albo może podlegać reklamacji.
+- Przy ręcznie malowanej serii niewielkie różnice pomiędzy egzemplarzami są naturalne, o ile każdy zachowuje zaakceptowaną kolorystykę, poziom wykończenia i ogólny charakter wzorca.
+- Podwyższona powtarzalność serii wymaga osobnego ustalenia próbki wzorcowej, standardu wykonania, tolerancji i ceny.
+- Zasada dopuszczalnych różnic znajduje się również w regulaminie, którego ostateczne brzmienie zatwierdza prawnik.
 
 ## Płatność etapowa za modelowanie
 
@@ -192,8 +205,8 @@ Podstawa do konsultacji prawnej: art. 644 [Kodeksu cywilnego](https://eli.gov.pl
 
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 69**:
+Następne pytanie to **pytanie 74**:
 
-> Kiedy klient otrzymuje ostateczną cenę malowania i kiedy za nie płaci?
+> Czy zabezpieczenie pomalowanego modelu lakierem bezbarwnym ma być standardową częścią usługi malowania?
 
-Rekomendacja: pierwsza wycena modelowania pokazuje szacunkowy koszt malowania. Po akceptacji niemalowanego prototypu finalnego MM3D potwierdza ostateczny zakres i cenę malowania, a klient płaci przed rozpoczęciem tej usługi. Dzięki temu wcześniej zna przybliżony budżet, ale ostateczna cena uwzględnia rzeczywistą geometrię i powierzchnię gotowego modelu.
+Rekomendacja: zabezpieczenie lakierem jest częścią usługi wtedy, gdy wymaga go zastosowana technika lub sposób użytkowania modelu. MM3D uwzględnia je w indywidualnej wycenie i uzgadnia z klientem oczekiwane wykończenie: matowe, satynowe albo błyszczące. Nie obiecujemy jednego obowiązkowego lakieru dla każdego projektu.

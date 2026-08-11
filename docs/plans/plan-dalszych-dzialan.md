@@ -132,7 +132,8 @@ Przed uruchomieniem strony należy przygotować regulamin obejmujący wszystkie 
 - płatności, przedpłaty, płatność etapową za modelowanie i moment rozpoczęcia pracy;
 - zakres druku z pliku klienta oraz zakres modelowania od zera;
 - dwie tury poprawek, prototyp wstępny i prototyp finalny;
-- cyfrowy podgląd modelu, sposób jego akceptacji i skutki braku odpowiedzi klienta;
+- cyfrowy podgląd modelu, akceptację prototypu i ukończonego malowania oraz skutki braku odpowiedzi klienta;
+- dopuszczalne różnice wynikające z ręcznego malowania i wyświetlania kolorów, powtarzalność ręcznie malowanej serii oraz granicę między naturalną różnicą a niezgodnością;
 - zasady dodatkowych poprawek, zmiany koncepcji i rozszerzenia zakresu;
 - model niewyłączny, model wyłączny, przekazanie pliku oraz prawa do projektu;
 - odpowiedzialność za pliki, materiały i przedmioty referencyjne oraz możliwość odmowy realizacji;
@@ -307,4 +308,4 @@ Te funkcje powinny wrócić do oceny dopiero po zebraniu danych z rzeczywistych 
 
 ## Najbliższa sesja robocza
 
-Następna część grillowania zaczyna się od pytania 69 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.
+Następna część grillowania zaczyna się od pytania 74 i kontynuuje ustalanie drugoplanowej ścieżki „Nie masz modelu? Opisz swój pomysł”. Góras zezwolił na zadanie tylu pytań, ile będzie konieczne, nadal po jednym pytaniu naraz. Po domknięciu obu ścieżek należy zaktualizować dokumentację i przygotować uzgodnione podsumowanie w Google Docs.

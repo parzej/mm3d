@@ -144,6 +144,18 @@ _Avoid_: Usuwanie podpór, automatyczne wygładzenie, przygotowanie druku
 Opcjonalna, zawsze indywidualnie wyceniana usługa ręcznego malowania wydruku wykonanego przez MM3D, niezależna od koloru materiału; w ścieżce modelowania rozpoczyna się dopiero po akceptacji niemalowanego prototypu finalnego. Klient zatwierdza kierunek kolorystyki przed rozpoczęciem pracy; późniejsza zmiana koncepcji wymaga dodatkowej wyceny, a wykonanie niezgodne z ustaleniami MM3D poprawia na własny koszt.
 _Avoid_: Kolor standardowy, kolor filamentu lub żywicy, usługa wliczona automatycznie
 
+**Wycena malowania**:
+Ostateczna, indywidualna cena malowania potwierdzana po akceptacji niemalowanego prototypu finalnego i opłacana przed rozpoczęciem usługi. Wcześniejsza wycena modelowania może zawierać jedynie szacunkowy koszt malowania.
+_Avoid_: Stały cennik malowania, cena od, cena modelowania
+
+**Akceptacja malowania**:
+Wyraźne potwierdzenie przez klienta na podstawie zdjęć, że ukończone malowanie odpowiada wcześniej zaakceptowanemu kierunkowi, wymagane przed wysyłką modelu; brak odpowiedzi nie jest akceptacją. Potwierdzenie nie ogranicza prawa do reklamowania wad, których nie można było ocenić na zdjęciach.
+_Avoid_: Akceptacja wyceny, milcząca zgoda, zrzeczenie się reklamacji
+
+**Dopuszczalna różnica malowania**:
+Niewielka różnica względem wizualizacji, materiału referencyjnego albo innego egzemplarza z ręcznie malowanej serii, która nie zmienia uzgodnionego charakteru, kolorystyki ani jakości pracy. Wyraźna niezgodność z zaakceptowanym kierunkiem nie jest dopuszczalną różnicą, a podwyższona powtarzalność serii wymaga osobno uzgodnionego wzorca i tolerancji.
+_Avoid_: Dowolna zmiana, wada ukryta, wyraźna niezgodność
+
 **Priorytet realizacji**:
 Obowiązkowo wskazana przez klienta najważniejsza preferencja: możliwie niska cena, najlepszy wygląd i detale, wytrzymałość albo możliwie najkrótszy termin. Kieruje przygotowaniem wyceny, ale nie jest gwarancją przed jej potwierdzeniem przez MM3D.
 _Avoid_: Najlepszy kompromis, gwarantowany rezultat
