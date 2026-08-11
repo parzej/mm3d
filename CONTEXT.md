@@ -56,6 +56,14 @@ _Avoid_: Model niewyłączny, automatyczne przeniesienie praw, standardowa cena 
 Jedna zebrana lista uwag klienta do przedstawionej wersji modelu, dotycząca wcześniej uzgodnionego zakresu. Standardowa wycena obejmuje dwie tury; zmiana koncepcji lub dodanie nowego zakresu wymaga osobnej wyceny.
 _Avoid_: Pojedyncza uwaga, nieograniczone zmiany, nowa koncepcja w tej samej cenie
 
+**Prototyp wstępny**:
+Pierwszy fizyczny wydruk wykonywany podczas modelowania, służący sprawdzeniu projektu i zebraniu uwag klienta przed wprowadzeniem uzgodnionych poprawek.
+_Avoid_: Gotowy wyrób, prototyp finalny, nieudany wydruk MM3D
+
+**Prototyp finalny**:
+Drugi fizyczny wydruk wykonywany po uwzględnieniu uzgodnionych poprawek, pokazujący końcowy rezultat modelowania. Nieudany wydruk wynikający z błędu MM3D nie jest prototypem finalnym.
+_Avoid_: Prototyp wstępny, każdy kolejny wydruk, nieudany wydruk MM3D
+
 **Klient podstawowej usługi**:
 Hobbysta lub osoba prywatna zamawiająca pojedyncze albo powtarzalne wydruki z gotowych modeli 3D. Nie oznacza klienta przemysłowego oczekującego przemysłowego procesu realizacji.
 _Avoid_: Klient przemysłowy, odbiorca masowej produkcji

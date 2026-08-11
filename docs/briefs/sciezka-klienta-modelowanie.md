@@ -1,6 +1,6 @@
 # Ścieżka klienta — modelowanie od zera
 
-Status: decyzje biznesowe Górasa potwierdzone do pytania 48 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 49. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
+Status: decyzje biznesowe Górasa potwierdzone do pytania 49 włącznie 11 sierpnia 2026. Grillowanie należy kontynuować od pytania 50. Techniczny sposób obsługi załączników i treść regulaminu wymagają potwierdzenia przez Parzeja oraz konsultacji prawnej przed publikacją.
 
 ## Cel ścieżki
 
@@ -83,10 +83,18 @@ Podstawę rozróżnienia własności egzemplarza, licencji i przeniesienia praw 
 - Poprawki muszą mieścić się w zaakceptowanym zakresie projektu.
 - Zmiana koncepcji, dodanie nowych elementów albo powrót do wcześniej odrzuconej wersji wymaga osobnej wyceny.
 
+## Prototypy fizyczne
+
+- Standardowa wycena modelowania obejmuje dwa fizyczne prototypy.
+- Pierwszy jest prototypem wstępnym. Służy sprawdzeniu projektu oraz zebraniu uwag klienta przed wykonaniem poprawek.
+- Drugi jest prototypem finalnym. Powstaje po uwzględnieniu uzgodnionych poprawek i pokazuje końcowy rezultat modelowania.
+- Nieudany wydruk wynikający z błędu MM3D jest wykonywany ponownie na koszt MM3D i nie jest liczony jako prototyp wstępny ani finalny.
+- Dodatkowe prototypy wynikające ze zmiany koncepcji lub rozszerzenia zakresu przez klienta wymagają osobnej wyceny.
+
 ## Punkt wznowienia
 
-Następne pytanie to **pytanie 49**:
+Następne pytanie to **pytanie 50**:
 
-> Jak określamy liczbę fizycznych prototypów w standardowej wycenie modelowania?
+> Czy prototyp finalny jest zarazem gotowym wydrukiem dla klienta, czy wzorcem przed wykonaniem zamówionej liczby sztuk?
 
-Rekomendacja pozostaje taka, aby wycena określała zero albo jeden prototyp zależnie od potrzeb projektu. Dalsze prototypy wynikające ze zmian klienta są płatne osobno, natomiast wadliwy wydruk wynikający z błędu MM3D nie jest liczony jako prototyp klienta.
+Rekomendacja: przy zamówieniu jednej sztuki prawidłowy prototyp finalny może być gotowym wydrukiem przekazanym klientowi. Przy większej liczbie sztuk jest egzemplarzem wzorcowym, którego akceptacja poprzedza wykonanie pozostałych sztuk.
