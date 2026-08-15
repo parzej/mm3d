@@ -88,7 +88,7 @@ Przyciski:
 
 ### Dowody zaufania
 
-- **Odpowiedź do 2 dni roboczych** — dla kompletnego zapytania.
+- **Odpowiedź do 2 dni roboczych** — wycena, konieczne pytanie albo informacja o braku możliwości realizacji; termin dotyczy każdej kolejnej wiadomości klienta przekazującej wymagane uzupełnienie.
 - **FDM i druk żywiczny** — technologię dobiera MM3D, jeśli klient nie wie, czego potrzebuje.
 - **Wykończenie na zamówienie** — usuwanie podpór, szlifowanie i malowanie są wyceniane osobno.
 - **Dostawa InPost** — Paczkomat albo kurier.

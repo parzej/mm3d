@@ -72,3 +72,78 @@ Status: dokument rozwijany podczas biznesowej sesji grillowania Górasa rozpocz�
 3. Czy działanie „Poproś o aktualizację” wysyła wiadomość, zmienia stan sprawy, czy wykonuje oba działania?
 4. Jak utworzyć nową wersję na podstawie wygasłej bez utraty historii i bez ręcznego przepisywania wszystkich wariantów?
 5. Jak zaprezentować klientowi poprzednią i aktualną wersję, aby nie pomylił ich możliwości płatności?
+
+## Decyzja 4: dwudniowy czas reakcji MM3D
+
+- Automatyczne potwierdzenie pierwszego formularza nie zastępuje merytorycznej odpowiedzi MM3D.
+- MM3D ma maksymalnie dwa dni robocze na odpowiedź od pierwszego zapytania klienta.
+- Odpowiedzią może być wycena, kolejne konieczne pytanie albo odmowa realizacji.
+- Wysłanie odpowiedzi zatrzymuje czas po stronie MM3D.
+- Gdy klient dostarczy wymagane informacje, rozpoczyna się nowy maksymalnie dwudniowy okres na następne działanie MM3D.
+- Reguła nie obiecuje zakończenia całego procesu wyceny w dwa dni.
+- Szczegóły decyzji zapisuje [ADR 0008](../adr/0008-dwudniowy-czas-reakcji-mm3d.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak rozpoznać, że wiadomość klienta wymaga następnego działania MM3D, bez automatycznej analizy treści e-maila?
+2. Czy i gdzie Góras ręcznie oznacza przejście odpowiedzialności między klientem a MM3D?
+3. Jak liczyć dni robocze, święta oraz czas otrzymania wiadomości poza godzinami pracy?
+4. Czy panel ma pokazywać termin następnej reakcji i ostrzegać o jego zbliżaniu?
+5. Jak powiązać odpowiedzi e-mail z właściwą sprawą, jeśli klient zmieni temat wiadomości albo adres nadawcy?
+
+## Decyzja 5: brak odpowiedzi klienta podczas uzgodnień
+
+- Po 5 dniach roboczych oczekiwania na konieczną informację klient otrzymuje jedno przypomnienie.
+- Po kolejnych 5 dniach roboczych bez odpowiedzi sprawa zostaje wstrzymana.
+- Wstrzymana sprawa nie generuje dalszych zadań dla MM3D.
+- Klient może wznowić ją przez odpowiedź w tym samym wątku i z tym samym numerem sprawy.
+- Wznowienie rozpoczyna nowy dwudniowy czas reakcji MM3D.
+- Wcześniejsze rozmowy nie gwarantują po wznowieniu ceny, terminu ani dostępności.
+- Szczegóły decyzji zapisuje [ADR 0009](../adr/0009-wstrzymanie-sprawy-po-braku-odpowiedzi.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak system rozpoznaje, że sprawa oczekuje na klienta, i od którego momentu liczy 5 dni roboczych?
+2. Czy przypomnienie jest wysyłane automatycznie, czy po zatwierdzeniu przez Górasa?
+3. Jak uniknąć przypomnienia, jeśli klient odpowiedział poza śledzonym wątkiem albo innym kanałem elektronicznym?
+4. Jak technicznie wstrzymać i później wznowić sprawę bez zmiany jej numeru?
+5. Jak oznaczyć, że wznowiona sprawa wymaga ponownej oceny ceny i dostępności?
+
+## Decyzja 6: dane dostawy przed przejściem do Paynow
+
+- Pierwszy formularz zapytania nie wymaga kompletu danych wysyłkowych.
+- Po wybraniu wariantu klient podaje albo potwierdza imię i nazwisko odbiorcy, adres e-mail i numer telefonu.
+- Dla Paczkomatu podaje konkretny numer albo identyfikator punktu.
+- Dla kuriera podaje pełny adres dostawy.
+- Dane są kompletowane przed przekierowaniem do Paynow, a nie po płatności.
+- Klient przechodzi do płatności dopiero po zobaczeniu końcowego podsumowania wariantu i pełnej kwoty.
+- Klient nie zamawia i nie opłaca przesyłki InPost oraz nie przekazuje kodu nadania.
+- MM3D zamawia przesyłkę i wybiera jej gabaryt na podstawie gotowego, zabezpieczonego produktu oraz pudełka.
+- Szczegóły decyzji zapisuje [ADR 0010](../adr/0010-dane-dostawy-przed-platnoscia.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak bez konta klienta bezpiecznie zachować wybór wariantu podczas uzupełniania danych dostawy i przejścia do Paynow?
+2. Które pola są wymagane dla Paczkomatu, a które dla kuriera?
+3. Jak walidować Paczkomat i adres przed utworzeniem płatności?
+4. Czy dane są przekazywane do InPost automatycznie, czy przechowywane tylko dla Górasa?
+5. Jak pozwolić klientowi poprawić dane bez utworzenia nowej wersji wyceny, jeżeli cena i zakres się nie zmieniają?
+6. Jak chronić dane dostawy w widoku wyceny i historii sprawy dostępnej bez konta?
+7. Jak MM3D zapisuje wybrany gabaryt i wynikające z niego dane nadania bez wymagania tej decyzji od klienta?
+
+## Decyzja 7: rodzaj nabywcy i dane do dokumentu sprzedaży
+
+- Przed przejściem do Paynow klient wybiera zakup prywatny albo zakup na firmę.
+- Wybór znajduje się w tym samym kroku co potwierdzenie danych dostawy i wariantu.
+- Przy zakupie firmowym klient podaje nazwę firmy, NIP i adres.
+- Dane nabywcy są kompletne przed utworzeniem opłaconego zamówienia.
+- Dokładny zestaw obowiązkowych pól i dokumentów potwierdza księgowy lub prawnik.
+- Szczegóły decyzji zapisuje [ADR 0011](../adr/0011-rodzaj-nabywcy-przed-platnoscia.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak dynamicznie pokazać właściwe pola dla zakupu prywatnego i firmowego?
+2. Jak walidować NIP i czy weryfikacja ma być wyłącznie składniowa, czy także z zewnętrznym rejestrem?
+3. Które dane są przekazywane do systemu płatności, a które pozostają wyłącznie w MM3D?
+4. Jak zapisać rodzaj nabywcy i dane dokumentu przy zamówieniu oraz późniejszej korekcie?
+5. Jak ograniczyć dostęp do danych nabywcy w widoku sprawy dostępnym bez konta?

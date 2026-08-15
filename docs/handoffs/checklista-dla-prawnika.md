@@ -201,13 +201,15 @@ Do oceny również:
 - regulamin powinien opisywać metody płatności, moment zapłaty, nieudaną płatność i zwroty;
 - dokumenty księgowe i podatkowe wymagają osobnej retencji;
 - należy ustalić zasady faktury lub paragonu i dane zbierane do ich wystawienia.
+- przed Paynow klient wybiera zakup prywatny albo firmowy, a przy zakupie firmowym podaje nazwę, NIP i adres; prosimy potwierdzić wymagane pola, rodzaj dokumentu i zasady późniejszej korekty.
 
 ## Dostawa
 
 - Paczkomat InPost albo kurier InPost;
 - brak odbioru osobistego;
 - koszt jako osobna pozycja wyceny;
-- adres albo Paczkomat zbierany po akceptacji;
+- imię i nazwisko odbiorcy, e-mail, telefon oraz Paczkomat albo adres kuriera zbierane po wyborze wariantu i przed płatnością Paynow;
+- przesyłkę zamawia MM3D i dobiera jej gabaryt; klient nie kupuje nadania ani nie przekazuje kodu;
 - ryzyko przypadkowej utraty, moment wydania i odpowiedzialność przewoźnika wymagają prawidłowego opisania;
 - wysyłka pliku produkcyjnego wraz z ostatnim elementem realizacji wymaga zdefiniowania sposobu elektronicznego przekazania.
 

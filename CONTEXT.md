@@ -264,13 +264,29 @@ _Avoid_: Milcząca zgoda, odpowiedź e-mail bez płatności, płatność za niea
 Pełna płatność przez Paynow wymagana przed rozpoczęciem indywidualnego druku. W podstawowym procesie jest zarazem akceptacją aktualnej wyceny i momentem utworzenia zamówienia, a potwierdzony czas realizacji biegnie od potwierdzenia wpłaty.
 _Avoid_: Osobna płatność po akceptacji, płatność po wykonaniu, rozpoczęcie przed potwierdzeniem wpłaty
 
+**Dane dostawy**:
+Komplet informacji potrzebnych MM3D do zamówienia wysyłki opłaconego zamówienia, podawany albo potwierdzany przez klienta po wyborze wariantu i bezpośrednio przed przejściem do Paynow. Obejmuje imię i nazwisko odbiorcy, adres e-mail, numer telefonu oraz numer Paczkomatu albo pełny adres dla kuriera; klient nie kupuje przesyłki i nie przekazuje kodu nadania.
+_Avoid_: Dane kontaktowe zapytania, sam wybór metody dostawy, dane podawane dopiero po płatności
+
+**Dane nabywcy**:
+Informacje potrzebne do wystawienia właściwego dokumentu sprzedaży, podawane albo potwierdzane przed przejściem do Paynow. Klient wybiera zakup prywatny albo zakup na firmę; dla firmy podaje nazwę, NIP i adres, a pozostałe wymagane pola wynikają z zasad potwierdzonych przez księgowego lub prawnika.
+_Avoid_: Dane dostawy, dane kontaktowe zapytania, dane uzupełniane dopiero po płatności
+
+**Gabaryt przesyłki**:
+Rozmiar przesyłki wybierany przez MM3D przy zamawianiu dostawy InPost na podstawie wymiarów gotowego, zabezpieczonego produktu i użytego opakowania. Klient nie określa gabarytu, ponieważ przed realizacją nie zna końcowej wielkości paczki.
+_Avoid_: Wymiar modelu, wybór klienta, kod nadania klienta
+
 **Czas odpowiedzi na zapytanie**:
-Maksymalnie dwa dni robocze od otrzymania kompletnego zapytania do wysłania przez MM3D wyceny albo prośby o doprecyzowanie. Nie jest czasem realizacji wydruku.
-_Avoid_: Czas realizacji, termin dostawy
+Maksymalnie dwa dni robocze od otrzymania zapytania albo późniejszej odpowiedzi klienta zawierającej informacje potrzebne do następnego działania MM3D. Kończy się wysłaniem wyceny, kolejnego koniecznego pytania albo odmowy i biegnie ponownie po następnym wymaganym uzupełnieniu klienta; nie jest czasem zakończenia wyceny ani realizacji wydruku.
+_Avoid_: Czas realizacji, termin dostawy, dwa dni na zakończenie wszystkich uzgodnień
 
 **Wynik oceny zapytania**:
 Odpowiedź MM3D po analizie zapytania: gotowa wycena, prośba o doprecyzowanie albo odmowa realizacji z przyczyną. Każde zapytanie otrzymuje jeden z tych wyników.
 _Avoid_: Automatyczna akceptacja, brak odpowiedzi
+
+**Wstrzymana sprawa**:
+Zapytanie ofertowe oczekujące na informacje klienta, przeniesione do stanu bez dalszych działań MM3D po jednym przypomnieniu po 5 dniach roboczych i kolejnych 5 dniach bez odpowiedzi. Klient może je później wznowić w tym samym wątku i z tym samym numerem, ale wcześniejsze rozmowy nie gwarantują przyszłej ceny ani dostępności.
+_Avoid_: Wygasła wycena, zamknięte zamówienie, wstrzymanie opłaconego projektu
 
 **Komplet modeli**:
 Grupa powiązanych części lub modeli tworzących jeden wspólny projekt, które klient może przekazać w jednym zapytaniu ofertowym. Różne, niezależne projekty nie są kompletem modeli.

@@ -141,13 +141,15 @@ Pierwsza wersja nie udostępnia konta klienta ani panelu do samodzielnego popraw
 
 ## Ocena zapytania przez MM3D
 
-W ciągu maksymalnie dwóch dni roboczych MM3D wysyła jeden z trzech wyników:
+W ciągu maksymalnie dwóch dni roboczych od otrzymania zapytania MM3D wysyła jeden z trzech wyników:
 
 1. gotową wycenę;
 2. prośbę o doprecyzowanie;
 3. informację, że realizacja nie jest możliwa, wraz z przyczyną i — jeśli to możliwe — sugestią dalszego rozwiązania.
 
-Dwa dni robocze oznaczają czas odpowiedzi na kompletne zapytanie, a nie czas wykonania wydruku.
+Dwa dni robocze oznaczają czas reakcji MM3D, a nie czas zakończenia wszystkich uzgodnień ani wykonania wydruku. Jeżeli MM3D poprosi o brakującą informację, termin zatrzymuje się po wysłaniu pytania i biegnie ponownie od odpowiedzi klienta zawierającej dane potrzebne do następnego działania. Każda taka reakcja MM3D kończy się wyceną, kolejnym koniecznym pytaniem albo odmową realizacji.
+
+Jeżeli klient nie odpowiada na konieczne pytanie, po 5 dniach roboczych MM3D wysyła jedno przypomnienie. Po kolejnych 5 dniach roboczych bez odpowiedzi sprawa zostaje wstrzymana i nie wymaga dalszego działania MM3D. Klient może wznowić ją późniejszą odpowiedzią w tym samym wątku i z tym samym numerem sprawy. Wtedy ponownie rozpoczyna się dwudniowy czas reakcji MM3D, ale wcześniejsze rozmowy nie gwarantują ceny, terminu ani dostępności przyszłej wyceny.
 
 ## Zawartość wyceny
 
@@ -184,6 +186,9 @@ Wszystkie warianty jednej aktualnej wersji mają wspólny okres ważności. Doda
 ## Płatność
 
 - Wymagana jest pełna płatność przed rozpoczęciem druku; jest ona zarazem akceptacją aktualnej wyceny.
+- Po wybraniu wariantu, bezpośrednio przed przejściem do Paynow, klient podaje albo potwierdza komplet danych potrzebnych do wysyłki: imię i nazwisko odbiorcy, adres e-mail, numer telefonu oraz numer Paczkomatu albo pełny adres dla kuriera.
+- W tym samym kroku wybiera zakup prywatny albo zakup na firmę. Przy zakupie firmowym podaje nazwę firmy, NIP i adres; dokładny zestaw danych do dokumentu sprzedaży potwierdzi księgowy lub prawnik.
+- Klient przechodzi do Paynow dopiero po uzupełnieniu danych dostawy i zobaczeniu końcowego podsumowania wybranego wariantu oraz pełnej kwoty.
 - Potwierdzony czas realizacji biegnie od otrzymania płatności.
 - Docelową metodą płatności jest [Paynow](https://www.mbank.pl/firmy/system-platnosci-online-paynow/) powiązane z firmowym rachunkiem mBanku.
 - Klient powinien móc zapłacić przez Paynow między innymi BLIK-iem, szybkim przelewem albo kartą.
@@ -203,7 +208,9 @@ Ten rejestr służy obsłudze zamówień i uzgadnianiu płatności. Nie jest sam
 - W zapytaniu klient wybiera jedynie sposób dostawy.
 - Dostępne opcje to Paczkomat InPost i kurier InPost.
 - MM3D nie oferuje odbioru osobistego.
-- Dokładny adres albo wybrany Paczkomat klient podaje dopiero po zaakceptowaniu wyceny.
+- Dokładny adres albo wybrany Paczkomat, imię i nazwisko odbiorcy, adres e-mail i numer telefonu klient podaje lub potwierdza po wybraniu wariantu i bezpośrednio przed płatnością Paynow.
+- Klient nie zamawia i nie opłaca samodzielnie przesyłki InPost oraz nie przekazuje MM3D kodu nadania.
+- MM3D zamawia wysyłkę i wybiera jej gabaryt na podstawie wymiarów gotowego produktu, zabezpieczenia oraz pudełka.
 - Koszt dostawy jest osobną pozycją wyceny.
 
 ## Wiadomości po płatności i wysyłka

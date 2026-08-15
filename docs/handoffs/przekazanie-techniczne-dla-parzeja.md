@@ -158,7 +158,8 @@ Panel MM3D jest prywatnym narzędziem operacyjnym, nie kontem klienta i nie peł
 - tylko Paczkomat InPost albo kurier InPost;
 - brak odbioru osobistego;
 - w pierwszym formularzu klient wybiera wyłącznie metodę;
-- adres albo konkretny Paczkomat jest zbierany po akceptacji wyceny;
+- adres albo konkretny Paczkomat, imię i nazwisko odbiorcy, adres e-mail i numer telefonu są zbierane lub potwierdzane po wyborze wariantu i bezpośrednio przed płatnością Paynow;
+- klient nie kupuje przesyłki i nie przekazuje kodu nadania; MM3D zamawia dostawę oraz wybiera gabaryt po ustaleniu wielkości zabezpieczonego produktu i opakowania;
 - koszt dostawy jest osobną pozycją wyceny;
 - numer śledzenia przekazuje InPost e-mailem i SMS-em.
 
