@@ -203,14 +203,19 @@ Wymagane szablony:
 3. kompletna wersja wyceny z wariantami i przejściem do płatności;
 4. automatyczny e-mail „Płatność otrzymana — zamówienie zostało przyjęte do realizacji” z numerem sprawy, wariantem, kwotą, danymi dostawy i nabywcy, terminem oraz instrukcją odpowiedzi w sprawie problemu lub reklamacji;
 5. informacja o opóźnieniu, gdy termin jest zagrożony.
+6. jedno automatyczne przypomnienie 24 godziny przed wygaśnięciem aktywnej, nieopłaconej wyceny, z pominięciem płatności oczekującej na potwierdzenie.
 
 Nie ma osobnej wiadomości „Wydruk gotowy”. Reklamacja jest zgłaszana przez odpowiedź na e-mail z numerem sprawy.
 
 Do decyzji Parzeja: dostawca wysyłki, SPF/DKIM/DMARC, threading wiadomości, obsługa bounce, ponowienia oraz monitoring błędów.
 
+Potwierdzenie Paynow tworzy zamówienie niezależnie od wyniku dostarczenia e-maila. Wiadomość powinna być ponawiana bez powtarzania operacji biznesowych, a trwały błąd ma trafić do MM3D do ręcznej obsługi; prywatna strona pozostaje dostępna jako potwierdzenie.
+
 Po potwierdzeniu pełnej płatności klient powinien również zobaczyć stronę sukcesu z tym samym numerem sprawy i podsumowaniem. Strona oraz e-mail nie mogą opierać się wyłącznie na przekierowaniu z Paynow; sposób potwierdzenia statusu, deduplikacji zdarzeń i zabezpieczenia danych wymaga decyzji technicznej.
 
 Pełna wycena jest prezentowana na prywatnej stronie dostępnej bez konta przez link z e-maila. Widok zawiera aktualne warianty i niepłatną historię wersji. Parzej musi rozstrzygnąć kontrolę dostępu, czas życia linku, możliwość jego wymiany i zakres danych widocznych bez dodatkowego potwierdzenia tożsamości.
+
+Utracony link jest zastępowany po zweryfikowanej prośbie z adresu przypisanego do sprawy, a poprzedni dostęp zostaje unieważniony. Do ustalenia pozostają poziom weryfikacji, automatyzacja, limity prób i procedura zmiany utraconego adresu e-mail.
 
 ## Dostępność i jakość interfejsu
 

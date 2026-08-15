@@ -111,6 +111,13 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-15
+  "Przypomnienie o wygaśnięciu wyceny":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
   "Załącznik do zapytania":
     introduced_by: parzej
     introduced_on: 2026-08-11
@@ -624,6 +631,16 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-15
+      - contributor: goras
+        kind: revised
+        date: 2026-08-15
+  "Błąd dostarczenia potwierdzenia":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
   "Podwójna płatność":
     introduced_by: goras
     introduced_on: 2026-08-15
@@ -639,6 +656,20 @@ terms:
         kind: introduced
         date: 2026-08-15
   "Strona wyceny":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+  "Odzyskanie dostępu do sprawy":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+  "Obowiązująca treść wyceny":
     introduced_by: goras
     introduced_on: 2026-08-15
     contributions:

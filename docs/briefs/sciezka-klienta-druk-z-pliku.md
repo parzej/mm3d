@@ -170,11 +170,17 @@ Wycena może zawierać od jednego do maksymalnie trzech równolegle dostępnych 
 
 Klient otrzymuje e-mail z numerem sprawy, krótkim podsumowaniem i prywatnym linkiem do strony wyceny dostępnej bez zakładania konta. Strona pokazuje pełną aktualną wersję, maksymalnie trzy warianty i przejście do Paynow. Wcześniejsze wersje pozostają tam widoczne wyłącznie do odczytu i nie pozwalają na płatność.
 
+Jeżeli klient utraci prywatny link, prosi o nowy z adresu e-mail przypisanego do sprawy. Po weryfikacji MM3D wysyła nowy dostęp bez wymagania konta i unieważnia poprzedni link. Ta sama procedura dotyczy wyceny przed płatnością i podsumowania opłaconego zamówienia.
+
 Po upływie siedmiu dni wycena pozostaje widoczna dla klienta wyłącznie do odczytu, a wszystkie jej możliwości płatności są nieaktywne. Klient widzi komunikat **„Wycena wygasła — poproś o jej aktualizację”** i może jednym działaniem wysłać taką prośbę do MM3D. Wycena nie jest przedłużana automatycznie. MM3D ponownie sprawdza cenę i dostępny termin, po czym wysyła identyczną albo zmienioną nową wersję, która ponownie umożliwia płatność.
 
 Aktywna wycena co do zasady obowiązuje przez cały siedmiodniowy okres. MM3D może ją wcześniej wycofać tylko wyjątkowo, na przykład po wykryciu oczywistego błędu ceny, niewykonalności projektu, braku materiału albo przeszkody prawnej. Klient otrzymuje wtedy niezwłoczną informację, płatność zostaje zablokowana, a wycofana wersja pozostaje widoczna tylko do odczytu. Jeżeli realizacja jest nadal możliwa na zmienionych warunkach, MM3D wysyła poprawioną kompletną wersję wyceny.
 
+Na 24 godziny przed końcem ważności aktywnej i nieopłaconej wyceny klient otrzymuje jeden automatyczny e-mail przypominający. Wiadomość nie jest wysyłana, jeżeli wycena została już opłacona, zastąpiona albo wycofana lub gdy rozpoczęta płatność oczekuje na końcowe potwierdzenie Paynow.
+
 Wszystkie warianty jednej aktualnej wersji mają wspólny okres ważności. Dodanie wariantu, korekta albo zmiana ustaleń powoduje wysłanie kompletnej nowej wersji ze wszystkimi nadal oferowanymi wariantami. Jej wysłanie rozpoczyna nowy siedmiodniowy okres dla całego zestawu, pod warunkiem że MM3D ponownie potwierdziło ceny i terminy każdej pokazanej opcji.
+
+Korespondencja e-mailowa służy uzgodnieniu szczegółów, ale sama nie zmienia podstawy płatności ani realizacji. Każda uzgodniona zmiana obowiązuje dopiero po ujęciu jej przez MM3D w nowej kompletnej wersji wyceny widocznej na stronie. Klient płaci zawsze za jednoznaczny zakres aktualnej wersji, a potwierdzenie zamówienia utrwala dokładnie jej opłacony wariant.
 
 ## Akceptacja i utworzenie zamówienia
 
@@ -233,8 +239,11 @@ Jeżeli mimo zabezpieczeń klient skutecznie zapłaci dwa razy za ten sam warian
 
 ## Wiadomości po płatności i wysyłka
 
-- Po potwierdzeniu pełnej płatności przez Paynow klient od razu widzi stronę: **„Płatność otrzymana — zamówienie zostało przyjęte do realizacji”**.
+- Po potwierdzeniu pełnej płatności przez Paynow prywatna strona wyceny staje się trwałym podsumowaniem zamówienia z komunikatem: **„Dziękujemy za opłacenie zamówienia. Zlecenie zostało przyjęte do realizacji”**.
+- Strona oznacza wybrany wariant jako opłacony, pokazuje zapłaconą kwotę, termin nadania oraz dane dostawy i nabywcy, zamyka pozostałe warianty i nie pozwala ponownie zapłacić.
+- Ponowne otwarcie prywatnego linku prowadzi do tego samego podsumowania; nie jest ono panelem śledzenia realizacji.
 - MM3D automatycznie wysyła także e-mail z numerem sprawy, wybranym wariantem, zapłaconą kwotą, danymi dostawy i nabywcy oraz potwierdzonym terminem.
+- Niedostarczenie e-maila nie unieważnia zamówienia i nie przesuwa terminu realizacji. System ponawia wysyłkę, a trwały błąd dostarczenia zgłasza MM3D; klient nadal może zobaczyć podsumowanie przez prywatny link.
 - Nie jest potrzebne ręczne potwierdzenie zamówienia przez MM3D.
 - MM3D nie wysyła osobnej wiadomości „Wydruk gotowy”.
 - Informację o nadaniu i numer śledzenia przekazuje automatycznie InPost e-mailem i SMS-em.

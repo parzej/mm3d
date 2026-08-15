@@ -199,7 +199,7 @@ Treść:
 - przekroczony limit: **Plik jest za duży. Maksymalny rozmiar to [LIMIT].**
 - brak wymaganego pola: **Uzupełnij to pole, aby wysłać zapytanie.**
 - brak akceptacji regulaminu w końcowym podsumowaniu przed Paynow: **Zapoznaj się z regulaminem i zaznacz wymagane oświadczenie, aby przejść do płatności.**
-- potwierdzona płatność: **Płatność otrzymana — zamówienie zostało przyjęte do realizacji.** Strona pokazuje numer sprawy, wybrany wariant, zapłaconą kwotę, dane dostawy i nabywcy oraz potwierdzony termin; takie samo podsumowanie klient otrzymuje automatycznie e-mailem.
+- potwierdzona płatność: **Dziękujemy za opłacenie zamówienia. Zlecenie zostało przyjęte do realizacji.** Prywatna strona staje się trwałym podsumowaniem: pokazuje numer sprawy, opłacony wariant, zapłaconą kwotę, dane dostawy i nabywcy oraz termin nadania, oznacza pozostałe warianty jako zamknięte i nie pozwala płacić ponownie. Takie samo podsumowanie klient otrzymuje automatycznie e-mailem.
 - oczekiwanie na wynik Paynow: **Czekamy na potwierdzenie płatności. Zamówienie nie zostało jeszcze utworzone.**
 - błąd wysyłki: **Nie udało się wysłać zapytania. Twoje dane pozostały w formularzu — spróbuj ponownie albo skontaktuj się z MM3D.**
 - wysyłanie: **Wysyłamy pliki. Nie zamykaj tej strony.**

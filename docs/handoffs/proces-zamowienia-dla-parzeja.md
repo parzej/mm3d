@@ -1,6 +1,6 @@
 # Proces zamówienia — handoff do grillowania technicznego Parzeja
 
-Status: dokument rozwijany podczas biznesowej sesji grillowania Górasa rozpoczętej 15 sierpnia 2026. Zawiera zaakceptowane wymagania biznesowe oraz pytania techniczne, które Parzej ma rozstrzygnąć podczas osobnej sesji. Nie przesądza sposobu implementacji.
+Status: biznesowy zakres procesu został domknięty przez Górasa 15 sierpnia 2026 i jest gotowy do osobnej sesji technicznej Parzeja. Dokument zawiera zaakceptowane wymagania biznesowe oraz pytania techniczne, ale nie przesądza sposobu implementacji.
 
 ## Zakres procesu
 
@@ -9,6 +9,21 @@ Status: dokument rozwijany podczas biznesowej sesji grillowania Górasa rozpocz�
 - negocjowany przedmiot: szczegóły wykonania wymagające uzgodnienia obu stron;
 - koniec: Paynow potwierdza pełną wpłatę za aktualną wycenę;
 - poza zakresem: realizacja wydruku, inne rodzaje działalności, kanały nieelektroniczne oraz konfiguracja serwera i wybór stosu technologicznego.
+
+## Przebieg procesu od zapytania do płatności
+
+1. Klient wysyła przez stronę zapytanie o indywidualny druk 3D i otrzymuje numer sprawy oraz automatyczne podsumowanie e-mailem.
+2. MM3D w ciągu maksymalnie dwóch dni roboczych wysyła wycenę, konieczne pytanie albo odmowę z przyczyną.
+3. Szczegóły mogą być uzgadniane e-mailem, ale zmiana obowiązuje dopiero po ujęciu jej w nowej kompletnej wersji wyceny.
+4. Klient otrzymuje e-mail z prywatnym linkiem do strony wyceny dostępnej bez konta.
+5. Aktualna wersja pokazuje od jednego do trzech wariantów, pełne kwoty, zakresy i terminy; poprzednie wersje są tylko do odczytu.
+6. Wycena obowiązuje siedem dni, może wysłać jedno przypomnienie 24 godziny przed końcem i może zostać wcześniej wycofana wyłącznie wyjątkowo.
+7. Klient wybiera wariant, uzupełnia albo potwierdza dane dostawy i nabywcy, sprawdza pełną kwotę oraz akceptuje regulamin.
+8. Zmiana zakresu, ceny albo terminu wraca do MM3D i tworzy nową wersję; zwykła korekta danych nie zmienia wyceny.
+9. Klient rozpoczyna Paynow. Nieudana płatność nie tworzy zamówienia, a płatność oczekująca tymczasowo blokuje inne próby.
+10. Pierwsze potwierdzenie pełnej płatności tworzy jedno zamówienie, zamyka pozostałe warianty i rozpoczyna termin realizacji; ewentualna druga wpłata podlega zwrotowi.
+11. Prywatna strona staje się trwałym podsumowaniem, a klient otrzymuje automatyczny e-mail. Błąd dostarczenia wiadomości nie wpływa na ważność zamówienia.
+12. Utracony prywatny link może zostać zastąpiony nowym po zweryfikowanej prośbie z adresu przypisanego do sprawy; poprzedni link przestaje działać.
 
 ## Decyzja 1: akceptacja wyceny przez płatność
 
@@ -328,3 +343,91 @@ Status: dokument rozwijany podczas biznesowej sesji grillowania Górasa rozpocz�
 3. Jak utrwalić czas, przyczynę i autora wycofania oraz wysłać klientowi jednoznaczną wiadomość?
 4. Jak oznaczyć wycofaną wersję na stronie i odróżnić ją od wersji wygasłej lub zastąpionej?
 5. Jak utworzyć na jej podstawie poprawioną kompletną wersję bez utraty historii?
+
+## Decyzja 18: jedno przypomnienie przed wygaśnięciem wyceny
+
+- System wysyła jeden automatyczny e-mail 24 godziny przed końcem ważności aktywnej i nieopłaconej wyceny.
+- Przypomnienie zachowuje numer sprawy i prowadzi do prywatnej strony wyceny.
+- Nie jest wysyłane, jeżeli wycena została opłacona, zastąpiona albo wycofana.
+- Nie jest wysyłane, jeżeli rozpoczęta płatność oczekuje na końcowe potwierdzenie Paynow.
+- Nie ma kolejnych automatycznych ponagleń po wygaśnięciu.
+- Szczegóły decyzji zapisuje [ADR 0022](../adr/0022-przypomnienie-przed-wygasnieciem-wyceny.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak zaplanować wysyłkę dokładnie względem wspólnego terminu ważności całej wersji wyceny?
+2. Jak ponownie sprawdzić stan tuż przed wysłaniem, aby nie przypomnieć o wycenie właśnie opłaconej, zastąpionej lub wycofanej?
+3. Jak wstrzymać przypomnienie dla płatności oczekującej i nie wysłać go później omyłkowo po potwierdzeniu?
+4. Jak zagwarantować wysłanie najwyżej jednej wiadomości mimo ponowień zadania lub awarii?
+5. Jak odnotować dostarczenie albo błąd e-maila w historii sprawy?
+
+## Decyzja 19: ustalenia e-mailowe obowiązują dopiero w nowej wersji wyceny
+
+- E-mail służy uzgadnianiu szczegółów między klientem i MM3D.
+- Sama wiadomość nie zmienia podstawy płatności ani zakresu realizacji.
+- Uzgodniona zmiana obowiązuje dopiero po ujęciu jej przez MM3D w nowej kompletnej wersji wyceny.
+- Klient płaci za aktualny wariant widoczny na stronie, zawierający cały zakres, cenę, termin i pozostałe warunki.
+- Potwierdzenie zamówienia utrwala dokładnie opłaconą wersję i wariant.
+- Szczegóły decyzji zapisuje [ADR 0023](../adr/0023-email-nie-zmienia-wyceny.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak utrwalić niezmienny zapis opłaconej wersji i wariantu niezależnie od późniejszej edycji roboczych danych sprawy?
+2. Jak oznaczyć w korespondencji, że proponowana zmiana nie obowiązuje do czasu wysłania nowej wersji?
+3. Jak wygenerować nową kompletną wersję na podstawie ustaleń bez pominięcia innych nadal obowiązujących warunków?
+4. Jak powiązać wiadomość o zmianie z właściwą wersją i pokazać klientowi, że powinien ponownie sprawdzić całość?
+5. Jak zapobiec płatności za poprzednią wersję w chwili publikowania nowej?
+
+## Decyzja 20: prywatna strona po płatności pokazuje trwałe podsumowanie
+
+- Po potwierdzeniu pełnej płatności prywatna strona wyceny staje się trwałym podsumowaniem opłaconego zamówienia.
+- Pokazuje komunikat: **„Dziękujemy za opłacenie zamówienia. Zlecenie zostało przyjęte do realizacji”**.
+- Wybrany wariant jest oznaczony jako opłacony, a pozostałe jako zamknięte.
+- Strona pokazuje numer sprawy, zapłaconą kwotę, termin nadania oraz dane dostawy i nabywcy.
+- Nie pozwala rozpocząć kolejnej płatności.
+- Ponowne otwarcie prywatnego linku prowadzi do tego samego podsumowania.
+- Strona nie jest panelem śledzenia realizacji.
+- Szczegóły decyzji zapisuje [ADR 0024](../adr/0024-strona-po-platnosci.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak zmienić widok wyceny w podsumowanie dopiero po wiarygodnym potwierdzeniu Paynow i bez przejściowego pokazania fałszywego sukcesu?
+2. Jak zachować niezmienny zapis opłaconego wariantu, kwoty, terminu oraz danych mimo późniejszych zmian operacyjnych?
+3. Jak zablokować wszystkie działania płatnicze, w tym bezpośrednie wcześniej zapisane adresy?
+4. Jak bez konta zabezpieczyć ponowny dostęp do danych dostawy i nabywcy na trwałym podsumowaniu?
+5. Jak długo podsumowanie ma być dostępne i jak później ograniczyć albo anonimizować dane zgodnie z retencją?
+
+## Decyzja 21: błąd e-maila nie wpływa na ważność zamówienia
+
+- Zamówienie powstaje na podstawie potwierdzenia pełnej płatności przez Paynow, a nie dostarczenia e-maila.
+- Niedostarczenie automatycznego potwierdzenia nie unieważnia zamówienia i nie przesuwa terminu realizacji.
+- Prywatna strona nadal pokazuje trwałe podsumowanie opłaconego zamówienia.
+- System ponawia wysłanie wiadomości.
+- Po trwałym błędzie dostarczenia MM3D otrzymuje informację wymagającą obsługi.
+- Ponowienie e-maila nie tworzy kolejnego zamówienia ani drugiego potwierdzenia płatności.
+- Szczegóły decyzji zapisuje [ADR 0025](../adr/0025-blad-emaila-nie-uniewaznia-zamowienia.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Ile razy i w jakich odstępach ponawiać wysyłkę po błędzie przejściowym?
+2. Które odpowiedzi dostawcy poczty uznać za błąd trwały i jak powiadomić o nim MM3D?
+3. Jak zapewnić idempotentne ponowienie tej samej wiadomości bez uruchamiania logiki tworzenia zamówienia?
+4. Czy panel MM3D ma pozwalać na ręczne ponowienie wysyłki i korektę oczywistej literówki w adresie?
+5. Jak bezpiecznie przekazać klientowi nowy prywatny link, jeżeli pierwotny e-mail nie dotarł?
+
+## Decyzja 22: utracony prywatny link jest zastępowany nowym
+
+- Klient może odzyskać dostęp bez zakładania konta.
+- Prośbę wysyła z adresu e-mail przypisanego do sprawy.
+- MM3D weryfikuje prośbę przed wydaniem nowego linku.
+- Nowy link prowadzi do właściwej wyceny albo podsumowania opłaconego zamówienia.
+- Po wydaniu nowego dostępu poprzedni link przestaje działać.
+- Szczegóły decyzji zapisuje [ADR 0026](../adr/0026-odzyskanie-prywatnego-linku.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak przeprowadzić wystarczającą weryfikację prośby wysłanej z adresu przypisanego do sprawy bez tworzenia konta?
+2. Czy nowy link może być wydawany automatycznie, czy wymaga działania MM3D?
+3. Jak atomowo unieważnić wszystkie wcześniejsze linki i zachować historię ich wymiany?
+4. Jak ograniczyć liczbę prób odzyskania i chronić proces przed przejęciem dostępu lub nadużyciem?
+5. Jak obsłużyć legalną zmianę adresu e-mail klienta, której nie można potwierdzić z pierwotnej skrzynki?

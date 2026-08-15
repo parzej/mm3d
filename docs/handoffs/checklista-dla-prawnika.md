@@ -49,12 +49,15 @@ Do sprawdzenia:
 - kiedy dokładnie dochodzi do zawarcia umowy;
 - jakie informacje konsument musi otrzymać przed zawarciem umowy;
 - na jakim trwałym nośniku przekazać regulamin, wycenę i potwierdzenie;
+- czy regulamin może skutecznie wskazywać, że ustalenia e-mailowe zmieniają zakres i cenę dopiero po ujęciu ich w nowej kompletnej wersji wyceny zaakceptowanej płatnością;
 - jak zapisywać wersję zaakceptowanego regulaminu i dowód akceptacji;
 - potwierdzić, że regulamin zakupu jest akceptowany dopiero w końcowym podsumowaniu przed Paynow, a pierwszy formularz zapytania zawiera wyłącznie właściwe informacje dotyczące prywatności i plików;
 - czy i kiedy potrzebny jest przycisk wyraźnie wskazujący obowiązek zapłaty;
 - jakie sformułowanie przycisku i informacje muszą poprzedzać płatność, skoro skuteczna wpłata oznacza zawarcie umowy;
 - jak prawidłowo poinformować o wygaśnięciu lub zastąpieniu wyceny i możliwości płatności.
 - czy i na jakich zasadach MM3D może wyjątkowo wycofać aktywną wycenę przed upływem siedmiu dni z powodu oczywistego błędu ceny, niewykonalności, braku materiału albo przeszkody prawnej;
+- czy pojedynczy automatyczny e-mail 24 godziny przed wygaśnięciem indywidualnej wyceny można traktować jako wiadomość transakcyjną i jakie informacje powinien zawierać;
+- jakie minimum weryfikacji jest potrzebne przed wydaniem nowego prywatnego linku do wyceny lub danych opłaconego zamówienia i unieważnieniem poprzedniego;
 - jakie informacje muszą znaleźć się na stronie i w automatycznym e-mailu potwierdzającym opłacone zamówienie oraz czy przyjęty sposób przekazania potwierdzenia spełnia obowiązki wobec konsumenta;
 - czy pozostawienie wygasłej wyceny do odczytu oraz możliwość poproszenia o jej aktualizację wymagają dodatkowych informacji lub zastrzeżeń.
 

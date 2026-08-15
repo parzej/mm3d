@@ -48,6 +48,10 @@ _Avoid_: Aktywna wycena, automatycznie przedłużona wycena, usunięta historia
 Wersja unieważniona przez MM3D przed końcem siedmiodniowego okresu ważności wyłącznie z wyjątkowej przyczyny, takiej jak oczywisty błąd ceny, niewykonalność projektu, brak materiału albo przeszkoda prawna. Pozostaje widoczna tylko do odczytu, klient jest niezwłocznie informowany, a MM3D w miarę możliwości przedstawia poprawioną wersję.
 _Avoid_: Wygasła wycena, dowolna zmiana ceny, wycofanie po potwierdzonej płatności
 
+**Przypomnienie o wygaśnięciu wyceny**:
+Jedna automatyczna wiadomość e-mail wysyłana 24 godziny przed końcem ważności aktywnej i nieopłaconej wersji wyceny. Nie jest wysyłana, gdy wycena została opłacona, zastąpiona albo wycofana, ani gdy przypisana płatność oczekuje na potwierdzenie Paynow.
+_Avoid_: Ponaglenie po wygaśnięciu, seria przypomnień, wiadomość marketingowa
+
 **Załącznik do zapytania**:
 Plik przekazany przez potencjalnego klienta jako materiał potrzebny do oceny zapytania ofertowego, na przykład model 3D, zdjęcie, szkic lub dokumentacja wymiarowa. Nie jest trwałym archiwum projektu.
 _Avoid_: Realizacja, plik projektu
@@ -285,8 +289,12 @@ Płatność rozpoczęta w okresie ważności wyceny, dla której Paynow nie prze
 _Avoid_: Potwierdzona płatność, nieudana płatność, rezerwacja terminu realizacji
 
 **Potwierdzenie zamówienia**:
-Strona wyświetlana klientowi oraz automatyczna wiadomość e-mail generowane dopiero po potwierdzeniu pełnej płatności przez Paynow. Oba potwierdzenia używają numeru sprawy i pokazują wybrany wariant, zapłaconą kwotę, dane dostawy i nabywcy oraz potwierdzony termin; e-mail dodatkowo pozwala zgłosić problem lub reklamację przez odpowiedź w tym samym wątku. Nie wymaga ręcznego potwierdzenia MM3D.
+Trwałe podsumowanie na prywatnej stronie oraz automatyczna wiadomość e-mail generowane dopiero po potwierdzeniu pełnej płatności przez Paynow. Strona dziękuje za wpłatę, informuje o przyjęciu zlecenia do realizacji, oznacza wybrany wariant jako opłacony i pozostałe jako zamknięte oraz nie pozwala płacić ponownie. Oba potwierdzenia używają numeru sprawy i pokazują wybrany wariant, zapłaconą kwotę, dane dostawy i nabywcy oraz termin nadania; e-mail dodatkowo pozwala zgłosić problem lub reklamację przez odpowiedź w tym samym wątku. Nie wymaga ręcznego potwierdzenia MM3D ani nie tworzy panelu śledzenia realizacji.
 _Avoid_: Potwierdzenie zapytania, sam powrót z Paynow, ręczna akceptacja zamówienia
+
+**Błąd dostarczenia potwierdzenia**:
+Sytuacja, w której opłacone zamówienie zostało prawidłowo utworzone, lecz automatyczny e-mail potwierdzający nie dotarł do klienta. Nie wpływa na ważność zamówienia ani termin realizacji; prywatna strona nadal pokazuje podsumowanie, system ponawia wysyłkę, a trwały błąd zgłasza MM3D do obsługi.
+_Avoid_: Nieudana płatność, brak zamówienia, ponowne utworzenie zamówienia
 
 **Podwójna płatność**:
 Druga skuteczna wpłata przypisana do tego samego wariantu i tej samej sprawy, która nie tworzy kolejnego zamówienia. MM3D zwraca nadmiarową wpłatę klientowi, a drugie zamówienie może powstać wyłącznie na podstawie jego nowego, wyraźnego zlecenia.
@@ -299,6 +307,14 @@ _Avoid_: Cena samego wydruku, kwota bez dostawy, późniejsza obowiązkowa dopł
 **Strona wyceny**:
 Prywatny widok internetowy dostępny bez zakładania konta przez link wysłany klientowi e-mailem z numerem sprawy. Pokazuje pełną aktualną wersję wyceny z maksymalnie trzema wariantami i przejściem do Paynow oraz wcześniejsze wersje wyłącznie do odczytu; wiadomość e-mail zawiera jedynie krótkie podsumowanie i odsyła do tego widoku.
 _Avoid_: Konto klienta, pełna wycena tylko w treści e-maila, płatna poprzednia wersja
+
+**Odzyskanie dostępu do sprawy**:
+Wydanie nowego prywatnego linku po prośbie wysłanej z adresu e-mail przypisanego do sprawy i po weryfikacji przez MM3D. Nowy link zapewnia dostęp bez konta do właściwej wyceny albo podsumowania opłaconego zamówienia, a poprzedni link zostaje unieważniony.
+_Avoid_: Zakładanie konta, jednocześnie aktywne stare linki, zmiana adresu bez weryfikacji
+
+**Obowiązująca treść wyceny**:
+Kompletny zakres, cena, termin i pozostałe warunki aktualnej wersji wyceny widocznej na stronie w chwili rozpoczęcia skutecznej płatności. Ustalenia z korespondencji e-mailowej nie zmieniają samodzielnie podstawy zapłaty ani realizacji; obowiązują dopiero po ujęciu ich przez MM3D w nowej kompletnej wersji.
+_Avoid_: Ustna zmiana, dopisek tylko w e-mailu, realizacja według nieopłaconej korekty
 
 **Dane dostawy**:
 Komplet informacji potrzebnych MM3D do zamówienia wysyłki opłaconego zamówienia, podawany albo potwierdzany przez klienta po wyborze wariantu i bezpośrednio przed przejściem do Paynow. Obejmuje imię i nazwisko odbiorcy, adres e-mail, numer telefonu oraz numer Paczkomatu albo pełny adres dla kuriera; klient nie kupuje przesyłki i nie przekazuje kodu nadania.
