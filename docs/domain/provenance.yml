@@ -569,6 +569,13 @@ terms:
       - contributor: goras
         kind: revised
         date: 2026-08-15
+  "Akceptacja regulaminu":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
   "Przedpłata":
     introduced_by: goras
     introduced_on: 2026-08-11
@@ -578,6 +585,30 @@ terms:
         date: 2026-08-11
       - contributor: goras
         kind: revised
+        date: 2026-08-15
+  "Nieudana płatność":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+      - contributor: goras
+        kind: revised
+        date: 2026-08-15
+  "Płatność oczekująca na potwierdzenie":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+  "Potwierdzenie zamówienia":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
         date: 2026-08-15
   "Dane dostawy":
     introduced_by: goras
@@ -590,6 +621,16 @@ terms:
         kind: revised
         date: 2026-08-15
   "Dane nabywcy":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+      - contributor: goras
+        kind: revised
+        date: 2026-08-15
+  "Korekta danych przed płatnością":
     introduced_by: goras
     introduced_on: 2026-08-15
     contributions:

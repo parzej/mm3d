@@ -69,7 +69,7 @@ Makieta HTML używa kotwic i osobnych plików tylko do szybkiego testu treści. 
 - imię lub pseudonim;
 - adres e-mail;
 - sposób dostawy: Paczkomat InPost albo kurier InPost;
-- akceptacja regulaminu i wymaganych informacji prawnych.
+- dostęp do informacji o prywatności i zasadach przesyłania plików bez wymagania akceptacji regulaminu zakupu na etapie zapytania.
 
 ### Dane opcjonalne
 
@@ -200,13 +200,15 @@ Wymagane szablony:
 
 1. potwierdzenie zapytania z numerem sprawy i podsumowaniem;
 2. wycena albo prośba o doprecyzowanie — obsługiwana ręcznie przez MM3D;
-3. potwierdzenie zamówienia i instrukcja płatności;
-4. „Płatność otrzymana — zamówienie przyjęte do realizacji”;
+3. kompletna wersja wyceny z wariantami i przejściem do płatności;
+4. automatyczny e-mail „Płatność otrzymana — zamówienie zostało przyjęte do realizacji” z numerem sprawy, wariantem, kwotą, danymi dostawy i nabywcy, terminem oraz instrukcją odpowiedzi w sprawie problemu lub reklamacji;
 5. informacja o opóźnieniu, gdy termin jest zagrożony.
 
 Nie ma osobnej wiadomości „Wydruk gotowy”. Reklamacja jest zgłaszana przez odpowiedź na e-mail z numerem sprawy.
 
 Do decyzji Parzeja: dostawca wysyłki, SPF/DKIM/DMARC, threading wiadomości, obsługa bounce, ponowienia oraz monitoring błędów.
+
+Po potwierdzeniu pełnej płatności klient powinien również zobaczyć stronę sukcesu z tym samym numerem sprawy i podsumowaniem. Strona oraz e-mail nie mogą opierać się wyłącznie na przekierowaniu z Paynow; sposób potwierdzenia statusu, deduplikacji zdarzeń i zabezpieczenia danych wymaga decyzji technicznej.
 
 ## Dostępność i jakość interfejsu
 

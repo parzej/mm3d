@@ -260,17 +260,37 @@ _Avoid_: Osobny numer wyceny, zmiana numeru po akceptacji
 Skuteczna pełna płatność przez Paynow przypisana do wybranego wariantu aktualnej wersji wyceny i wykonana w okresie jej ważności. Jednocześnie wyraża zgodę klienta na warunki wariantu, zamyka pozostałe warianty tej sprawy i tworzy opłacone zamówienie bez osobnej akceptacji e-mailowej.
 _Avoid_: Milcząca zgoda, odpowiedź e-mail bez płatności, płatność za nieaktualną wycenę
 
+**Akceptacja regulaminu**:
+Obowiązkowe, domyślnie niezaznaczone oświadczenie klienta składane w końcowym podsumowaniu wybranego wariantu bezpośrednio przed przejściem do Paynow. Nie jest wymagana do wysłania samego zapytania ofertowego, a MM3D zachowuje dowód zaakceptowania właściwej wersji dokumentu.
+_Avoid_: Zgoda na kontakt, informacja o prywatności, pole zaznaczone w formularzu zapytania
+
 **Przedpłata**:
 Pełna płatność przez Paynow wymagana przed rozpoczęciem indywidualnego druku. W podstawowym procesie jest zarazem akceptacją aktualnej wyceny i momentem utworzenia zamówienia, a potwierdzony czas realizacji biegnie od potwierdzenia wpłaty.
 _Avoid_: Osobna płatność po akceptacji, płatność po wykonaniu, rozpoczęcie przed potwierdzeniem wpłaty
+
+**Nieudana płatność**:
+Próba zapłaty za wariant, która nie została potwierdzona przez Paynow z powodu odrzucenia, błędu, anulowania, przerwania albo wygaśnięcia. Nie tworzy zamówienia i po zakończeniu blokady nie zamyka wariantów; klient może ponowić płatność lub wybrać inną opcję, jeżeli wersja wyceny nadal jest aktualna i ważna.
+_Avoid_: Opłacone zamówienie, wygasła wycena, rezygnacja z zapytania
+
+**Płatność oczekująca na potwierdzenie**:
+Płatność rozpoczęta w okresie ważności wyceny, dla której Paynow nie przekazało jeszcze wyniku końcowego. Nie tworzy jeszcze zamówienia i tymczasowo blokuje pozostałe warianty oraz kolejne próby; późniejsze potwierdzenie tworzy zamówienie także po upływie ważności wyceny, a odrzucenie lub wygaśnięcie przechodzi do zasad nieudanej płatności.
+_Avoid_: Potwierdzona płatność, nieudana płatność, rezerwacja terminu realizacji
+
+**Potwierdzenie zamówienia**:
+Strona wyświetlana klientowi oraz automatyczna wiadomość e-mail generowane dopiero po potwierdzeniu pełnej płatności przez Paynow. Oba potwierdzenia używają numeru sprawy i pokazują wybrany wariant, zapłaconą kwotę, dane dostawy i nabywcy oraz potwierdzony termin; e-mail dodatkowo pozwala zgłosić problem lub reklamację przez odpowiedź w tym samym wątku. Nie wymaga ręcznego potwierdzenia MM3D.
+_Avoid_: Potwierdzenie zapytania, sam powrót z Paynow, ręczna akceptacja zamówienia
 
 **Dane dostawy**:
 Komplet informacji potrzebnych MM3D do zamówienia wysyłki opłaconego zamówienia, podawany albo potwierdzany przez klienta po wyborze wariantu i bezpośrednio przed przejściem do Paynow. Obejmuje imię i nazwisko odbiorcy, adres e-mail, numer telefonu oraz numer Paczkomatu albo pełny adres dla kuriera; klient nie kupuje przesyłki i nie przekazuje kodu nadania.
 _Avoid_: Dane kontaktowe zapytania, sam wybór metody dostawy, dane podawane dopiero po płatności
 
 **Dane nabywcy**:
-Informacje potrzebne do wystawienia właściwego dokumentu sprzedaży, podawane albo potwierdzane przed przejściem do Paynow. Klient wybiera zakup prywatny albo zakup na firmę; dla firmy podaje nazwę, NIP i adres, a pozostałe wymagane pola wynikają z zasad potwierdzonych przez księgowego lub prawnika.
+Informacje podawane albo potwierdzane przed przejściem do Paynow, obejmujące dwa odrębne wybory: klient indywidualny albo firma oraz żądanie faktury albo jego brak. Zakup firmowy i faktura ujawniają odpowiednie pola, w tym nazwę, NIP i adres, a dokładny zestaw zależy od zasad potwierdzonych przez księgowego lub prawnika.
 _Avoid_: Dane dostawy, dane kontaktowe zapytania, dane uzupełniane dopiero po płatności
+
+**Korekta danych przed płatnością**:
+Samodzielna poprawa przez klienta danych dostawy, kontaktowych albo nabywcy w końcowym podsumowaniu, która nie zmienia zakresu, ceny ani terminu wybranego wariantu. Zmiana wariantu, liczby, wymiaru, usług lub kosztu dostawy nie jest korektą danych i wymaga nowej wersji wyceny od MM3D.
+_Avoid_: Zmiana zamówienia, nowy wariant, korekta ceny przez klienta
 
 **Gabaryt przesyłki**:
 Rozmiar przesyłki wybierany przez MM3D przy zamawianiu dostawy InPost na podstawie wymiarów gotowego, zabezpieczonego produktu i użytego opakowania. Klient nie określa gabarytu, ponieważ przed realizacją nie zna końcowej wielkości paczki.

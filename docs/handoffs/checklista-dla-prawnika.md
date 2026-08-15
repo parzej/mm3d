@@ -50,9 +50,11 @@ Do sprawdzenia:
 - jakie informacje konsument musi otrzymać przed zawarciem umowy;
 - na jakim trwałym nośniku przekazać regulamin, wycenę i potwierdzenie;
 - jak zapisywać wersję zaakceptowanego regulaminu i dowód akceptacji;
+- potwierdzić, że regulamin zakupu jest akceptowany dopiero w końcowym podsumowaniu przed Paynow, a pierwszy formularz zapytania zawiera wyłącznie właściwe informacje dotyczące prywatności i plików;
 - czy i kiedy potrzebny jest przycisk wyraźnie wskazujący obowiązek zapłaty;
 - jakie sformułowanie przycisku i informacje muszą poprzedzać płatność, skoro skuteczna wpłata oznacza zawarcie umowy;
 - jak prawidłowo poinformować o wygaśnięciu lub zastąpieniu wyceny i możliwości płatności.
+- jakie informacje muszą znaleźć się na stronie i w automatycznym e-mailu potwierdzającym opłacone zamówienie oraz czy przyjęty sposób przekazania potwierdzenia spełnia obowiązki wobec konsumenta;
 - czy pozostawienie wygasłej wyceny do odczytu oraz możliwość poproszenia o jej aktualizację wymagają dodatkowych informacji lub zastrzeżeń.
 
 ## Prawo odstąpienia i rozpoczęcie pracy
@@ -201,7 +203,8 @@ Do oceny również:
 - regulamin powinien opisywać metody płatności, moment zapłaty, nieudaną płatność i zwroty;
 - dokumenty księgowe i podatkowe wymagają osobnej retencji;
 - należy ustalić zasady faktury lub paragonu i dane zbierane do ich wystawienia.
-- przed Paynow klient wybiera zakup prywatny albo firmowy, a przy zakupie firmowym podaje nazwę, NIP i adres; prosimy potwierdzić wymagane pola, rodzaj dokumentu i zasady późniejszej korekty.
+- przed Paynow klient osobno określa, czy jest klientem indywidualnym, czy firmą, oraz czy chce fakturę; prosimy potwierdzić zależności między wyborami, wymagane pola, rodzaj dokumentu i zasady późniejszej korekty.
+- klient może poprawiać dane dostawy i nabywcy przed płatnością bez nowej wyceny, o ile nie zmienia to świadczenia ani ceny; prosimy wskazać, które korekty wymagają ponowienia oświadczeń albo dodatkowego potwierdzenia.
 
 ## Dostawa
 

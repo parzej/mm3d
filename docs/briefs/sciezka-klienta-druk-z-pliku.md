@@ -187,8 +187,12 @@ Wszystkie warianty jednej aktualnej wersji mają wspólny okres ważności. Doda
 
 - Wymagana jest pełna płatność przed rozpoczęciem druku; jest ona zarazem akceptacją aktualnej wyceny.
 - Po wybraniu wariantu, bezpośrednio przed przejściem do Paynow, klient podaje albo potwierdza komplet danych potrzebnych do wysyłki: imię i nazwisko odbiorcy, adres e-mail, numer telefonu oraz numer Paczkomatu albo pełny adres dla kuriera.
-- W tym samym kroku wybiera zakup prywatny albo zakup na firmę. Przy zakupie firmowym podaje nazwę firmy, NIP i adres; dokładny zestaw danych do dokumentu sprzedaży potwierdzi księgowy lub prawnik.
-- Klient przechodzi do Paynow dopiero po uzupełnieniu danych dostawy i zobaczeniu końcowego podsumowania wybranego wariantu oraz pełnej kwoty.
+- W tym samym kroku osobno określa, czy jest klientem indywidualnym, czy firmą, oraz czy chce otrzymać fakturę. Odpowiednie wybory ujawniają wymagane pola, w tym nazwę firmy, NIP i adres; dokładny zestaw danych do dokumentu sprzedaży potwierdzi księgowy lub prawnik.
+- Klient przechodzi do Paynow dopiero po uzupełnieniu danych dostawy i nabywcy, zobaczeniu końcowego podsumowania wybranego wariantu oraz pełnej kwoty, a także zaakceptowaniu regulaminu i wymaganych oświadczeń.
+- Akceptacja regulaminu jest domyślnie niezaznaczona, wskazuje konkretną wersję dokumentu i nie występuje w pierwszym formularzu zapytania ofertowego.
+- Przed Paynow klient może samodzielnie poprawić dane odbiorcy, kontaktowe, Paczkomat lub adres oraz dane nabywcy i faktury, jeżeli poprawka nie wpływa na zakres, cenę ani termin wariantu.
+- Zmiana wariantu, liczby sztuk, wymiaru, usług dodatkowych albo sposobu dostawy wpływającego na koszt wymaga kontaktu z MM3D i przygotowania nowej kompletnej wersji wyceny.
+- Po każdej takiej zmianie klient ponownie sprawdza całe podsumowanie i akceptuje regulamin przed przejściem do nowej płatności.
 - Potwierdzony czas realizacji biegnie od otrzymania płatności.
 - Docelową metodą płatności jest [Paynow](https://www.mbank.pl/firmy/system-platnosci-online-paynow/) powiązane z firmowym rachunkiem mBanku.
 - Klient powinien móc zapłacić przez Paynow między innymi BLIK-iem, szybkim przelewem albo kartą.
@@ -203,6 +207,10 @@ Oczekiwaniem biznesowym jest integracja Paynow ze stroną MM3D. [Paynow udostęp
 
 Ten rejestr służy obsłudze zamówień i uzgadnianiu płatności. Nie jest sam w sobie pełną księgowością ani dokumentem sprzedaży. Sposób bezpiecznej integracji API, odbierania powiadomień o statusie i przechowywania danych musi potwierdzić Parzej.
 
+Jeżeli klient anuluje albo przerwie płatność lub Paynow ją odrzuci, zamówienie nie powstaje i żaden wariant nie zostaje zamknięty. Klient wraca do wyceny z informacją **„Płatność nie została zakończona”**. Dopóki wersja wyceny nadal jest aktualna i ważna, może bez kontaktu z MM3D ponowić płatność za ten sam wariant albo wybrać inny. Ponowienie nie jest dostępne po wygaśnięciu lub zastąpieniu wyceny. Jedno zamówienie powstaje dopiero po pierwszym skutecznym potwierdzeniu pełnej płatności.
+
+Płatność rozpoczęta w okresie ważności, ale jeszcze niepotwierdzona przez Paynow, przechodzi do stanu **„Oczekiwanie na potwierdzenie płatności”**. Nie tworzy jeszcze zamówienia, a pozostałe warianty i możliwość kolejnej płatności są tymczasowo zablokowane. Jeżeli Paynow później potwierdzi wpłatę, zamówienie powstaje również po upływie terminu ważności wyceny, a termin realizacji biegnie od tego potwierdzenia. Odrzucenie, błąd albo wygaśnięcie płatności usuwa blokadę i stosuje reguły nieudanej płatności.
+
 ## Dostawa
 
 - W zapytaniu klient wybiera jedynie sposób dostawy.
@@ -215,7 +223,9 @@ Ten rejestr służy obsłudze zamówień i uzgadnianiu płatności. Nie jest sam
 
 ## Wiadomości po płatności i wysyłka
 
-- MM3D wysyła jedną wiadomość: **„Płatność otrzymana — zamówienie przyjęte do realizacji”**.
+- Po potwierdzeniu pełnej płatności przez Paynow klient od razu widzi stronę: **„Płatność otrzymana — zamówienie zostało przyjęte do realizacji”**.
+- MM3D automatycznie wysyła także e-mail z numerem sprawy, wybranym wariantem, zapłaconą kwotą, danymi dostawy i nabywcy oraz potwierdzonym terminem.
+- Nie jest potrzebne ręczne potwierdzenie zamówienia przez MM3D.
 - MM3D nie wysyła osobnej wiadomości „Wydruk gotowy”.
 - Informację o nadaniu i numer śledzenia przekazuje automatycznie InPost e-mailem i SMS-em.
 - Jeżeli podany termin jest zagrożony, MM3D kontaktuje się z klientem, wyjaśnia opóźnienie i podaje nową przewidywaną datę.

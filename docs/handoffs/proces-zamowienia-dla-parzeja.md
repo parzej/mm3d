@@ -131,19 +131,112 @@ Status: dokument rozwijany podczas biznesowej sesji grillowania Górasa rozpocz�
 6. Jak chronić dane dostawy w widoku wyceny i historii sprawy dostępnej bez konta?
 7. Jak MM3D zapisuje wybrany gabaryt i wynikające z niego dane nadania bez wymagania tej decyzji od klienta?
 
-## Decyzja 7: rodzaj nabywcy i dane do dokumentu sprzedaży
+## Decyzja 7: rodzaj nabywcy i żądanie faktury
 
-- Przed przejściem do Paynow klient wybiera zakup prywatny albo zakup na firmę.
+- Przed przejściem do Paynow klient osobno wybiera klienta indywidualnego albo firmę.
+- Niezależnie wskazuje, czy chce otrzymać fakturę.
 - Wybór znajduje się w tym samym kroku co potwierdzenie danych dostawy i wariantu.
-- Przy zakupie firmowym klient podaje nazwę firmy, NIP i adres.
+- Wybór firmy i żądanie faktury ujawniają odpowiednie pola, w tym nazwę firmy, NIP i adres.
 - Dane nabywcy są kompletne przed utworzeniem opłaconego zamówienia.
 - Dokładny zestaw obowiązkowych pól i dokumentów potwierdza księgowy lub prawnik.
 - Szczegóły decyzji zapisuje [ADR 0011](../adr/0011-rodzaj-nabywcy-przed-platnoscia.md).
 
 ### Pytania techniczne dla Parzeja
 
-1. Jak dynamicznie pokazać właściwe pola dla zakupu prywatnego i firmowego?
+1. Jak dynamicznie pokazać właściwe pola dla klienta indywidualnego, firmy oraz żądania faktury, traktując je jako odrębne wybory?
 2. Jak walidować NIP i czy weryfikacja ma być wyłącznie składniowa, czy także z zewnętrznym rejestrem?
 3. Które dane są przekazywane do systemu płatności, a które pozostają wyłącznie w MM3D?
 4. Jak zapisać rodzaj nabywcy i dane dokumentu przy zamówieniu oraz późniejszej korekcie?
 5. Jak ograniczyć dostęp do danych nabywcy w widoku sprawy dostępnym bez konta?
+
+## Decyzja 8: akceptacja regulaminu przed Paynow
+
+- Pierwszy formularz tworzy zapytanie ofertowe i nie wymaga akceptacji regulaminu zakupu.
+- Klient otrzymuje przy formularzu właściwą informację o prywatności i zasadach przesyłania plików.
+- Obowiązkowa akceptacja regulaminu znajduje się w końcowym podsumowaniu wybranego wariantu bezpośrednio przed Paynow.
+- Pole nie jest zaznaczone domyślnie.
+- Podsumowanie pokazuje wariant, pełną kwotę, dane dostawy, rodzaj nabywcy i żądanie faktury.
+- Przejście do Paynow jest możliwe dopiero po złożeniu wymaganych oświadczeń.
+- MM3D zachowuje dowód zaakceptowania konkretnej wersji regulaminu.
+- Szczegóły decyzji zapisuje [ADR 0012](../adr/0012-akceptacja-regulaminu-przed-paynow.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak wersjonować regulamin i jednoznacznie powiązać jego wersję z zamówieniem?
+2. Jak utrwalić czas, treść oraz dowód akceptacji bez zbierania nadmiernych danych?
+3. Jak obsłużyć sytuację, gdy regulamin zmieni się po wysłaniu wyceny, ale przed płatnością?
+4. Które informacje przy pierwszym formularzu są tylko informacją, a które wymagają aktywnego działania klienta?
+5. Jak technicznie zablokować przejście do Paynow do czasu spełnienia wszystkich wymaganych warunków?
+
+## Decyzja 9: korekta danych a zmiana wyceny
+
+- Klient może przed Paynow samodzielnie poprawić dane odbiorcy, telefon, e-mail, Paczkomat lub adres oraz dane nabywcy i faktury.
+- Samodzielna korekta jest dozwolona tylko wtedy, gdy nie zmienia zakresu, ceny ani terminu wariantu.
+- Zmiana wariantu, liczby sztuk, wymiaru, usług dodatkowych albo sposobu dostawy wpływającego na koszt wraca do MM3D.
+- MM3D przygotowuje wtedy nową kompletną wersję wyceny i nową możliwość płatności.
+- Klient ponownie sprawdza podsumowanie i akceptuje regulamin przed Paynow.
+- Szczegóły decyzji zapisuje [ADR 0013](../adr/0013-korekta-danych-a-zmiana-wyceny.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak rozdzielić pola edytowalne przez klienta od parametrów wariantu możliwych do zmiany wyłącznie przez MM3D?
+2. Jak obsłużyć zmianę Paczkomatu bez nowej wyceny, ale zmianę Paczkomatu na kuriera z nowym kosztem już przez nową wersję?
+3. Jak zapisać historię korekt danych bez traktowania ich jak kolejnych wersji wyceny?
+4. Jak unieważnić rozpoczętą, ale niepotwierdzoną płatność, jeśli klient wróci i zmieni dane?
+5. Które korekty wymagają ponownej akceptacji regulaminu lub podsumowania zgodnie z opinią prawnika?
+
+## Decyzja 10: nieudana lub przerwana płatność
+
+- Odrzucenie, błąd, anulowanie albo przerwanie płatności nie tworzy zamówienia.
+- Nieudana próba nie zamyka wybranego ani pozostałych wariantów.
+- Klient wraca do wyceny z jasnym komunikatem o niezakończonej płatności.
+- Jeżeli wersja nadal jest aktualna i ważna, klient może ponowić płatność za ten sam wariant albo wybrać inny bez kontaktu z MM3D.
+- Jeżeli wycena wygasła lub została zastąpiona, ponowienie jest zablokowane.
+- Jedno zamówienie powstaje dopiero po pierwszym skutecznym potwierdzeniu pełnej płatności.
+- Szczegóły decyzji zapisuje [ADR 0014](../adr/0014-nieudana-platnosc-nie-tworzy-zamowienia.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Które statusy i zdarzenia Paynow odpowiadają anulowaniu, przerwaniu, odrzuceniu oraz błędowi z perspektywy biznesowej?
+2. Jak obsłużyć powrót klienta z Paynow, jeśli powiadomienie o statusie dotrze wcześniej albo później?
+3. Jak ponowić płatność dla tego samego wariantu bez utworzenia drugiego zamówienia?
+4. Jak zachować historię prób i jednocześnie jednoznacznie wskazać, która zakończyła się sukcesem?
+5. Jak przed ponowieniem ponownie sprawdzić aktualność wersji i jej siedmiodniowy termin?
+6. Jak zapewnić, że wcześniejsza nieudana próba nie może później nieoczekiwanie zmienić się w drugą skuteczną płatność?
+
+## Decyzja 11: oczekiwanie na końcowy wynik Paynow
+
+- Płatność rozpoczęta podczas ważności wyceny może oczekiwać na końcowe potwierdzenie Paynow.
+- W stanie oczekiwania zamówienie jeszcze nie istnieje.
+- Pozostałe warianty i następne próby płatności są tymczasowo zablokowane.
+- Potwierdzenie Paynow tworzy zamówienie również wtedy, gdy ważność wyceny minęła już po rozpoczęciu płatności.
+- Termin realizacji biegnie dopiero od potwierdzenia wpłaty.
+- Odrzucenie, błąd albo wygaśnięcie usuwa blokadę i przechodzi do zasad nieudanej płatności.
+- Szczegóły decyzji zapisuje [ADR 0015](../adr/0015-oczekiwanie-na-potwierdzenie-paynow.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Które statusy Paynow są przejściowe, a które końcowe z punktu widzenia MM3D?
+2. Jak długo stan oczekiwania może blokować pozostałe warianty i kto usuwa blokadę po braku końcowego zdarzenia?
+3. Jak zapisać czas rozpoczęcia płatności, aby honorować próbę rozpoczętą przed wygaśnięciem wyceny?
+4. Jak obsłużyć powiadomienie o potwierdzeniu otrzymane po powrocie klienta, po wygaśnięciu wyceny albo w innej kolejności niż oczekiwana?
+5. Jak zapobiec jednoczesnemu rozpoczęciu płatności za dwa warianty?
+6. Jak pokazać klientowi stan oczekiwania bez sugerowania, że zamówienie już powstało?
+
+## Decyzja 12: potwierdzenie opłaconego zamówienia
+
+- Dopiero potwierdzenie pełnej płatności przez Paynow tworzy zamówienie i uruchamia oba potwierdzenia dla klienta.
+- Klient od razu widzi stronę: **„Płatność otrzymana — zamówienie zostało przyjęte do realizacji”**.
+- Jednocześnie otrzymuje automatyczny e-mail z numerem sprawy, wybranym wariantem, zapłaconą kwotą, danymi dostawy i nabywcy oraz potwierdzonym terminem.
+- E-mail zawiera instrukcję zgłoszenia problemu albo reklamacji przez odpowiedź w tym samym wątku.
+- Nie występuje dodatkowe ręczne potwierdzenie MM3D.
+- Szczegóły decyzji zapisuje [ADR 0016](../adr/0016-potwierdzenie-oplaconego-zamowienia.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak zagwarantować, że strona sukcesu i e-mail powstają wyłącznie na podstawie wiarygodnego potwierdzenia Paynow, a nie samego powrotu klienta z serwisu płatniczego?
+2. Co klient widzi po powrocie z Paynow, gdy końcowe powiadomienie o płatności jeszcze nie dotarło?
+3. Jak zapewnić jednokrotne utworzenie zamówienia i wysłanie jednego e-maila przy ponowionych lub dostarczonych w innej kolejności powiadomieniach?
+4. Jak bezpiecznie udostępnić stronę potwierdzenia bez konta i nie ujawnić danych dostawy ani nabywcy osobie postronnej?
+5. Jak ponowić niedostarczony e-mail bez tworzenia kolejnego zamówienia lub nowego potwierdzenia płatności?
+6. Jak utrwalić treść potwierdzenia odpowiadającą dokładnie opłaconemu wariantowi, danym oraz terminowi?
