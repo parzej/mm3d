@@ -1,6 +1,6 @@
 # Ścieżka klienta — druk z gotowego pliku
 
-Status: główna ścieżka potwierdzona przez Górasa 11 sierpnia 2026. Drugoplanowa ścieżka „Nie masz modelu? Opisz swój pomysł” jest rozwijana w osobnym dokumencie [Ścieżka klienta — modelowanie od zera](sciezka-klienta-modelowanie.md). Techniczny sposób realizacji integracji, limitów i automatyzacji pozostaje do potwierdzenia przez Parzeja.
+Status: główna ścieżka potwierdzona przez Górasa 11 sierpnia 2026 i rozwijana w sesji procesu zamówienia od 15 sierpnia 2026. Drugoplanową ścieżkę „Nie masz modelu? Opisz swój pomysł” opisuje osobny dokument [Ścieżka klienta — modelowanie od zera](sciezka-klienta-modelowanie.md). Techniczny sposób realizacji integracji, limitów i automatyzacji pozostaje do potwierdzenia przez Parzeja.
 
 ## Cel ścieżki
 
@@ -151,7 +151,7 @@ Dwa dni robocze oznaczają czas odpowiedzi na kompletne zapytanie, a nie czas wy
 
 ## Zawartość wyceny
 
-Wycena zawiera:
+Wycena może zawierać od jednego do maksymalnie trzech równolegle dostępnych wariantów wykonania, na przykład druk w jednym elemencie, model podzielony na części lub opcję rozszerzoną o malowanie. Każdy wariant zawiera:
 
 - nazwę i podgląd modelu;
 - liczbę sztuk i wymiar referencyjny;
@@ -163,20 +163,27 @@ Wycena zawiera:
 - przewidywany czas wykonania i wysyłki;
 - ograniczenia oraz opis oczekiwanego rezultatu;
 - informację o ważności przez siedem dni kalendarzowych;
-- instrukcję akceptacji.
+- własny przycisk lub link **„Wybieram ten wariant i płacę”** prowadzący do płatności Paynow za ten wariant aktualnej wersji wyceny;
+- informację, że skuteczna płatność oznacza akceptację wszystkich warunków wybranego wariantu, zamknięcie pozostałych wariantów sprawy i utworzenie zamówienia.
 
-Po upływie siedmiu dni MM3D musi ponownie potwierdzić cenę i dostępny termin.
+Po upływie siedmiu dni wycena pozostaje widoczna dla klienta wyłącznie do odczytu, a wszystkie jej możliwości płatności są nieaktywne. Klient widzi komunikat **„Wycena wygasła — poproś o jej aktualizację”** i może jednym działaniem wysłać taką prośbę do MM3D. Wycena nie jest przedłużana automatycznie. MM3D ponownie sprawdza cenę i dostępny termin, po czym wysyła identyczną albo zmienioną nową wersję, która ponownie umożliwia płatność.
+
+Wszystkie warianty jednej aktualnej wersji mają wspólny okres ważności. Dodanie wariantu, korekta albo zmiana ustaleń powoduje wysłanie kompletnej nowej wersji ze wszystkimi nadal oferowanymi wariantami. Jej wysłanie rozpoczyna nowy siedmiodniowy okres dla całego zestawu, pod warunkiem że MM3D ponownie potwierdziło ceny i terminy każdej pokazanej opcji.
 
 ## Akceptacja i utworzenie zamówienia
 
-- Klient akceptuje wycenę przez odpowiedź na wiadomość e-mail.
-- Wiadomości zachowują jeden numer sprawy w tytule, na przykład `[MM3D-2026-0001]`.
-- Zwykła odpowiedź e-mail jest celowym uproszczeniem pierwszej wersji. Bezpieczny link akceptacyjny można rozważyć później.
-- Po jednoznacznej akceptacji MM3D potwierdza zamówienie i przekazuje instrukcję płatności.
+- Klient nie akceptuje wyceny osobną odpowiedzią e-mail.
+- MM3D wysyła wycenę razem z możliwością zapłaty przez Paynow.
+- Skuteczna pełna płatność przypisana do aktualnej wersji wyceny jednocześnie oznacza jej akceptację i tworzy opłacone zamówienie.
+- Jeżeli wycena zawiera kilka wariantów, klient może wracać do każdego z nich w okresie ważności i wybiera jeden przez płatność.
+- Płatność za jeden wariant zamyka pozostałe warianty tej sprawy, aby z jednego zapytania nie powstały przypadkowo dwa zamówienia.
+- Po upływie siedmiu dni klient nie może zapłacić na podstawie tej wyceny bez ponownego potwierdzenia warunków przez MM3D.
+- Nowa alternatywa wykonania może zostać dodana jako kolejny wariant. Korekta albo zmiana istniejących ustaleń powoduje natomiast przygotowanie nowej, kompletnej wersji wyceny, która zastępuje poprzednią jako podstawa płatności.
+- Wszystkie wiadomości zachowują jeden numer sprawy w tytule, na przykład `[MM3D-2026-0001]`.
 
 ## Płatność
 
-- Wymagana jest pełna przedpłata przed rozpoczęciem druku.
+- Wymagana jest pełna płatność przed rozpoczęciem druku; jest ona zarazem akceptacją aktualnej wyceny.
 - Potwierdzony czas realizacji biegnie od otrzymania płatności.
 - Docelową metodą płatności jest [Paynow](https://www.mbank.pl/firmy/system-platnosci-online-paynow/) powiązane z firmowym rachunkiem mBanku.
 - Klient powinien móc zapłacić przez Paynow między innymi BLIK-iem, szybkim przelewem albo kartą.
@@ -217,13 +224,12 @@ W pierwszej wersji nie powstaje osobny formularz reklamacyjny.
 1. Formularz w przygotowaniu.
 2. Zapytanie wysłane.
 3. Zapytanie wymaga doprecyzowania albo jest oceniane.
-4. Wycena wysłana.
-5. Wycena zaakceptowana.
-6. Oczekiwanie na przedpłatę.
-7. Płatność potwierdzona — zamówienie przyjęte do realizacji.
-8. Realizacja.
-9. Przesyłka nadana przez InPost.
-10. Sprawa zakończona albo problem zgłoszony w tym samym wątku e-mail.
+4. Aktualna wycena wysłana — oczekiwanie na płatność.
+5. Wycena zmieniona, zastąpiona albo wygasła — brak możliwości zapłaty na jej podstawie.
+6. Płatność potwierdzona — wycena zaakceptowana, zamówienie utworzone i przyjęte do realizacji.
+7. Realizacja.
+8. Przesyłka nadana przez InPost.
+9. Sprawa zakończona albo problem zgłoszony w tym samym wątku e-mail.
 
 Nazwy i techniczna reprezentacja stanów nie są jeszcze decyzją architektoniczną; Parzej powinien je zweryfikować przed implementacją.
 

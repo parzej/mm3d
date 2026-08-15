@@ -40,9 +40,9 @@ Prosimy potwierdzić i prawidłowo opisać rozdzielenie:
 
 1. formularza jako zapytania ofertowego;
 2. wyceny ważnej siedem dni kalendarzowych;
-3. akceptacji przez odpowiedź e-mail z numerem sprawy;
-4. potwierdzenia zamówienia przez MM3D;
-5. przedpłaty i momentu rozpoczęcia realizacji.
+3. udostępnienia płatności Paynow przypisanej do aktualnej wersji wyceny;
+4. skutecznej pełnej płatności jako jednoczesnej akceptacji wyceny i momentu utworzenia zamówienia;
+5. potwierdzenia płatności oraz momentu rozpoczęcia realizacji.
 
 Do sprawdzenia:
 
@@ -51,7 +51,9 @@ Do sprawdzenia:
 - na jakim trwałym nośniku przekazać regulamin, wycenę i potwierdzenie;
 - jak zapisywać wersję zaakceptowanego regulaminu i dowód akceptacji;
 - czy i kiedy potrzebny jest przycisk wyraźnie wskazujący obowiązek zapłaty;
-- czy odpowiedź e-mail jest wystarczającym sposobem akceptacji dla przyjętego procesu.
+- jakie sformułowanie przycisku i informacje muszą poprzedzać płatność, skoro skuteczna wpłata oznacza zawarcie umowy;
+- jak prawidłowo poinformować o wygaśnięciu lub zastąpieniu wyceny i możliwości płatności.
+- czy pozostawienie wygasłej wyceny do odczytu oraz możliwość poproszenia o jej aktualizację wymagają dodatkowych informacji lub zastrzeżeń.
 
 ## Prawo odstąpienia i rozpoczęcie pracy
 

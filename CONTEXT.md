@@ -17,8 +17,16 @@ Zgłoszenie przesłane do MM3D w celu oceny wykonalności i przygotowania wyceny
 _Avoid_: Zamówienie, zlecenie
 
 **Wycena**:
-Przygotowana przez MM3D propozycja realizacji określająca zakres, parametry wydruku, ceny brutto, koszt dostawy, przewidywany termin, ograniczenia i okres ważności. Staje się podstawą zamówienia dopiero po akceptacji klienta.
+Przygotowana przez MM3D propozycja realizacji zawierająca od jednego do maksymalnie trzech kompletnych wariantów wykonania, z zakresem, parametrami wydruku, cenami brutto, kosztem dostawy, przewidywanym terminem, ograniczeniami i okresem ważności. Wybrany wariant staje się podstawą zamówienia dopiero po skutecznej płatności klienta.
 _Avoid_: Cennik, zamówienie, automatyczna kalkulacja, szacunek kosztu serii
+
+**Wariant wyceny**:
+Jedna z maksymalnie trzech równolegle dostępnych, kompletnych opcji wykonania w ramach wyceny, różniąca się na przykład wielkością, podziałem modelu, sposobem wykonania albo usługami dodatkowymi. Płatność za jeden wariant wybiera go do realizacji i zamyka pozostałe warianty tej sprawy.
+_Avoid_: Niepełny dopisek do ceny, wersja wyceny, osobne zapytanie ofertowe
+
+**Wersja wyceny**:
+Kolejne kompletne wydanie wyceny powstałe po korekcie, zmianie ustaleń albo dodaniu wariantu. Aktualna wersja zastępuje wcześniejszą jako podstawa płatności, zawiera cały obowiązujący zestaw maksymalnie trzech wariantów i nadaje im jeden wspólny okres ważności liczony od jej wysłania.
+_Avoid_: Wariant wyceny, historia wiadomości e-mail, poprawka bez pełnego podsumowania
 
 **Szacunek kosztu serii**:
 Orientacyjna kwota dla większej liczby sztuk podawana przed wykonaniem prototypu finalnego, aby klient mógł wstępnie ocenić opłacalność nakładu. Nie jest ostateczną wyceną produkcji seryjnej.
@@ -29,16 +37,20 @@ Ostateczna propozycja ceny jednostkowej i całkowitej większego nakładu, przyg
 _Avoid_: Szacunek kosztu serii, automatyczny cennik, cena przed prototypem finalnym
 
 **Okres ważności wyceny**:
-Siedem dni kalendarzowych od wysłania wyceny, w których klient może ją zaakceptować na podanych warunkach. Po tym czasie MM3D ponownie potwierdza cenę i dostępny termin.
+Siedem dni kalendarzowych od wysłania aktualnej kompletnej wersji wyceny, wspólne dla wszystkich zawartych w niej wariantów. Po tym czasie wycena pozostaje widoczna, lecz nie można jej opłacić; wysłanie nowej wersji rozpoczyna nowy wspólny okres, jeżeli MM3D nadal potwierdza ceny i terminy całego zestawu.
 _Avoid_: Bezterminowa oferta, automatyczna akceptacja po terminie
+
+**Wygasła wycena**:
+Wersja wyceny po zakończeniu okresu ważności, dostępna klientowi wyłącznie do odczytu i bez aktywnej możliwości płatności. Klient może poprosić o aktualizację, ale dopiero nowa wersja ponownie pozwala wybrać wariant i zapłacić.
+_Avoid_: Aktywna wycena, automatycznie przedłużona wycena, usunięta historia
 
 **Załącznik do zapytania**:
 Plik przekazany przez potencjalnego klienta jako materiał potrzebny do oceny zapytania ofertowego, na przykład model 3D, zdjęcie, szkic lub dokumentacja wymiarowa. Nie jest trwałym archiwum projektu.
 _Avoid_: Realizacja, plik projektu
 
 **Zamówienie**:
-Uzgodniony zakres realizacji druku 3D powstały po ocenie wykonalności, przedstawieniu wyceny i jej akceptacji.
-_Avoid_: Zapytanie ofertowe, zgłoszenie
+Uzgodniony i opłacony zakres realizacji druku 3D, powstający po potwierdzeniu przez Paynow pełnej płatności za wybrany wariant aktualnej i ważnej wersji wyceny. Samo zapytanie ofertowe ani wysłanie wyceny nie tworzy zamówienia.
+_Avoid_: Zapytanie ofertowe, nieopłacona wycena, zgłoszenie
 
 **Druk z pliku klienta**:
 Podstawowa usługa MM3D polegająca na wykonaniu wydruku z gotowego modelu 3D dostarczonego przez klienta. W tym rodzaju usługi MM3D konkuruje przede wszystkim ceną.
@@ -245,12 +257,12 @@ Jeden identyfikator nadawany zapytaniu ofertowemu i używany we wszystkich wiado
 _Avoid_: Osobny numer wyceny, zmiana numeru po akceptacji
 
 **Akceptacja wyceny**:
-Jednoznaczna odpowiedź klienta na wiadomość z aktualną wyceną, zachowująca numer sprawy. Po jej otrzymaniu MM3D potwierdza utworzenie zamówienia.
-_Avoid_: Milcząca zgoda, kliknięcie bez potwierdzenia, akceptacja nieaktualnej wyceny
+Skuteczna pełna płatność przez Paynow przypisana do wybranego wariantu aktualnej wersji wyceny i wykonana w okresie jej ważności. Jednocześnie wyraża zgodę klienta na warunki wariantu, zamyka pozostałe warianty tej sprawy i tworzy opłacone zamówienie bez osobnej akceptacji e-mailowej.
+_Avoid_: Milcząca zgoda, odpowiedź e-mail bez płatności, płatność za nieaktualną wycenę
 
 **Przedpłata**:
-Pełna płatność wymagana po akceptacji wyceny i przed rozpoczęciem indywidualnego druku. Potwierdzony czas realizacji biegnie od zaksięgowania przedpłaty.
-_Avoid_: Płatność po wykonaniu, rozpoczęcie po samej akceptacji
+Pełna płatność przez Paynow wymagana przed rozpoczęciem indywidualnego druku. W podstawowym procesie jest zarazem akceptacją aktualnej wyceny i momentem utworzenia zamówienia, a potwierdzony czas realizacji biegnie od potwierdzenia wpłaty.
+_Avoid_: Osobna płatność po akceptacji, płatność po wykonaniu, rozpoczęcie przed potwierdzeniem wpłaty
 
 **Czas odpowiedzi na zapytanie**:
 Maksymalnie dwa dni robocze od otrzymania kompletnego zapytania do wysłania przez MM3D wyceny albo prośby o doprecyzowanie. Nie jest czasem realizacji wydruku.

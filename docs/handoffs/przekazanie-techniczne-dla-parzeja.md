@@ -10,8 +10,8 @@ Serwis ma pozwolić hobbyście albo osobie prywatnej:
 2. wybrać jedną z dwóch ścieżek;
 3. przesłać kompletne zapytanie z załącznikami;
 4. otrzymać numer sprawy i potwierdzenie e-mail;
-5. zaakceptować późniejszą wycenę przez odpowiedź e-mail;
-6. opłacić zamówienie i otrzymać je przez InPost.
+5. zaakceptować późniejszą wycenę przez pełną płatność Paynow;
+6. otrzymać potwierdzenie utworzenia opłaconego zamówienia, a następnie przesyłkę przez InPost.
 
 Główna ścieżka to **„Wyślij plik do wyceny”**. Drugoplanowa ścieżka to **„Nie masz modelu? Opisz swój pomysł”**. Portfolio nie tworzy trzeciej ścieżki i nie zawiera przycisku do podobnej wyceny.
 
@@ -132,13 +132,12 @@ Treść potwierdzenia: MM3D odpowie na kompletne zapytanie maksymalnie w ciągu 
 1. szkic formularza;
 2. zapytanie przyjęte;
 3. wymaga doprecyzowania;
-4. wycena wysłana;
-5. wycena zaakceptowana;
-6. oczekiwanie na płatność;
-7. płatność potwierdzona;
-8. realizacja;
-9. przesyłka nadana;
-10. zakończone albo reklamacja w tym samym wątku.
+4. aktualna wycena wysłana — oczekiwanie na płatność;
+5. wycena zastąpiona albo wygasła;
+6. płatność potwierdzona — wycena zaakceptowana i zamówienie utworzone;
+7. realizacja;
+8. przesyłka nadana;
+9. zakończone albo reklamacja w tym samym wątku.
 
 Parzej powinien zdecydować, które stany są zapisywane w bazie, które są tylko wynikiem komunikacji e-mail i jak obsłużyć ponowienia operacji bez duplikowania spraw, płatności lub wiadomości.
 
@@ -146,7 +145,7 @@ Parzej powinien zdecydować, które stany są zapisywane w bazie, które są tyl
 
 - docelowo Paynow z BLIK-iem, szybkim przelewem i kartą;
 - zwykły przelew jako metoda awaryjna;
-- pełna przedpłata przed drukiem z gotowego pliku;
+- pełna płatność Paynow jest jednocześnie akceptacją aktualnej wyceny i utworzeniem zamówienia przed drukiem z gotowego pliku;
 - modelowanie: 50% przed startem i 50% po poprawkach, przed prototypem finalnym;
 - większa seria: osobna płatność po akceptacji prototypu finalnego;
 - przy sprawie zapisywane są co najmniej kwota, data, identyfikator transakcji i status Paynow;
