@@ -111,8 +111,10 @@ Przyciski:
 
 1. **Wyślij model i opis** — plik, liczba sztuk, wymiar, zastosowanie i oczekiwany termin.
 2. **Sprawdzamy wykonalność** — dobieramy technologię i materiał; jeśli czegoś brakuje, kontaktujemy się.
-3. **Otrzymujesz wycenę** — wiadomość ma numer sprawy, zakres, cenę i termin; wycena jest ważna 7 dni kalendarzowych.
+3. **Otrzymujesz wycenę** — wiadomość ma numer sprawy, zakres, pełną kwotę z dostawą i podatkami oraz termin; wycena jest ważna 7 dni kalendarzowych.
 4. **Akceptujesz przez płatność** — płacisz przez Paynow za aktualną wycenę. Potwierdzona wpłata jednocześnie tworzy zamówienie i pozwala rozpocząć realizację, a przesyłkę dostarcza InPost.
+
+E-mail z wyceną zawiera krótkie podsumowanie oraz prywatny link do pełnej strony wyceny dostępnej bez konta. Na stronie klient widzi aktualne warianty i wcześniejsze wersje tylko do odczytu.
 
 ### Ludzkie podejście
 

@@ -159,16 +159,20 @@ Wycena może zawierać od jednego do maksymalnie trzech równolegle dostępnych 
 - liczbę sztuk i wymiar referencyjny;
 - dobraną technologię, materiał i kolor;
 - zakres wybranych usług dodatkowych: usuwania podpór, szlifowania albo malowania;
-- łączną cenę brutto;
+- pełną kwotę brutto obejmującą wydruk, wybrane usługi dodatkowe, dostawę i należne podatki;
 - przy większej liczbie sztuk także cenę jednostkową;
-- koszt dostawy jako osobną pozycję;
+- koszt dostawy pokazany jako osobną pozycję, ale wliczony w pełną kwotę;
 - przewidywany czas wykonania i wysyłki;
 - ograniczenia oraz opis oczekiwanego rezultatu;
 - informację o ważności przez siedem dni kalendarzowych;
 - własny przycisk lub link **„Wybieram ten wariant i płacę”** prowadzący do płatności Paynow za ten wariant aktualnej wersji wyceny;
 - informację, że skuteczna płatność oznacza akceptację wszystkich warunków wybranego wariantu, zamknięcie pozostałych wariantów sprawy i utworzenie zamówienia.
 
+Klient otrzymuje e-mail z numerem sprawy, krótkim podsumowaniem i prywatnym linkiem do strony wyceny dostępnej bez zakładania konta. Strona pokazuje pełną aktualną wersję, maksymalnie trzy warianty i przejście do Paynow. Wcześniejsze wersje pozostają tam widoczne wyłącznie do odczytu i nie pozwalają na płatność.
+
 Po upływie siedmiu dni wycena pozostaje widoczna dla klienta wyłącznie do odczytu, a wszystkie jej możliwości płatności są nieaktywne. Klient widzi komunikat **„Wycena wygasła — poproś o jej aktualizację”** i może jednym działaniem wysłać taką prośbę do MM3D. Wycena nie jest przedłużana automatycznie. MM3D ponownie sprawdza cenę i dostępny termin, po czym wysyła identyczną albo zmienioną nową wersję, która ponownie umożliwia płatność.
+
+Aktywna wycena co do zasady obowiązuje przez cały siedmiodniowy okres. MM3D może ją wcześniej wycofać tylko wyjątkowo, na przykład po wykryciu oczywistego błędu ceny, niewykonalności projektu, braku materiału albo przeszkody prawnej. Klient otrzymuje wtedy niezwłoczną informację, płatność zostaje zablokowana, a wycofana wersja pozostaje widoczna tylko do odczytu. Jeżeli realizacja jest nadal możliwa na zmienionych warunkach, MM3D wysyła poprawioną kompletną wersję wyceny.
 
 Wszystkie warianty jednej aktualnej wersji mają wspólny okres ważności. Dodanie wariantu, korekta albo zmiana ustaleń powoduje wysłanie kompletnej nowej wersji ze wszystkimi nadal oferowanymi wariantami. Jej wysłanie rozpoczyna nowy siedmiodniowy okres dla całego zestawu, pod warunkiem że MM3D ponownie potwierdziło ceny i terminy każdej pokazanej opcji.
 
@@ -189,11 +193,15 @@ Wszystkie warianty jednej aktualnej wersji mają wspólny okres ważności. Doda
 - Po wybraniu wariantu, bezpośrednio przed przejściem do Paynow, klient podaje albo potwierdza komplet danych potrzebnych do wysyłki: imię i nazwisko odbiorcy, adres e-mail, numer telefonu oraz numer Paczkomatu albo pełny adres dla kuriera.
 - W tym samym kroku osobno określa, czy jest klientem indywidualnym, czy firmą, oraz czy chce otrzymać fakturę. Odpowiednie wybory ujawniają wymagane pola, w tym nazwę firmy, NIP i adres; dokładny zestaw danych do dokumentu sprzedaży potwierdzi księgowy lub prawnik.
 - Klient przechodzi do Paynow dopiero po uzupełnieniu danych dostawy i nabywcy, zobaczeniu końcowego podsumowania wybranego wariantu oraz pełnej kwoty, a także zaakceptowaniu regulaminu i wymaganych oświadczeń.
+- Paynow pobiera jedną pełną kwotę obejmującą wydruk, usługi dodatkowe, dostawę i należne podatki; po płatności nie występują obowiązkowe dopłaty za elementy objęte wariantem.
+- Jeżeli koszt zmieni się przed płatnością, MM3D przygotowuje nową kompletną wersję wyceny zamiast zmieniać kwotę przy przejściu do Paynow.
 - Akceptacja regulaminu jest domyślnie niezaznaczona, wskazuje konkretną wersję dokumentu i nie występuje w pierwszym formularzu zapytania ofertowego.
 - Przed Paynow klient może samodzielnie poprawić dane odbiorcy, kontaktowe, Paczkomat lub adres oraz dane nabywcy i faktury, jeżeli poprawka nie wpływa na zakres, cenę ani termin wariantu.
 - Zmiana wariantu, liczby sztuk, wymiaru, usług dodatkowych albo sposobu dostawy wpływającego na koszt wymaga kontaktu z MM3D i przygotowania nowej kompletnej wersji wyceny.
 - Po każdej takiej zmianie klient ponownie sprawdza całe podsumowanie i akceptuje regulamin przed przejściem do nowej płatności.
-- Potwierdzony czas realizacji biegnie od otrzymania płatności.
+- Domyślny termin nadania zamówienia wynosi do pięciu dni roboczych od potwierdzenia pełnej płatności przez Paynow.
+- Konkretna wycena może wskazać inny termin realizacji; po zapłacie za ten wariant termin z wyceny zastępuje zasadę domyślną.
+- Termin realizacji oznacza nadanie przesyłki przez MM3D, a nie gwarantowaną datę jej doręczenia przez InPost.
 - Docelową metodą płatności jest [Paynow](https://www.mbank.pl/firmy/system-platnosci-online-paynow/) powiązane z firmowym rachunkiem mBanku.
 - Klient powinien móc zapłacić przez Paynow między innymi BLIK-iem, szybkim przelewem albo kartą.
 - Zwykły przelew bankowy pozostaje metodą awaryjną.
@@ -210,6 +218,8 @@ Ten rejestr służy obsłudze zamówień i uzgadnianiu płatności. Nie jest sam
 Jeżeli klient anuluje albo przerwie płatność lub Paynow ją odrzuci, zamówienie nie powstaje i żaden wariant nie zostaje zamknięty. Klient wraca do wyceny z informacją **„Płatność nie została zakończona”**. Dopóki wersja wyceny nadal jest aktualna i ważna, może bez kontaktu z MM3D ponowić płatność za ten sam wariant albo wybrać inny. Ponowienie nie jest dostępne po wygaśnięciu lub zastąpieniu wyceny. Jedno zamówienie powstaje dopiero po pierwszym skutecznym potwierdzeniu pełnej płatności.
 
 Płatność rozpoczęta w okresie ważności, ale jeszcze niepotwierdzona przez Paynow, przechodzi do stanu **„Oczekiwanie na potwierdzenie płatności”**. Nie tworzy jeszcze zamówienia, a pozostałe warianty i możliwość kolejnej płatności są tymczasowo zablokowane. Jeżeli Paynow później potwierdzi wpłatę, zamówienie powstaje również po upływie terminu ważności wyceny, a termin realizacji biegnie od tego potwierdzenia. Odrzucenie, błąd albo wygaśnięcie płatności usuwa blokadę i stosuje reguły nieudanej płatności.
+
+Jeżeli mimo zabezpieczeń klient skutecznie zapłaci dwa razy za ten sam wariant tej samej sprawy, powstaje tylko jedno zamówienie. Druga wpłata jest zwracana; nie oznacza zamówienia dodatkowego egzemplarza. Kolejne zamówienie wymaga nowego, wyraźnego zlecenia klienta.
 
 ## Dostawa
 

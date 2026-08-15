@@ -210,6 +210,8 @@ Do decyzji Parzeja: dostawca wysyłki, SPF/DKIM/DMARC, threading wiadomości, ob
 
 Po potwierdzeniu pełnej płatności klient powinien również zobaczyć stronę sukcesu z tym samym numerem sprawy i podsumowaniem. Strona oraz e-mail nie mogą opierać się wyłącznie na przekierowaniu z Paynow; sposób potwierdzenia statusu, deduplikacji zdarzeń i zabezpieczenia danych wymaga decyzji technicznej.
 
+Pełna wycena jest prezentowana na prywatnej stronie dostępnej bez konta przez link z e-maila. Widok zawiera aktualne warianty i niepłatną historię wersji. Parzej musi rozstrzygnąć kontrolę dostępu, czas życia linku, możliwość jego wymiany i zakres danych widocznych bez dodatkowego potwierdzenia tożsamości.
+
 ## Dostępność i jakość interfejsu
 
 - semantyczne etykiety i komunikaty błędów powiązane z polami;

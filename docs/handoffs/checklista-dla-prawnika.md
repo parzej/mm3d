@@ -54,6 +54,7 @@ Do sprawdzenia:
 - czy i kiedy potrzebny jest przycisk wyraźnie wskazujący obowiązek zapłaty;
 - jakie sformułowanie przycisku i informacje muszą poprzedzać płatność, skoro skuteczna wpłata oznacza zawarcie umowy;
 - jak prawidłowo poinformować o wygaśnięciu lub zastąpieniu wyceny i możliwości płatności.
+- czy i na jakich zasadach MM3D może wyjątkowo wycofać aktywną wycenę przed upływem siedmiu dni z powodu oczywistego błędu ceny, niewykonalności, braku materiału albo przeszkody prawnej;
 - jakie informacje muszą znaleźć się na stronie i w automatycznym e-mailu potwierdzającym opłacone zamówienie oraz czy przyjęty sposób przekazania potwierdzenia spełnia obowiązki wobec konsumenta;
 - czy pozostawienie wygasłej wyceny do odczytu oraz możliwość poproszenia o jej aktualizację wymagają dodatkowych informacji lub zastrzeżeń.
 
@@ -78,6 +79,7 @@ Nie należy automatycznie zakładać, że każdy wydruk 3D wyłącza prawo odst�
 - pełna przedpłata przed rozpoczęciem druku;
 - Paynow jako metoda docelowa, zwykły przelew awaryjnie;
 - czas realizacji liczony od potwierdzenia płatności;
+- domyślnie nadanie w ciągu pięciu dni roboczych od potwierdzenia wpłaty, chyba że opłacony wariant wyceny wskazuje inny termin; prosimy potwierdzić jasne odróżnienie terminu nadania od terminu doręczenia;
 - zasady zwrotu przy niemożliwości wykonania przez MM3D.
 
 ### Modelowanie
@@ -201,6 +203,8 @@ Do oceny również:
 
 - Paynow rejestruje status płatności, ale panel MM3D nie jest księgowością;
 - regulamin powinien opisywać metody płatności, moment zapłaty, nieudaną płatność i zwroty;
+- przypadkowa druga wpłata za ten sam wariant nie tworzy drugiego zamówienia i podlega zwrotowi; prosimy potwierdzić prawidłowy termin, sposób oraz informację dla klienta;
+- pełna kwota brutto przed Paynow obejmuje wydruk, usługi dodatkowe, dostawę i należne podatki, a po płatności nie ma obowiązkowych dopłat za opłacony zakres; prosimy potwierdzić wymagane rozbicie i oznaczenia cen;
 - dokumenty księgowe i podatkowe wymagają osobnej retencji;
 - należy ustalić zasady faktury lub paragonu i dane zbierane do ich wystawienia.
 - przed Paynow klient osobno określa, czy jest klientem indywidualnym, czy firmą, oraz czy chce fakturę; prosimy potwierdzić zależności między wyborami, wymagane pola, rodzaj dokumentu i zasady późniejszej korekty.

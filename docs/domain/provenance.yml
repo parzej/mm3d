@@ -104,6 +104,13 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-15
+  "Wycofana wycena":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
   "Załącznik do zapytania":
     introduced_by: parzej
     introduced_on: 2026-08-11
@@ -545,6 +552,13 @@ terms:
       - contributor: goras
         kind: introduced
         date: 2026-08-11
+  "Termin realizacji":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
   "Potwierdzenie zapytania":
     introduced_by: goras
     introduced_on: 2026-08-11
@@ -604,6 +618,27 @@ terms:
         kind: introduced
         date: 2026-08-15
   "Potwierdzenie zamówienia":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+  "Podwójna płatność":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+  "Pełna kwota wyceny":
+    introduced_by: goras
+    introduced_on: 2026-08-15
+    contributions:
+      - contributor: goras
+        kind: introduced
+        date: 2026-08-15
+  "Strona wyceny":
     introduced_by: goras
     introduced_on: 2026-08-15
     contributions:

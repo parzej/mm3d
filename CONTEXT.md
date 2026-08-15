@@ -44,6 +44,10 @@ _Avoid_: Bezterminowa oferta, automatyczna akceptacja po terminie
 Wersja wyceny po zakończeniu okresu ważności, dostępna klientowi wyłącznie do odczytu i bez aktywnej możliwości płatności. Klient może poprosić o aktualizację, ale dopiero nowa wersja ponownie pozwala wybrać wariant i zapłacić.
 _Avoid_: Aktywna wycena, automatycznie przedłużona wycena, usunięta historia
 
+**Wycofana wycena**:
+Wersja unieważniona przez MM3D przed końcem siedmiodniowego okresu ważności wyłącznie z wyjątkowej przyczyny, takiej jak oczywisty błąd ceny, niewykonalność projektu, brak materiału albo przeszkoda prawna. Pozostaje widoczna tylko do odczytu, klient jest niezwłocznie informowany, a MM3D w miarę możliwości przedstawia poprawioną wersję.
+_Avoid_: Wygasła wycena, dowolna zmiana ceny, wycofanie po potwierdzonej płatności
+
 **Załącznik do zapytania**:
 Plik przekazany przez potencjalnego klienta jako materiał potrzebny do oceny zapytania ofertowego, na przykład model 3D, zdjęcie, szkic lub dokumentacja wymiarowa. Nie jest trwałym archiwum projektu.
 _Avoid_: Realizacja, plik projektu
@@ -248,6 +252,10 @@ _Avoid_: Najlepszy kompromis, gwarantowany rezultat
 Najpóźniejsza data wskazana przez klienta, gdy priorytetem jest możliwie najkrótszy termin. Nie jest terminem realizacji, dopóki MM3D nie potwierdzi go w wycenie.
 _Avoid_: Gwarantowana data, potwierdzony termin realizacji
 
+**Termin realizacji**:
+Termin nadania gotowego zamówienia liczony od potwierdzenia pełnej płatności przez Paynow. Domyślnie wynosi do pięciu dni roboczych, chyba że wycena danego wariantu wyraźnie wskazuje inny termin, który po zapłacie staje się obowiązujący dla zamówienia.
+_Avoid_: Oczekiwany termin klienta, czas dostawy przewoźnika, termin liczony od wysłania zapytania
+
 **Potwierdzenie zapytania**:
 Automatyczna wiadomość e-mail z numerem sprawy, podsumowaniem danych i nazwami załączników, pozwalająca klientowi sprawdzić przesłane informacje. Nie jest wyceną ani potwierdzeniem zamówienia.
 _Avoid_: Potwierdzenie zamówienia, akceptacja realizacji
@@ -279,6 +287,18 @@ _Avoid_: Potwierdzona płatność, nieudana płatność, rezerwacja terminu real
 **Potwierdzenie zamówienia**:
 Strona wyświetlana klientowi oraz automatyczna wiadomość e-mail generowane dopiero po potwierdzeniu pełnej płatności przez Paynow. Oba potwierdzenia używają numeru sprawy i pokazują wybrany wariant, zapłaconą kwotę, dane dostawy i nabywcy oraz potwierdzony termin; e-mail dodatkowo pozwala zgłosić problem lub reklamację przez odpowiedź w tym samym wątku. Nie wymaga ręcznego potwierdzenia MM3D.
 _Avoid_: Potwierdzenie zapytania, sam powrót z Paynow, ręczna akceptacja zamówienia
+
+**Podwójna płatność**:
+Druga skuteczna wpłata przypisana do tego samego wariantu i tej samej sprawy, która nie tworzy kolejnego zamówienia. MM3D zwraca nadmiarową wpłatę klientowi, a drugie zamówienie może powstać wyłącznie na podstawie jego nowego, wyraźnego zlecenia.
+_Avoid_: Drugie zamówienie, dopłata, ponowienie nieudanej płatności
+
+**Pełna kwota wyceny**:
+Ostateczna kwota brutto należna za wybrany wariant przed rozpoczęciem realizacji, obejmująca wydruk, wybrane usługi dodatkowe, dostawę i należne podatki. Jest pokazana klientowi przed Paynow i nie może zostać później zwiększona obowiązkową dopłatą; zmiana kosztu przed płatnością wymaga nowej wersji wyceny.
+_Avoid_: Cena samego wydruku, kwota bez dostawy, późniejsza obowiązkowa dopłata
+
+**Strona wyceny**:
+Prywatny widok internetowy dostępny bez zakładania konta przez link wysłany klientowi e-mailem z numerem sprawy. Pokazuje pełną aktualną wersję wyceny z maksymalnie trzema wariantami i przejściem do Paynow oraz wcześniejsze wersje wyłącznie do odczytu; wiadomość e-mail zawiera jedynie krótkie podsumowanie i odsyła do tego widoku.
+_Avoid_: Konto klienta, pełna wycena tylko w treści e-maila, płatna poprzednia wersja
 
 **Dane dostawy**:
 Komplet informacji potrzebnych MM3D do zamówienia wysyłki opłaconego zamówienia, podawany albo potwierdzany przez klienta po wyborze wariantu i bezpośrednio przed przejściem do Paynow. Obejmuje imię i nazwisko odbiorcy, adres e-mail, numer telefonu oraz numer Paczkomatu albo pełny adres dla kuriera; klient nie kupuje przesyłki i nie przekazuje kodu nadania.

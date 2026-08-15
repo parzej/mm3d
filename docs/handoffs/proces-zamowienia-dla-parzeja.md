@@ -240,3 +240,91 @@ Status: dokument rozwijany podczas biznesowej sesji grillowania Górasa rozpocz�
 4. Jak bezpiecznie udostępnić stronę potwierdzenia bez konta i nie ujawnić danych dostawy ani nabywcy osobie postronnej?
 5. Jak ponowić niedostarczony e-mail bez tworzenia kolejnego zamówienia lub nowego potwierdzenia płatności?
 6. Jak utrwalić treść potwierdzenia odpowiadającą dokładnie opłaconemu wariantowi, danym oraz terminowi?
+
+## Decyzja 13: podwójna płatność nie tworzy drugiego zamówienia
+
+- Dla jednego wariantu tej samej sprawy może powstać tylko jedno zamówienie.
+- Jeżeli mimo zabezpieczeń Paynow potwierdzi drugą wpłatę za ten sam wariant, nie tworzy ona kolejnego zamówienia.
+- MM3D zwraca klientowi nadmiarową wpłatę.
+- Drugie zamówienie powstaje wyłącznie po nowym, wyraźnym zleceniu klienta, a nie przez przypadkowe powtórzenie płatności.
+- Szczegóły decyzji zapisuje [ADR 0017](../adr/0017-podwojna-platnosc-nie-tworzy-zamowienia.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak zapewnić idempotentne utworzenie jednego zamówienia przy dwóch potwierdzonych transakcjach lub powtórzonych powiadomieniach Paynow?
+2. Jak odróżnić duplikat powiadomienia tej samej transakcji od rzeczywistej drugiej wpłaty?
+3. Jak automatycznie zablokować dalsze płatności po pierwszym potwierdzeniu i mimo to wykryć wpłatę, która przeszła równolegle?
+4. Jak oznaczyć drugą wpłatę jako wymagającą zwrotu, nie zmieniając stanu pierwszego zamówienia?
+5. Czy zwrot jest inicjowany w panelu MM3D, Paynow czy ręcznie i jak jego wynik trafia do historii sprawy?
+6. Jak poinformować klienta o wykryciu i zwrocie drugiej wpłaty bez wysyłania drugiego potwierdzenia zamówienia?
+
+## Decyzja 14: domyślny termin nadania po wpłacie
+
+- Jeżeli wycena nie wskazuje inaczej, MM3D nadaje gotowe zamówienie w ciągu pięciu dni roboczych od potwierdzenia pełnej płatności przez Paynow.
+- Konkretna wycena może zawierać inny termin realizacji dla danego wariantu.
+- Po opłaceniu wariantu termin wpisany w wycenie zastępuje termin domyślny.
+- Termin realizacji oznacza nadanie przesyłki przez MM3D, a nie czas przewozu ani gwarantowaną datę doręczenia przez InPost.
+- Szczegóły decyzji zapisuje [ADR 0018](../adr/0018-domyslny-termin-nadania.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak reprezentować pięciodniowy termin domyślny i termin nadpisany w konkretnym wariancie wyceny?
+2. Jak utrwalić termin obowiązujący w chwili płatności, aby późniejsza zmiana reguły domyślnej nie zmieniła istniejącego zamówienia?
+3. Jak liczyć dni robocze, święta i płatności potwierdzone poza godzinami pracy?
+4. Czy potwierdzenie zamówienia ma pokazywać konkretną datę graniczną nadania, czy zapis „w ciągu N dni roboczych od wpłaty”?
+5. Jak odróżnić termin nadania MM3D od przewidywanej daty doręczenia przekazywanej przez InPost?
+
+## Decyzja 15: Paynow pobiera pełną kwotę wyceny
+
+- Kwota wariantu obejmuje wydruk, wybrane usługi dodatkowe, dostawę i należne podatki.
+- Koszt dostawy może być pokazany jako osobna pozycja, ale wchodzi do pełnej kwoty brutto.
+- Klient widzi końcowe rozbicie i pełną kwotę przed przejściem do Paynow.
+- Paynow pobiera tę jedną pełną kwotę.
+- Po płatności nie występują obowiązkowe dopłaty za elementy objęte opłaconym wariantem.
+- Zmiana kosztu przed płatnością wymaga nowej kompletnej wersji wyceny.
+- Szczegóły decyzji zapisuje [ADR 0019](../adr/0019-pelna-kwota-wyceny.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak przechowywać pozycje składowe, podatki i pełną kwotę tak, aby suma przekazana do Paynow zawsze była zgodna z podsumowaniem klienta?
+2. Jak zablokować zmianę ceny, dostawy albo usług między końcowym podsumowaniem a utworzeniem płatności?
+3. Jak obsłużyć zaokrąglenia cen jednostkowych, podatków i sumy końcowej?
+4. Jak utrwalić rozbicie kwoty obowiązujące w chwili płatności dla potwierdzenia, faktury i obsługi reklamacji?
+5. Jak wykryć rozbieżność między kwotą potwierdzoną przez Paynow a kwotą aktywnego wariantu i nie utworzyć błędnego zamówienia?
+
+## Decyzja 16: wycena jest przekazywana e-mailem i przez prywatną stronę
+
+- Klient otrzymuje e-mail z numerem sprawy, krótkim podsumowaniem i prywatnym linkiem do strony wyceny.
+- Strona jest dostępna bez zakładania konta.
+- Pokazuje pełną aktualną wersję wyceny, od jednego do trzech wariantów i przejście do Paynow.
+- Wcześniejsze wersje pozostają widoczne wyłącznie do odczytu i nie pozwalają na płatność.
+- E-mail nie jest jedynym miejscem przechowywania pełnej wyceny.
+- Szczegóły decyzji zapisuje [ADR 0020](../adr/0020-prywatna-strona-wyceny.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak udostępnić prywatną stronę bez konta i zabezpieczyć ją przed odgadnięciem adresu, indeksowaniem oraz dostępem do cudzej sprawy?
+2. Czy link ma zapewniać sam dostęp, czy potrzebne jest dodatkowe potwierdzenie e-maila lub kod jednorazowy?
+3. Jak długo link pozostaje aktywny po wygaśnięciu wyceny i po utworzeniu zamówienia?
+4. Jak pokazać historię wersji bez ujawniania nieaktualnych przycisków płatniczych i bez pomylenia ich z wariantami aktualnej wersji?
+5. Jak obsłużyć utracony, przekazany dalej albo przejęty link oraz wydać klientowi nowy dostęp?
+6. Które dane osobowe można pokazać na stronie przed dodatkowym uwierzytelnieniem?
+
+## Decyzja 17: aktywna wycena może być wycofana tylko wyjątkowo
+
+- Aktywna wycena co do zasady obowiązuje przez pełne siedem dni kalendarzowych.
+- MM3D może wycofać ją przed płatnością wyłącznie z wyjątkowej przyczyny, takiej jak oczywisty błąd ceny, niewykonalność projektu, brak materiału albo przeszkoda prawna.
+- Wszystkie możliwości płatności wycofanej wersji są natychmiast blokowane.
+- Klient otrzymuje niezwłoczną informację o wycofaniu i jego przyczynie.
+- Wycofana wersja pozostaje dostępna wyłącznie do odczytu.
+- Jeżeli realizacja jest nadal możliwa na zmienionych warunkach, MM3D przesyła poprawioną kompletną wersję wyceny.
+- Zasada nie dotyczy zamówienia utworzonego przez potwierdzoną płatność.
+- Szczegóły decyzji zapisuje [ADR 0021](../adr/0021-wyjatkowe-wycofanie-aktywnej-wyceny.md).
+
+### Pytania techniczne dla Parzeja
+
+1. Jak atomowo zablokować wszystkie warianty i rozpoczęcie nowych płatności w chwili wycofania wersji?
+2. Co zrobić z płatnością rozpoczętą przed wycofaniem, ale jeszcze oczekującą na końcowy wynik Paynow?
+3. Jak utrwalić czas, przyczynę i autora wycofania oraz wysłać klientowi jednoznaczną wiadomość?
+4. Jak oznaczyć wycofaną wersję na stronie i odróżnić ją od wersji wygasłej lub zastąpionej?
+5. Jak utworzyć na jej podstawie poprawioną kompletną wersję bez utraty historii?
